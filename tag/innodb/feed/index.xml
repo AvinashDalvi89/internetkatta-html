@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>innodb</title>
+	<atom:link href="http://www.internetkatta.com/tag/innodb/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Restore innodb mysql from one ec2 to another ec2</title>
+		<link>http://www.internetkatta.com/hosting/restore-innodb-mysql-from-one-ec2-to-another-ec2</link>
+		<pubDate>Thu, 05 Jan 2017 02:08:36 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[Hosting]]></category>
+		<category><![CDATA[innodb]]></category>
+		<category><![CDATA[mysql]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=913</guid>
+		<description><![CDATA[<p>Here are the steps for restoring an InnoDB MySQL Database on Ubuntu 12.04: Shut down the mysql service (sudo service mysql stop) Copy the database folder that contains the .frm files to /var/lib/mysql/[DBNAME].  As far as I know, this folder&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/restore-innodb-mysql-from-one-ec2-to-another-ec2">Restore innodb mysql from one ec2 to another ec2</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Here are the steps for restoring an InnoDB MySQL Database on Ubuntu 12.04:</p>
+<ol>
+<li>Shut down the mysql service (sudo service mysql stop)</li>
+<li>Copy the database folder that contains the .frm files to /var/lib/mysql/[DBNAME].  As far as I know, this folder must be the same name as the old database.</li>
+<li>Copy the ibdata1 file from your old server to /var/lib/mysql/ibdata1</li>
+<li>***THIS IS IMPORTANT.    Make sure the permissions of the files are correct.I simply did sudo chmod -R 777 /var/lib/mysql.  <br />
+Note : This is not recommended if your server is a production server.</li>
+<li>Start the mysql service (sudo service mysql start)</li>
+</ol>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/restore-innodb-mysql-from-one-ec2-to-another-ec2">Restore innodb mysql from one ec2 to another ec2</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

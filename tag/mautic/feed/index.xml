@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>mautic</title>
+	<atom:link href="http://www.internetkatta.com/tag/mautic/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>How to run mautic cron command from UI</title>
+		<link>http://www.internetkatta.com/programming/how-to-run-mautic-cron-command-from-ui</link>
+		<pubDate>Sun, 24 Dec 2017 06:36:44 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[mautic]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=1024</guid>
+		<description><![CDATA[<p>Script to run Mautic (https://mautic.org)/ commands from a URL. Read more</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/how-to-run-mautic-cron-command-from-ui">How to run mautic cron command from UI</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Script to run Mautic (<a href="https://mautic.org/" rel="nofollow">https://mautic.org/</a>) commands from a URL.</p>
+<p><a href="https://gist.github.com/escopecz/9a1a0b10861941a457f4" target="_blank" rel="noopener">Read more</a></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/how-to-run-mautic-cron-command-from-ui">How to run mautic cron command from UI</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

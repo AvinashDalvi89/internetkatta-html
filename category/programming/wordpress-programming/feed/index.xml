@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Wordpress</title>
+	<atom:link href="http://www.internetkatta.com/category/programming/wordpress-programming/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Search ACF data and display it in Algolia(WordPress plugin) result</title>
+		<link>http://www.internetkatta.com/programming/wordpress-programming/search-acf-data-display-algoliawordpress-plugin-result</link>
+		<pubDate>Mon, 15 Jan 2018 13:14:38 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[acf]]></category>
+		<category><![CDATA[algolia]]></category>
+		<category><![CDATA[custom]]></category>
+		<category><![CDATA[fast]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=1057</guid>
+		<description><![CDATA[<p>Install Algolia plugin form here. Reference: ACF Algolia add_filter( 'algolia_post_shared_attributes', 'my_post_attributes', 10, 2 ); add_filter( 'algolia_searchable_post_shared_attributes', 'my_post_attributes', 10, 2 ); /** * @param array $attributes * @param WP_Post $post * * @return array */ function my_post_attributes( array $attributes, WP_Post $post&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/wordpress-programming/search-acf-data-display-algoliawordpress-plugin-result">Search ACF data and display it in Algolia(WordPress plugin) result</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Install Algolia plugin form <a href="http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site">here</a>.</p>
+<p>Reference: <a href="https://community.algolia.com/wordpress/advanced-custom-fields.html">ACF Algolia </a><br />
+<code></p>
+<p>add_filter( 'algolia_post_shared_attributes', 'my_post_attributes', 10, 2 );<br />
+add_filter( 'algolia_searchable_post_shared_attributes', 'my_post_attributes', 10, 2 );</p>
+<p>/**<br />
+ * @param array   $attributes<br />
+ * @param WP_Post $post<br />
+ *<br />
+ * @return array<br />
+ */<br />
+function my_post_attributes( array $attributes, WP_Post $post ) {</p>
+<p>    if ( 'speaker' !== $post->post_type ) {<br />
+        // We only want to add an attribute for the 'speaker' post type.<br />
+        // Here the post isn't a 'speaker', so we return the attributes unaltered.<br />
+        return $attributes;<br />
+    }</p>
+<p>    // Get the field value with the 'get_field' method and assign it to the attributes array.<br />
+    // @see https://www.advancedcustomfields.com/resources/get_field/<br />
+    $attributes['bio'] = get_field( 'bio', $post->ID );</p>
+<p>    // Always return the value we are filtering.<br />
+    return $attributes;<br />
+}<br />
+</code></p>
+<p>1) Copy above and paste in your theme functions.php.</p>
+<p>2) Replace ‘Bio’ acf field name with your acf field name.</p>
+<p>3) Also ‘speaker’ with your with your custom post type.</p>
+<p>4) remove <code>if ( 'speaker' !== $post->post_type ) {</code> if you want to do all post type.</p>
+<p>5) Make custom fields searchable by copying below code,</p>
+<p><code><br />
+add_filter( 'algolia_posts_speaker_index_settings', 'my_posts_index_settings' );<br />
+// We could also have used a more general hook 'algolia_posts_index_settings',<br />
+// but in that case we would have needed to add a check on the post type<br />
+// to ensure we only adjust settings for the 'speaker' post_type.</p>
+<p>/**<br />
+ * @param array $settings<br />
+ *<br />
+ * @return array<br />
+ */<br />
+function my_posts_index_settings( array $settings ) {</p>
+<p>    // Make Algolia search into the 'bio' field when searching for results.<br />
+    // Using ordered instead of unordered would make words matching in the beginning of the attribute<br />
+    // make the record score higher.<br />
+    // @see https://www.algolia.com/doc/api-client/ruby/parameters#attributestoindex<br />
+    $settings['attributesToIndex'][] = 'unordered(bio)';</p>
+<p>    // Make Algolia return a pre-computed snippet of 50 chars as part of the result set.<br />
+    // @see https://www.algolia.com/doc/api-client/ruby/parameters#attributestohighlight<br />
+    $settings['attributesToSnippet'][] = 'bio:50';</p>
+<p>    // Always return the value we are filtering.<br />
+    return $settings;<br />
+}<br />
+</code></p>
+<p>6) Now re-index your index from wordpess.</p>
+<p>7) now go to algolia plugin template and copy paste below code in autocomplete.php and instantsearch.php to display ‘bio’ text in result.</p>
+<p><code><br />
+<# if ( data._snippetResult['bio'] ) { #><br />
+      <span class="suggestion-post-acfContent">{{{ data._snippetResult['bio'].value }}}</span><br />
+<# } #><br />
+</code></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/wordpress-programming/search-acf-data-display-algoliawordpress-plugin-result">Search ACF data and display it in Algolia(WordPress plugin) result</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Add google like fast to your WordPress site</title>
+		<link>http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site</link>
+		<pubDate>Mon, 15 Jan 2018 12:40:34 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[algolia]]></category>
+		<category><![CDATA[fast]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[like]]></category>
+		<category><![CDATA[prediction]]></category>
+		<category><![CDATA[search]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=1051</guid>
+		<description><![CDATA[<p>Download Or Install algolia plugin from Url Download Algolia Activate plugin Search by Algolia – Instant &#038; Relevant results Now Algolia will ask for API configuration, Create new from here. Free forever for search result upto 10K Records/100K Operations. 1)&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site">Add google like fast to your WordPress site</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Download Or Install algolia plugin from Url <a href="https://wordpress.org/plugins/search-by-algolia-instant-relevant-results/">Download Algolia</a></p>
+<p>Activate plugin <strong>Search by Algolia – Instant & Relevant results</strong> </p>
+<p>Now Algolia will ask for API configuration, Create new from <a href="https://www.algolia.com/users/sign_up">here</a>. Free forever for search result upto 10K Records/100K Operations.</p>
+<p>1) Copy Api keys for algolia to wordpress algolia setting and validate same from wordpess.</p>
+<p>2) Navigate to <strong>Autocomplete</strong> tab <strong>“Enable autocomplete”</strong> to enable google like autocomplete prediction.</p>
+<p>3) Select index from Configuration and save.</p>
+<p>4) Re-index selected Index and push setting for same.</p>
+<p>5) Now navigate <strong>Search Page</strong> re-index page record and push setting.</p>
+<p>6) Now select <strong>Use Algolia with Instantsearch.js</strong> from Search results for fast result experience on search page.</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site">Add google like fast to your WordPress site</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Host wordpress site on aws s3 bucket</title>
+		<link>http://www.internetkatta.com/programming/host-wordpress-site-on-aws-s3-bucket</link>
+		<pubDate>Fri, 17 Jun 2016 10:36:19 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[aws]]></category>
+		<category><![CDATA[Hosting]]></category>
+		<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[cloudfront]]></category>
+		<category><![CDATA[s3]]></category>
+		<category><![CDATA[s3 bucket]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=858</guid>
+		<description><![CDATA[<p>Follow these step to host wordpress site on aws S3 : create one subdomain or test domain for only publishing or creating post/pages from wp-admin host all wordpress setup on that domain create s3 bucket where we are going put&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/host-wordpress-site-on-aws-s3-bucket">Host wordpress site on aws s3 bucket</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<div>Follow these step to host wordpress site on aws S3 :</div>
+<ol>
+<li>create one subdomain or test domain for only publishing or creating post/pages from wp-admin</li>
+<li>host all wordpress setup on that domain</li>
+<li>create s3 bucket where we are going put content</li>
+<li>create cloudfront which is point to s3 bucket origin</li>
+<li>point main domain to cloudfront</li>
+<li>install this plugin <a href="https://wordpress.org/plugins/wpcloudhosting/" target="_blank" rel="noopener" rev="en_rl_minimal">https://wordpress.org/plugins/wpcloudhosting/</a> for taking snapshot of content to s3</li>
+<li>set up all configuration in wpadmin and publish all content using this plugin.</li>
+</ol>
+<div></div>
+<div>Any query feel free to comment</div>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/host-wordpress-site-on-aws-s3-bucket">Host wordpress site on aws s3 bucket</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>The requested URL /index.php was not found on this server &#8211; WordPress</title>
+		<link>http://www.internetkatta.com/programming/wordpress-programming/the-requested-url-index-php-was-not-found-on-this-server-wordpress</link>
+		<pubDate>Tue, 06 May 2014 05:59:27 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[htaccess]]></category>
+		<category><![CDATA[not found]]></category>
+		<category><![CDATA[permalinks]]></category>
+		<category><![CDATA[requested]]></category>
+		<category><![CDATA[URL]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=494</guid>
+		<description><![CDATA[<p>Steps : 1) Login to wp-admin 2) Go to settings –>  permalinks –> permalink setting 3) Navigate to end of page and copy the .htaccess code. 4) paste it into your .htaccess file. 5) enjoy..</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/wordpress-programming/the-requested-url-index-php-was-not-found-on-this-server-wordpress">The requested URL /index.php was not found on this server &#8211; WordPress</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Steps :</p>
+<p>1) Login to wp-admin</p>
+<p>2) Go to settings –>  permalinks –> permalink setting</p>
+<p>3) Navigate to end of page and copy the .htaccess code.</p>
+<p>4) paste it into your .htaccess file.</p>
+<p>5) enjoy..</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/wordpress-programming/the-requested-url-index-php-was-not-found-on-this-server-wordpress">The requested URL /index.php was not found on this server &#8211; WordPress</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Conditional Tags for Woocommerce</title>
+		<link>http://www.internetkatta.com/programming/wordpress-programming/conditional-tags-for-woocommerce</link>
+		<pubDate>Mon, 28 Apr 2014 10:57:32 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[woocommerce]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=468</guid>
+		<description><![CDATA[<p>Introduction The Conditional Tags of both WooCommerce and WordPress can be used in your Template files to change what content is displayed based on what conditions that page matches. For example, you might want to display a snippet of text&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/wordpress-programming/conditional-tags-for-woocommerce">Conditional Tags for Woocommerce</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Introduction</p>
+<p>The Conditional Tags of both WooCommerce and WordPress can be used in your Template files to change what content is displayed based on what conditions that page matches. For example, you might want to display a snippet of text above the shop page. With the is_shop() Conditional Tag you can.</p>
+<p>Since WooCommerce uses custom post types you can use many of WordPress’ own conditional tags too. See: http://codex.wordpress.org/Conditional_Tags.</p>
+<p>Warning: You can only use conditional query tags after the posts_selection action hook in WordPress (the wp action hook is the first one through which you can use these conditionals). For themes, this means the conditional tag will never work properly if you are using it in the body of functions.php, i.e. outside of a function.</p>
+<p>The Conditions For…</p>
+<p>All of the Conditional Tags test to see whether a certain condition is met, and then returns either TRUE or FALSE. The conditions under which various tags output TRUE is listed below.</p>
+<p>A WooCommerce page</p>
+<p>is_woocommerce()<br />
+Returns true if on a page which uses WooCommerce templates (cart and checkout are standard pages with shortcodes and thus are not included).<br />
+The main shop page</p>
+<p>is_shop()<br />
+Returns true when on the product archive page (shop).<br />
+A product category page</p>
+<p>is_product_category()<br />
+Returns true when viewing a product category archive.<br />
+is_product_category( ‘shirts’ )<br />
+When the product category page for the ‘shirts’ category is being displayed.<br />
+is_product_category( array( ‘shirts’, ‘games’ ) )<br />
+When the product category page for the ‘shirts’ or ‘games’ category is being displayed.<br />
+A product tag page</p>
+<p>is_product_tag()<br />
+Returns true when viewing a product tag archive<br />
+is_product_tag( ‘shirts’ )<br />
+When the product tag page for the ‘shirts’ tag is being displayed.<br />
+is_product_tag( array( ‘shirts’, ‘games’ ) )<br />
+When the product tag page for the ‘shirts’ or ‘games’ tags is being displayed.<br />
+A single product page</p>
+<p>is_product()<br />
+Returns true on a single product page. Wrapper for is_singular.<br />
+The cart page<br />
+is_cart()<br />
+Returns true on the cart page.<br />
+The checkout page</p>
+<p>is_checkout()<br />
+Returns true on the checkout page.<br />
+Customer account pages</p>
+<p>is_account_page()<br />
+Returns true on the customer’s account pages.<br />
+An ajax request</p>
+<p>is_ajax()<br />
+Returns true when the page is loaded via ajax.</p>
+<p>A working example<br />
+The example below shows how you would show different content for different categories.</p>
+<div id="gist3143148" class="gist" style="color: #000000; font-family: proxima-nova, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;">
+<div class="gist-file" style="border-width: 1px; border-style: solid; border-color: #dddddd #dddddd #cccccc; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; font-family: Consolas, 'Liberation Mono', Courier, monospace; margin-bottom: 1em;">
+<div class="gist-data gist-syntax" style="background-color: #f8f8ff; overflow: auto; word-wrap: normal; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #dddddd; font-size: 16px; background-position: initial initial; background-repeat: initial initial;">
+<div class="file-data">
+<table class="lines highlight" style="border-collapse: collapse; border-spacing: 0px; width: 657px; margin: 0px; text-align: left; font-size: 0.9em;" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="line-numbers" style="vertical-align: top; padding: 1em; border-width: 1px; border-style: solid; border-color: #e6e6e6 #dddddd #e6e6e6 #e6e6e6; background-color: #ececec; color: #aaaaaa; text-align: right;"><span id="file-gistfile1-aw-L1" class="line-number" style="clear: right; display: block;">1</span><span id="file-gistfile1-aw-L2" class="line-number" style="clear: right; display: block;">2</span><span id="file-gistfile1-aw-L3" class="line-number" style="clear: right; display: block;">3</span><span id="file-gistfile1-aw-L4" class="line-number" style="clear: right; display: block;">4</span><span id="file-gistfile1-aw-L5" class="line-number" style="clear: right; display: block;">5</span><span id="file-gistfile1-aw-L6" class="line-number" style="clear: right; display: block;">6</span><span id="file-gistfile1-aw-L7" class="line-number" style="clear: right; display: block;">7</span><span id="file-gistfile1-aw-L8" class="line-number" style="clear: right; display: block;">8</span><span id="file-gistfile1-aw-L9" class="line-number" style="clear: right; display: block;">9</span><span id="file-gistfile1-aw-L10" class="line-number" style="clear: right; display: block;">10</span><span id="file-gistfile1-aw-L11" class="line-number" style="clear: right; display: block;">11</span></td>
+<td class="line-data" style="vertical-align: top; padding: 1em; border: 1px solid #e6e6e6;">
+<div id="file-gistfile1-aw-LC1" class="line"><span class="x">if ( is_product_category() ) {</span></div>
+<div id="file-gistfile1-aw-LC2" class="line"></div>
+<div id="file-gistfile1-aw-LC3" class="line"><span class="x"> if ( is_product_category( ‘shirts’ ) ) {</span></div>
+<div id="file-gistfile1-aw-LC4" class="line"><span class="x"> echo ‘Hi! Take a look at our sweet tshirts below.’;</span></div>
+<div id="file-gistfile1-aw-LC5" class="line"><span class="x"> } elseif ( is_product_category( ‘games’ ) ) {</span></div>
+<div id="file-gistfile1-aw-LC6" class="line"><span class="x"> echo ‘Hi! Hungry for some gaming?’;</span></div>
+<div id="file-gistfile1-aw-LC7" class="line"><span class="x"> } else {</span></div>
+<div id="file-gistfile1-aw-LC8" class="line"><span class="x"> echo ‘Hi! Check our our products below.’;</span></div>
+<div id="file-gistfile1-aw-LC9" class="line"><span class="x"> }</span></div>
+<div id="file-gistfile1-aw-LC10" class="line"></div>
+<div id="file-gistfile1-aw-LC11" class="line"><span class="x">}</span></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/wordpress-programming/conditional-tags-for-woocommerce">Conditional Tags for Woocommerce</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

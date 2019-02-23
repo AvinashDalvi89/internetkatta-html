@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>visualstudio</title>
+	<atom:link href="http://www.internetkatta.com/tag/visualstudio/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Microsoft Launch Visual Studio Live Share</title>
+		<link>http://www.internetkatta.com/operating-system/microsoft-launch-visual-studio-live-share</link>
+		<pubDate>Thu, 16 Nov 2017 07:49:43 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[Operating System]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[tools]]></category>
+		<category><![CDATA[visualstudio]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=979</guid>
+		<description><![CDATA[<p>Microsoft is slowly coming to open source era which was started early days back. First stroke of Microsoft was launching Visual Studio C++ with all extension which is required and love to have all developer nowadays. Next big things is&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/microsoft-launch-visual-studio-live-share">Microsoft Launch Visual Studio Live Share</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Microsoft is slowly coming to open source era which was started early days back. First stroke of Microsoft was launching Visual Studio C++ with all extension which is required and love to have all developer nowadays. Next big things is coming as yesterday launch of live share functionality.</p>
+<p>What is Live Share?<br />
+Live Share enables your team to quickly collaborate on the same codebase without the need to synchronize code or to configure the same development tools, settings, or environment.</p>
+<p>Reference Source : <a href="https://code.visualstudio.com/blogs/2017/11/15/live-share" target="_blank" rel="noopener">Introducing Visual Studio Live Share</a></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/microsoft-launch-visual-studio-live-share">Microsoft Launch Visual Studio Live Share</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Suraj Koli</title>
+	<atom:link href="http://www.internetkatta.com/author/suraj-koli/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Search ACF data and display it in Algolia(WordPress plugin) result</title>
+		<link>http://www.internetkatta.com/programming/wordpress-programming/search-acf-data-display-algoliawordpress-plugin-result</link>
+		<pubDate>Mon, 15 Jan 2018 13:14:38 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[acf]]></category>
+		<category><![CDATA[algolia]]></category>
+		<category><![CDATA[custom]]></category>
+		<category><![CDATA[fast]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=1057</guid>
+		<description><![CDATA[<p>Install Algolia plugin form here. Reference: ACF Algolia add_filter( 'algolia_post_shared_attributes', 'my_post_attributes', 10, 2 ); add_filter( 'algolia_searchable_post_shared_attributes', 'my_post_attributes', 10, 2 ); /** * @param array $attributes * @param WP_Post $post * * @return array */ function my_post_attributes( array $attributes, WP_Post $post&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/wordpress-programming/search-acf-data-display-algoliawordpress-plugin-result">Search ACF data and display it in Algolia(WordPress plugin) result</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Install Algolia plugin form <a href="http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site">here</a>.</p>
+<p>Reference: <a href="https://community.algolia.com/wordpress/advanced-custom-fields.html">ACF Algolia </a><br />
+<code></p>
+<p>add_filter( 'algolia_post_shared_attributes', 'my_post_attributes', 10, 2 );<br />
+add_filter( 'algolia_searchable_post_shared_attributes', 'my_post_attributes', 10, 2 );</p>
+<p>/**<br />
+ * @param array   $attributes<br />
+ * @param WP_Post $post<br />
+ *<br />
+ * @return array<br />
+ */<br />
+function my_post_attributes( array $attributes, WP_Post $post ) {</p>
+<p>    if ( 'speaker' !== $post->post_type ) {<br />
+        // We only want to add an attribute for the 'speaker' post type.<br />
+        // Here the post isn't a 'speaker', so we return the attributes unaltered.<br />
+        return $attributes;<br />
+    }</p>
+<p>    // Get the field value with the 'get_field' method and assign it to the attributes array.<br />
+    // @see https://www.advancedcustomfields.com/resources/get_field/<br />
+    $attributes['bio'] = get_field( 'bio', $post->ID );</p>
+<p>    // Always return the value we are filtering.<br />
+    return $attributes;<br />
+}<br />
+</code></p>
+<p>1) Copy above and paste in your theme functions.php.</p>
+<p>2) Replace ‘Bio’ acf field name with your acf field name.</p>
+<p>3) Also ‘speaker’ with your with your custom post type.</p>
+<p>4) remove <code>if ( 'speaker' !== $post->post_type ) {</code> if you want to do all post type.</p>
+<p>5) Make custom fields searchable by copying below code,</p>
+<p><code><br />
+add_filter( 'algolia_posts_speaker_index_settings', 'my_posts_index_settings' );<br />
+// We could also have used a more general hook 'algolia_posts_index_settings',<br />
+// but in that case we would have needed to add a check on the post type<br />
+// to ensure we only adjust settings for the 'speaker' post_type.</p>
+<p>/**<br />
+ * @param array $settings<br />
+ *<br />
+ * @return array<br />
+ */<br />
+function my_posts_index_settings( array $settings ) {</p>
+<p>    // Make Algolia search into the 'bio' field when searching for results.<br />
+    // Using ordered instead of unordered would make words matching in the beginning of the attribute<br />
+    // make the record score higher.<br />
+    // @see https://www.algolia.com/doc/api-client/ruby/parameters#attributestoindex<br />
+    $settings['attributesToIndex'][] = 'unordered(bio)';</p>
+<p>    // Make Algolia return a pre-computed snippet of 50 chars as part of the result set.<br />
+    // @see https://www.algolia.com/doc/api-client/ruby/parameters#attributestohighlight<br />
+    $settings['attributesToSnippet'][] = 'bio:50';</p>
+<p>    // Always return the value we are filtering.<br />
+    return $settings;<br />
+}<br />
+</code></p>
+<p>6) Now re-index your index from wordpess.</p>
+<p>7) now go to algolia plugin template and copy paste below code in autocomplete.php and instantsearch.php to display ‘bio’ text in result.</p>
+<p><code><br />
+<# if ( data._snippetResult['bio'] ) { #><br />
+      <span class="suggestion-post-acfContent">{{{ data._snippetResult['bio'].value }}}</span><br />
+<# } #><br />
+</code></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/wordpress-programming/search-acf-data-display-algoliawordpress-plugin-result">Search ACF data and display it in Algolia(WordPress plugin) result</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Add google like fast to your WordPress site</title>
+		<link>http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site</link>
+		<pubDate>Mon, 15 Jan 2018 12:40:34 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[algolia]]></category>
+		<category><![CDATA[fast]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[like]]></category>
+		<category><![CDATA[prediction]]></category>
+		<category><![CDATA[search]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=1051</guid>
+		<description><![CDATA[<p>Download Or Install algolia plugin from Url Download Algolia Activate plugin Search by Algolia – Instant &#038; Relevant results Now Algolia will ask for API configuration, Create new from here. Free forever for search result upto 10K Records/100K Operations. 1)&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site">Add google like fast to your WordPress site</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Download Or Install algolia plugin from Url <a href="https://wordpress.org/plugins/search-by-algolia-instant-relevant-results/">Download Algolia</a></p>
+<p>Activate plugin <strong>Search by Algolia – Instant & Relevant results</strong> </p>
+<p>Now Algolia will ask for API configuration, Create new from <a href="https://www.algolia.com/users/sign_up">here</a>. Free forever for search result upto 10K Records/100K Operations.</p>
+<p>1) Copy Api keys for algolia to wordpress algolia setting and validate same from wordpess.</p>
+<p>2) Navigate to <strong>Autocomplete</strong> tab <strong>“Enable autocomplete”</strong> to enable google like autocomplete prediction.</p>
+<p>3) Select index from Configuration and save.</p>
+<p>4) Re-index selected Index and push setting for same.</p>
+<p>5) Now navigate <strong>Search Page</strong> re-index page record and push setting.</p>
+<p>6) Now select <strong>Use Algolia with Instantsearch.js</strong> from Search results for fast result experience on search page.</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site">Add google like fast to your WordPress site</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Create directory and upload file with 755 permission via PHP</title>
+		<link>http://www.internetkatta.com/programming/create-directory-upload-file-755-permission-via-php</link>
+		<pubDate>Mon, 15 Jan 2018 12:08:04 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Hosting]]></category>
+		<category><![CDATA[Programming]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=967</guid>
+		<description><![CDATA[<p>You just need to change the the owner or group of your upload directory. First of all you will need apache user. ps aux &#124; egrep '(apache&#124;httpd)' www-data, apache, nobody would be one the user. For Dedicated Server chown -R&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/create-directory-upload-file-755-permission-via-php">Create directory and upload file with 755 permission via PHP</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>You just need to change the the owner or group of your upload directory.</p>
+<p>First of all you will need apache user.<br />
+<code><br />
+ps aux | egrep '(apache|httpd)'</code></p>
+<p>www-data, apache, nobody would be one the user. </p>
+<p>For Dedicated Server </p>
+<p><code>chown -R www-data:www-data uploadDirectory</code></p>
+<p>For VPS Server</p>
+<p><code>chown -R FTPSSHuser:apache uploadDirectory</code></p>
+<p>whereas FTPSSHuser is your FTP | SSH user.</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/create-directory-upload-file-755-permission-via-php">Create directory and upload file with 755 permission via PHP</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Fetch youtube video information from youtube video id.</title>
+		<link>http://www.internetkatta.com/programming/fetch-youtube-video-information-from-youtube-video-id</link>
+		<pubDate>Thu, 21 Apr 2016 08:29:40 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[api]]></category>
+		<category><![CDATA[author]]></category>
+		<category><![CDATA[fetch]]></category>
+		<category><![CDATA[thumbnail]]></category>
+		<category><![CDATA[title]]></category>
+		<category><![CDATA[URL]]></category>
+		<category><![CDATA[youtube]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=533</guid>
+		<description><![CDATA[<p>function getYouData($youtubeVideoID) { return json_decode(file_get_contents('http://www.youtube.com/oembed?url='.urlencode('http://youtu.be/'.$youtubeVideoID).'&#038;format=json')); } Information like author_url,author_name,title,thumbnail_url etc.. $youtubevideoInfo=getYouData('xxxxxxxxxxx'); $author_url=$youtubevideoInfo->author_url; $author_name=$youtubevideoInfo->author_name; $title=$youtubevideoInfo->author_title; $thumbnail_url=$youtubevideoInfo->thumbnail_url;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/fetch-youtube-video-information-from-youtube-video-id">Fetch youtube video information from youtube video id.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<pre>function getYouData($youtubeVideoID)
+{
+return json_decode(file_get_contents('http://www.youtube.com/oembed?url='.urlencode('http://youtu.be/'.$youtubeVideoID).'&format=json'));
+}
+</pre>
+<p>Information like <strong>author_url,author_name,title,thumbnail_url </strong><span style="color: #000000"> etc..</span></p>
+<pre>$youtubevideoInfo=getYouData('xxxxxxxxxxx');</pre>
+<pre><span style="color: #000000">
+$author_url=$youtubevideoInfo->author_url;
+$author_name=$youtubevideoInfo->author_name;
+$title=$youtubevideoInfo->author_title;
+$thumbnail_url=$youtubevideoInfo->thumbnail_url;
+</span></pre>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/fetch-youtube-video-information-from-youtube-video-id">Fetch youtube video information from youtube video id.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>How to use Doctrine prepare query with different PDO fetch style in zf2</title>
+		<link>http://www.internetkatta.com/programming/how-to-use-doctrine-prepare-query-with-different-fetch-style-in-zf2</link>
+		<pubDate>Fri, 10 Jul 2015 13:07:50 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Zend Framework]]></category>
+		<category><![CDATA[Doctrine]]></category>
+		<category><![CDATA[fetch]]></category>
+		<category><![CDATA[pdo]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=740</guid>
+		<description><![CDATA[<p>OR How can we use table column value as array key in resultset. $queryBuilder = $this->getEntityManager()->prepare("SELECT customer_id FROM customer WHERE id = :id"); $queryBuilder->bindValue('id',99); $queryBuilder->execute(); /* Fetch all of the values of the first column */ $queryBuilder = $statement->fetchAll(\PDO::FETCH_COLUMN, 0);&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/how-to-use-doctrine-prepare-query-with-different-fetch-style-in-zf2">How to use Doctrine prepare query with different PDO fetch style in zf2</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>OR How can we use table column value as array key in resultset.<br />
+<code><br />
+$queryBuilder = $this->getEntityManager()->prepare("SELECT customer_id FROM customer WHERE id = :id");<br />
+$queryBuilder->bindValue('id',99);<br />
+$queryBuilder->execute();</p>
+<p>/* Fetch all of the values of the first column */<br />
+$queryBuilder = $statement->fetchAll(\PDO::FETCH_COLUMN, 0);</p>
+<p>/* Group values by the first column */<br />
+$queryBuilder = $statement->fetchAll(\PDO::FETCH_COLUMN|\PDO::FETCH_GROUP);</p>
+<p>/* Fetch all by class object */<br />
+$queryBuilder = $statement->fetchAll(\PDO::FETCH_CLASS, "customer");</p>
+<p></code></p>
+<p>Source: <a rel="nofollow" href="http://php.net/manual/en/pdostatement.fetchall.php" target="_blank">http://php.net/manual/en/pdostatement.fetchall.php</a></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/how-to-use-doctrine-prepare-query-with-different-fetch-style-in-zf2">How to use Doctrine prepare query with different PDO fetch style in zf2</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Quick sql command and queries</title>
+		<link>http://www.internetkatta.com/programming/quick-sql-command-and-queries</link>
+		<pubDate>Fri, 10 Jul 2015 09:14:42 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[command]]></category>
+		<category><![CDATA[queries]]></category>
+		<category><![CDATA[query]]></category>
+		<category><![CDATA[Quick]]></category>
+		<category><![CDATA[sql]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=519</guid>
+		<description><![CDATA[<p>1) Create Database create database myworld; 2) Backup and Restore Database Backup: mysql -u myworld -p -h localhost myworld < myworld.sql Restore: mysql -u myworld -p -h localhost use database; source ./restorefile.sql 3) Drop Database DROP DATABASE myworld; 4) Create&#8230;
+</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/quick-sql-command-and-queries">Quick sql command and queries</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><strong>1) Create Database</strong></p>
+<p>create database myworld;</p>
+<p><strong>2) Backup and Restore Database</strong></p>
+<p>Backup:<br />
+mysql -u myworld -p -h localhost myworld < myworld.sql</p>
+<p>Restore:<br />
+mysql -u myworld -p -h localhost</p>
+<p>use database;</p>
+<p>source ./restorefile.sql</p>
+<p><strong>3) Drop Database</strong></p>
+<p>DROP DATABASE myworld;</p>
+<p><strong>4) Create copy of table</strong></p>
+<p>create table myworld_table1 like myworld_table;<br />
+insert myworld_table1 select * from myworld_table;</p>
+<p><strong>5) Get mysql user and super user list</strong></p>
+<p>select User,Super_priv from mysql.user;</p>
+<p><strong>6) Get global and session time_zone</strong></p>
+<p>SELECT @@global.time_zone, @@session.time_zone;</p>
+<p><strong>7) Truncate table</strong></p>
+<p>TRUNCATE TABLE myworld;</p>
+<p><strong>8) Truncate table with foreign key </strong></p>
+<p>SET FOREIGN_KEY_CHECKS = 0;<br />
+TRUNCATE TABLE myworld;<br />
+SET FOREIGN_KEY_CHECKS = 1;</p>
+<p><strong>9) Add or subtract interval from date</strong></p>
+<p>SELECT id,DATE_ADD(NOW(),INTERVAL 45 DAY) AS intervalbydate;<br />
+SELECT id,DATE_ADD(NOW(),INTERVAL 45 MINUTE) AS intervalbymin;<br />
+SELECT id,DATE_ADD(NOW(),INTERVAL 45 HOUR) AS intervalbyhour;<br />
+SELECT id,DATE_ADD(NOW(), INTERVAL ‘5:30’ HOUR_MINUTE) AS intervalbyhourandmin;</p>
+<p>SELECT id,DATE_SUB(NOW(),INTERVAL 45 DAY) AS intervalbydate;<br />
+SELECT id,DATE_SUB(NOW(),INTERVAL 45 MINUTE) AS intervalbymin;<br />
+SELECT id,DATE_SUB(NOW(),INTERVAL 45 HOUR) AS intervalbyhour;<br />
+SELECT id,DATE_ADD(NOW(), INTERVAL ‘5:30’ HOUR_MINUTE) AS intervalbyhourandmin;</p>
+<p><strong>10) Get current timestamp and date</strong></p>
+<p>SELECT NOW();<br />
+SELECT CURDATE();</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/quick-sql-command-and-queries">Quick sql command and queries</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>How to Dump/Print Doctrine entity in zf2?</title>
+		<link>http://www.internetkatta.com/programming/how-to-dumpprint-doctrine-entity-in-zf2</link>
+		<pubDate>Fri, 27 Mar 2015 10:43:16 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Zend Framework]]></category>
+		<category><![CDATA[Doctrine]]></category>
+		<category><![CDATA[dump]]></category>
+		<category><![CDATA[entity]]></category>
+		<category><![CDATA[framework]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[print]]></category>
+		<category><![CDATA[zend]]></category>
+		<category><![CDATA[zf2]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=670</guid>
+		<description><![CDATA[<p>Here is the solutions: \Doctrine\Common\Util\Debug::dump($UserEntity);</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/how-to-dumpprint-doctrine-entity-in-zf2">How to Dump/Print Doctrine entity in zf2?</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Here is the solutions:</p>
+<p>\Doctrine\Common\Util\Debug::dump($UserEntity);</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/how-to-dumpprint-doctrine-entity-in-zf2">How to Dump/Print Doctrine entity in zf2?</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Quick use of  Git cherry-pick</title>
+		<link>http://www.internetkatta.com/programming/quick-use-of-git-cherry-pick</link>
+		<pubDate>Thu, 22 Jan 2015 10:52:36 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[branch]]></category>
+		<category><![CDATA[cherry]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[pick]]></category>
+		<category><![CDATA[repository]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=645</guid>
+		<description><![CDATA[<p>1) Cherry pick commit from someone’s repository: git fetch someoneRepoRemoteName OR git fetch someoneRepoRemoteName branchName git log someoneRepoRemoteName/branchName git cherry-pick 00dc218 2) Cherry pick commit from same repository: git fetch yourRepoRemoteName OR git fetch yourRepoRemoteName branchName git log yourRepoRemoteName/branchName git&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/quick-use-of-git-cherry-pick">Quick use of  Git cherry-pick</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><strong>1) Cherry pick commit from someone’s repository:</strong></p>
+<p>git fetch someoneRepoRemoteName OR git fetch someoneRepoRemoteName branchName</p>
+<p>git log someoneRepoRemoteName/branchName</p>
+<p>git cherry-pick 00dc218</p>
+<p><strong>2) Cherry pick commit from same repository:</strong></p>
+<p>git fetch yourRepoRemoteName OR git fetch yourRepoRemoteName branchName</p>
+<p>git log yourRepoRemoteName/branchName</p>
+<p>git cherry-pick 00dc218</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/quick-use-of-git-cherry-pick">Quick use of  Git cherry-pick</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Monitor your website down time for free&#8230;</title>
+		<link>http://www.internetkatta.com/programming/monitor-your-website-down-time-for-free</link>
+		<pubDate>Wed, 07 Jan 2015 09:13:11 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Hosting]]></category>
+		<category><![CDATA[Programming]]></category>
+		<category><![CDATA[200]]></category>
+		<category><![CDATA[400]]></category>
+		<category><![CDATA[500]]></category>
+		<category><![CDATA[down]]></category>
+		<category><![CDATA[ping]]></category>
+		<category><![CDATA[website]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=638</guid>
+		<description><![CDATA[<p>Monitor your website every 5 minutes and get alert if your site goes down. With simple easy steps with Uptime Robot: it asks for your websites headers and gets status codes like “200-ok”, “404-not found”, etc. every 5 minutes (or&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/monitor-your-website-down-time-for-free">Monitor your website down time for free&#8230;</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Monitor your website every 5 minutes and get alert if your site goes down.</p>
+<p>With simple easy steps with <a title="Source" href="https://uptimerobot.com/" target="_blank" rel="nofollow"><strong>Uptime Robot</strong></a>:</p>
+<p>it asks for your websites headers and gets status codes like “200-ok”, “404-not found”, etc. every 5 minutes (or more depending on the monitor’s settings),</p>
+<p>if the status code doesn’t indicate a problem, we are good</p>
+<p>if the status code is~400+ and 500+, then the site is not loading</p>
+<p>in order to make sure the site is down, Uptime Robot makes several more checks in the next 30 seconds,</p>
+<p>if the site is still down, it sends an alert.</p>
+<p>Thats it.</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/monitor-your-website-down-time-for-free">Monitor your website down time for free&#8230;</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Manange your ZF2 emailer from Mandrill dashboard.</title>
+		<link>http://www.internetkatta.com/programming/manange-your-zf2-emailer-from-mandrill-dashboard</link>
+		<pubDate>Thu, 20 Nov 2014 13:36:44 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Zend Framework]]></category>
+		<category><![CDATA[effortless]]></category>
+		<category><![CDATA[emailer]]></category>
+		<category><![CDATA[Mandrill]]></category>
+		<category><![CDATA[SlmMail]]></category>
+		<category><![CDATA[zf2]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=618</guid>
+		<description><![CDATA[<p>Now you can manage your ZF2 emailer from Mandrill dashboard without any developer effort 🙂 with the help SlmMail. Step to create mandrill template: 1) Navigate to https://mandrillapp.com/templates 2) Click on create new template and enter name for template. 3) Enter from&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/manange-your-zf2-emailer-from-mandrill-dashboard">Manange your ZF2 emailer from Mandrill dashboard.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Now you can manage your ZF2 emailer from <a title="Mandrill" href="https://mandrill.com/" target="_blank">Mandrill</a> dashboard without any developer effort <img src="https://s.w.org/images/core/emoji/11/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> with the help <a title="SlmMail" href="https://github.com/juriansluiman/SlmMail" target="_blank">SlmMail</a>.</p>
+<p>Step to create mandrill template:</p>
+<p>1) Navigate to <a title="templates" href="https://mandrillapp.com/templates" target="_blank">https://mandrillapp.com/templates</a></p>
+<p>2) Click on create new template and enter name for template.</p>
+<p>3) Enter from email, name and subject.</p>
+<p>4) Paste your html code.</p>
+<p>for eg.</p>
+<p><code>Hi *|name|*,</p>
+<p>test email.</p>
+<p>Thanks.</code></p>
+<p>5) *|name|* is variable passed  from api call.</p>
+<p>6) Click on Publish.</p>
+<p>ZF2 Configrution :</p>
+<p>1) Add “slm/mail”: “~1.5” in composer.json</p>
+<p>2) Use code</p>
+<p><code>$message = new \SlmMail\Mail\Message\Mandrill();<br />
+$mandrillService = $controller->getServiceLocator()->get('SlmMail\Service\MandrillService');<br />
+$message->setTemplate($templatename)->setGlobalVariables($sendArray);<br />
+$message->addTo($receiver);<br />
+if($subject != null)<br />
+$message->setSubject($subject);<br />
+$result = $mandrillService->send($message);</code></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/manange-your-zf2-emailer-from-mandrill-dashboard">Manange your ZF2 emailer from Mandrill dashboard.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

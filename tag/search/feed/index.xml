@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>search</title>
+	<atom:link href="http://www.internetkatta.com/tag/search/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Add google like fast to your WordPress site</title>
+		<link>http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site</link>
+		<pubDate>Mon, 15 Jan 2018 12:40:34 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[algolia]]></category>
+		<category><![CDATA[fast]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[like]]></category>
+		<category><![CDATA[prediction]]></category>
+		<category><![CDATA[search]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=1051</guid>
+		<description><![CDATA[<p>Download Or Install algolia plugin from Url Download Algolia Activate plugin Search by Algolia – Instant &#038; Relevant results Now Algolia will ask for API configuration, Create new from here. Free forever for search result upto 10K Records/100K Operations. 1)&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site">Add google like fast to your WordPress site</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Download Or Install algolia plugin from Url <a href="https://wordpress.org/plugins/search-by-algolia-instant-relevant-results/">Download Algolia</a></p>
+<p>Activate plugin <strong>Search by Algolia – Instant & Relevant results</strong> </p>
+<p>Now Algolia will ask for API configuration, Create new from <a href="https://www.algolia.com/users/sign_up">here</a>. Free forever for search result upto 10K Records/100K Operations.</p>
+<p>1) Copy Api keys for algolia to wordpress algolia setting and validate same from wordpess.</p>
+<p>2) Navigate to <strong>Autocomplete</strong> tab <strong>“Enable autocomplete”</strong> to enable google like autocomplete prediction.</p>
+<p>3) Select index from Configuration and save.</p>
+<p>4) Re-index selected Index and push setting for same.</p>
+<p>5) Now navigate <strong>Search Page</strong> re-index page record and push setting.</p>
+<p>6) Now select <strong>Use Algolia with Instantsearch.js</strong> from Search results for fast result experience on search page.</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site">Add google like fast to your WordPress site</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

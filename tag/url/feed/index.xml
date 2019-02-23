@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>URL</title>
+	<atom:link href="http://www.internetkatta.com/tag/url/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Fetch youtube video information from youtube video id.</title>
+		<link>http://www.internetkatta.com/programming/fetch-youtube-video-information-from-youtube-video-id</link>
+		<pubDate>Thu, 21 Apr 2016 08:29:40 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[api]]></category>
+		<category><![CDATA[author]]></category>
+		<category><![CDATA[fetch]]></category>
+		<category><![CDATA[thumbnail]]></category>
+		<category><![CDATA[title]]></category>
+		<category><![CDATA[URL]]></category>
+		<category><![CDATA[youtube]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=533</guid>
+		<description><![CDATA[<p>function getYouData($youtubeVideoID) { return json_decode(file_get_contents('http://www.youtube.com/oembed?url='.urlencode('http://youtu.be/'.$youtubeVideoID).'&#038;format=json')); } Information like author_url,author_name,title,thumbnail_url etc.. $youtubevideoInfo=getYouData('xxxxxxxxxxx'); $author_url=$youtubevideoInfo->author_url; $author_name=$youtubevideoInfo->author_name; $title=$youtubevideoInfo->author_title; $thumbnail_url=$youtubevideoInfo->thumbnail_url;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/fetch-youtube-video-information-from-youtube-video-id">Fetch youtube video information from youtube video id.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<pre>function getYouData($youtubeVideoID)
+{
+return json_decode(file_get_contents('http://www.youtube.com/oembed?url='.urlencode('http://youtu.be/'.$youtubeVideoID).'&format=json'));
+}
+</pre>
+<p>Information like <strong>author_url,author_name,title,thumbnail_url </strong><span style="color: #000000"> etc..</span></p>
+<pre>$youtubevideoInfo=getYouData('xxxxxxxxxxx');</pre>
+<pre><span style="color: #000000">
+$author_url=$youtubevideoInfo->author_url;
+$author_name=$youtubevideoInfo->author_name;
+$title=$youtubevideoInfo->author_title;
+$thumbnail_url=$youtubevideoInfo->thumbnail_url;
+</span></pre>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/fetch-youtube-video-information-from-youtube-video-id">Fetch youtube video information from youtube video id.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Get Facebook status or post url</title>
+		<link>http://www.internetkatta.com/social-networking/get-facebook-status-or-post-url</link>
+		<pubDate>Mon, 23 Jun 2014 09:00:34 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Social Networking]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[post]]></category>
+		<category><![CDATA[profile]]></category>
+		<category><![CDATA[status]]></category>
+		<category><![CDATA[time]]></category>
+		<category><![CDATA[URL]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=562</guid>
+		<description><![CDATA[<p>Click on post time hyper link(Just now &#124; 36 mins &#124; 19 hrs &#124;Yesterday at 1:30pm) next to publisher profile pic. done..  </p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/social-networking/get-facebook-status-or-post-url">Get Facebook status or post url</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Click on post time hyper link(Just now | 36 mins | 19 hrs |Yesterday at 1:30pm) next to publisher profile pic.</p>
+<p>done..</p>
+<p> </p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/social-networking/get-facebook-status-or-post-url">Get Facebook status or post url</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>The requested URL /index.php was not found on this server &#8211; WordPress</title>
+		<link>http://www.internetkatta.com/programming/wordpress-programming/the-requested-url-index-php-was-not-found-on-this-server-wordpress</link>
+		<pubDate>Tue, 06 May 2014 05:59:27 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[htaccess]]></category>
+		<category><![CDATA[not found]]></category>
+		<category><![CDATA[permalinks]]></category>
+		<category><![CDATA[requested]]></category>
+		<category><![CDATA[URL]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=494</guid>
+		<description><![CDATA[<p>Steps : 1) Login to wp-admin 2) Go to settings –>  permalinks –> permalink setting 3) Navigate to end of page and copy the .htaccess code. 4) paste it into your .htaccess file. 5) enjoy..</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/wordpress-programming/the-requested-url-index-php-was-not-found-on-this-server-wordpress">The requested URL /index.php was not found on this server &#8211; WordPress</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Steps :</p>
+<p>1) Login to wp-admin</p>
+<p>2) Go to settings –>  permalinks –> permalink setting</p>
+<p>3) Navigate to end of page and copy the .htaccess code.</p>
+<p>4) paste it into your .htaccess file.</p>
+<p>5) enjoy..</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/wordpress-programming/the-requested-url-index-php-was-not-found-on-this-server-wordpress">The requested URL /index.php was not found on this server &#8211; WordPress</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

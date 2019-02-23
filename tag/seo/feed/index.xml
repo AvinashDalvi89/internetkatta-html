@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SEO</title>
+	<atom:link href="http://www.internetkatta.com/tag/seo/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Google Adwords impression and clicks not reflecting google analytics result</title>
+		<link>http://www.internetkatta.com/programming/seo/google-adwords-impression-and-clicks-not-reflecting-google-analytics-result</link>
+		<pubDate>Sun, 12 Nov 2017 04:46:13 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[SEO]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=976</guid>
+		<description><![CDATA[<p>Search Console data Search Console data is joined with Analytics data via the Landing Page dimension. This integration lets you see how pre-click data like queries and impressions correlate with post-click data like bounce rate and transactions. The Search Console&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/seo/google-adwords-impression-and-clicks-not-reflecting-google-analytics-result">Google Adwords impression and clicks not reflecting google analytics result</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Search Console data<br />
+Search Console data is joined with Analytics data via the Landing Page dimension. This integration lets you see how pre-click data like queries and impressions correlate with post-click data like bounce rate and transactions.</p>
+<p>The Search Console reports include one dimension that is specific to Google Web Search data:</p>
+<ul>
+<li>Queries: The Google Search queries that generated impressions of your website URLs in Google organic search results.<br />
+The Search Console reports in Analytics use four metrics specific to Google Web Search data:</li>
+<li>Impressions: The number of times any URL from your site appeared in search results viewed by a user, not including paid AdWords search impressions.</li>
+<li>Clicks: The number of clicks on your website URLs from a Google Search results page, not including clicks on paid AdWords search results.</li>
+<li>Average Position: The average ranking of your website URLs for the query or queries. For example, if your site’s URL appeared at position 3 for one query and position 7 for another query, the average position would be 5 ((3+7)/2).</li>
+<li>CTR: Click-through rate, calculated as Clicks / Impressions * 100.</li>
+</ul>
+<p>Reference Source : <a href="https://support.google.com/analytics/answer/1308626?hl=en" target="_blank" rel="noopener">Google analytics Docs</a></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/seo/google-adwords-impression-and-clicks-not-reflecting-google-analytics-result">Google Adwords impression and clicks not reflecting google analytics result</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Understanding of SEO</title>
+		<link>http://www.internetkatta.com/programming/seo/understanding-of-seo</link>
+		<pubDate>Fri, 27 Jan 2017 04:28:15 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[SEO]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=922</guid>
+		<description><![CDATA[<p>You’ll know that the basis for going into battle is to know your competition first Keep your friends close but your enemies closer, the saying goes. In our SEO battlefield, we’ll look at competitive analysis and keyword research to start&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/seo/understanding-of-seo">Understanding of SEO</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><span style="font-weight: 400;">You’ll know that the basis for going into battle is to know your competition first </span></p>
+<p><span style="font-weight: 400;">Keep your friends close but your enemies closer, the saying goes. In our SEO battlefield, we’ll look at competitive analysis and keyword research to start </span></p>
+<p><span style="font-weight: 400;">Three base of On Page SEO success(These elements are in the direct control of the publisher) :</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Rich content(Quality, Research, Words, Fresh, Vertical, Answers, Thin)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Best Architecture ( Crawl, Duplicate, Mobile, Speed, URLS, HTTPS, Cloaking)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">HTML( titles, description, structure, headers, stuffing) </span></li>
+</ul>
+<p><span style="font-weight: 400;">Four base of Off Page SEO success (Elements influenced by readers, visitors & other publishers):</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Trust ( authority, engage, history, identity, piracy, ads)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Links ( quality, text, number, paid, spam)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Personal ( country, locality, history, social)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Social ( reputation, shares) </span></li>
+</ul>
+<p><span style="font-weight: 400;">Refer this PDF for details about base:</span><a href="http://searchengineland.com/download/seotable/SearchEngineLand-Periodic-Table-of-SEO-2015.pdf"> <span style="font-weight: 400;">http://searchengineland.com/download/seotable/SearchEngineLand-Periodic-Table-of-SEO-2015.pdf </span></a></p>
+<p><span style="font-weight: 400;">What is required :</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Keyword research and heavy competitive analysis</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Build website search-engine friendly but also user-friendly</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">We should know about our website “Value Proposition”</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">We should know about who is our end use customer.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Ensure easy navigation, a clear call to action and relevant content</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Page speed of home page and all important pages where customer most of times deal their transduction or action</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Visitor should know what your site is all about in less than eight seconds.Even if you think your visitors are familiar with your product or service, you’ll still want to make it easy to navigate and user friendly.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Website site-map should be good format</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">URL of any pages/post should contains good keywords plus identity of page/post content</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">All meta details ( description,keywords, h1, h2 ,strong, p tag)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Headline/Title should contain keyword and proper identity of pages/posts</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Google plus business profile also help like other social profile ( explained here –</span><a href="https://blog.kissmetrics.com/simple-guide-to-seo/%29"> <span style="font-weight: 400;">https://blog.kissmetrics.com/simple-guide-to-seo/)</span></a></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Monitor your website goal and campaign report </span></li>
+</ul>
+<p><span style="font-weight: 400;"><a href="https://www.redevolution.com/seo-explained">https://www.redevolution.com/seo-explained</a>  </span></p>
+<p><span style="font-weight: 400;">Tool for keyword – https://adwords.google.com/KeywordPlanner</span></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/seo/understanding-of-seo">Understanding of SEO</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

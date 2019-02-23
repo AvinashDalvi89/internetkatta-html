@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>acf</title>
+	<atom:link href="http://www.internetkatta.com/tag/acf/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Search ACF data and display it in Algolia(WordPress plugin) result</title>
+		<link>http://www.internetkatta.com/programming/wordpress-programming/search-acf-data-display-algoliawordpress-plugin-result</link>
+		<pubDate>Mon, 15 Jan 2018 13:14:38 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Wordpress]]></category>
+		<category><![CDATA[acf]]></category>
+		<category><![CDATA[algolia]]></category>
+		<category><![CDATA[custom]]></category>
+		<category><![CDATA[fast]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=1057</guid>
+		<description><![CDATA[<p>Install Algolia plugin form here. Reference: ACF Algolia add_filter( 'algolia_post_shared_attributes', 'my_post_attributes', 10, 2 ); add_filter( 'algolia_searchable_post_shared_attributes', 'my_post_attributes', 10, 2 ); /** * @param array $attributes * @param WP_Post $post * * @return array */ function my_post_attributes( array $attributes, WP_Post $post&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/wordpress-programming/search-acf-data-display-algoliawordpress-plugin-result">Search ACF data and display it in Algolia(WordPress plugin) result</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Install Algolia plugin form <a href="http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site">here</a>.</p>
+<p>Reference: <a href="https://community.algolia.com/wordpress/advanced-custom-fields.html">ACF Algolia </a><br />
+<code></p>
+<p>add_filter( 'algolia_post_shared_attributes', 'my_post_attributes', 10, 2 );<br />
+add_filter( 'algolia_searchable_post_shared_attributes', 'my_post_attributes', 10, 2 );</p>
+<p>/**<br />
+ * @param array   $attributes<br />
+ * @param WP_Post $post<br />
+ *<br />
+ * @return array<br />
+ */<br />
+function my_post_attributes( array $attributes, WP_Post $post ) {</p>
+<p>    if ( 'speaker' !== $post->post_type ) {<br />
+        // We only want to add an attribute for the 'speaker' post type.<br />
+        // Here the post isn't a 'speaker', so we return the attributes unaltered.<br />
+        return $attributes;<br />
+    }</p>
+<p>    // Get the field value with the 'get_field' method and assign it to the attributes array.<br />
+    // @see https://www.advancedcustomfields.com/resources/get_field/<br />
+    $attributes['bio'] = get_field( 'bio', $post->ID );</p>
+<p>    // Always return the value we are filtering.<br />
+    return $attributes;<br />
+}<br />
+</code></p>
+<p>1) Copy above and paste in your theme functions.php.</p>
+<p>2) Replace ‘Bio’ acf field name with your acf field name.</p>
+<p>3) Also ‘speaker’ with your with your custom post type.</p>
+<p>4) remove <code>if ( 'speaker' !== $post->post_type ) {</code> if you want to do all post type.</p>
+<p>5) Make custom fields searchable by copying below code,</p>
+<p><code><br />
+add_filter( 'algolia_posts_speaker_index_settings', 'my_posts_index_settings' );<br />
+// We could also have used a more general hook 'algolia_posts_index_settings',<br />
+// but in that case we would have needed to add a check on the post type<br />
+// to ensure we only adjust settings for the 'speaker' post_type.</p>
+<p>/**<br />
+ * @param array $settings<br />
+ *<br />
+ * @return array<br />
+ */<br />
+function my_posts_index_settings( array $settings ) {</p>
+<p>    // Make Algolia search into the 'bio' field when searching for results.<br />
+    // Using ordered instead of unordered would make words matching in the beginning of the attribute<br />
+    // make the record score higher.<br />
+    // @see https://www.algolia.com/doc/api-client/ruby/parameters#attributestoindex<br />
+    $settings['attributesToIndex'][] = 'unordered(bio)';</p>
+<p>    // Make Algolia return a pre-computed snippet of 50 chars as part of the result set.<br />
+    // @see https://www.algolia.com/doc/api-client/ruby/parameters#attributestohighlight<br />
+    $settings['attributesToSnippet'][] = 'bio:50';</p>
+<p>    // Always return the value we are filtering.<br />
+    return $settings;<br />
+}<br />
+</code></p>
+<p>6) Now re-index your index from wordpess.</p>
+<p>7) now go to algolia plugin template and copy paste below code in autocomplete.php and instantsearch.php to display ‘bio’ text in result.</p>
+<p><code><br />
+<# if ( data._snippetResult['bio'] ) { #><br />
+      <span class="suggestion-post-acfContent">{{{ data._snippetResult['bio'].value }}}</span><br />
+<# } #><br />
+</code></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/wordpress-programming/search-acf-data-display-algoliawordpress-plugin-result">Search ACF data and display it in Algolia(WordPress plugin) result</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

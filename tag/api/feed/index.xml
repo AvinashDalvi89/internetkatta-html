@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>api</title>
+	<atom:link href="http://www.internetkatta.com/tag/api/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Fetch youtube video information from youtube video id.</title>
+		<link>http://www.internetkatta.com/programming/fetch-youtube-video-information-from-youtube-video-id</link>
+		<pubDate>Thu, 21 Apr 2016 08:29:40 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[api]]></category>
+		<category><![CDATA[author]]></category>
+		<category><![CDATA[fetch]]></category>
+		<category><![CDATA[thumbnail]]></category>
+		<category><![CDATA[title]]></category>
+		<category><![CDATA[URL]]></category>
+		<category><![CDATA[youtube]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=533</guid>
+		<description><![CDATA[<p>function getYouData($youtubeVideoID) { return json_decode(file_get_contents('http://www.youtube.com/oembed?url='.urlencode('http://youtu.be/'.$youtubeVideoID).'&#038;format=json')); } Information like author_url,author_name,title,thumbnail_url etc.. $youtubevideoInfo=getYouData('xxxxxxxxxxx'); $author_url=$youtubevideoInfo->author_url; $author_name=$youtubevideoInfo->author_name; $title=$youtubevideoInfo->author_title; $thumbnail_url=$youtubevideoInfo->thumbnail_url;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/fetch-youtube-video-information-from-youtube-video-id">Fetch youtube video information from youtube video id.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<pre>function getYouData($youtubeVideoID)
+{
+return json_decode(file_get_contents('http://www.youtube.com/oembed?url='.urlencode('http://youtu.be/'.$youtubeVideoID).'&format=json'));
+}
+</pre>
+<p>Information like <strong>author_url,author_name,title,thumbnail_url </strong><span style="color: #000000"> etc..</span></p>
+<pre>$youtubevideoInfo=getYouData('xxxxxxxxxxx');</pre>
+<pre><span style="color: #000000">
+$author_url=$youtubevideoInfo->author_url;
+$author_name=$youtubevideoInfo->author_name;
+$title=$youtubevideoInfo->author_title;
+$thumbnail_url=$youtubevideoInfo->thumbnail_url;
+</span></pre>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/fetch-youtube-video-information-from-youtube-video-id">Fetch youtube video information from youtube video id.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Unable to access user information from api &#8211; Facebook Review Guidelines</title>
+		<link>http://www.internetkatta.com/programming/unable-to-access-user-information-from-api-facebook-review-guidelines</link>
+		<pubDate>Wed, 07 May 2014 06:48:22 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Social Networking]]></category>
+		<category><![CDATA[api]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Guidelines]]></category>
+		<category><![CDATA[Permissions]]></category>
+		<category><![CDATA[Review]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=499</guid>
+		<description><![CDATA[<p>Now Facebook don’t provide all Permissions for Facebook Login. Default permission provide by facebook: email, public_profile, user_friends. Rest of permission  require approval before public usage. The review time estimate will range between 7 to 14 business days. Click here here to view step for Facebook Review Guidelines  &#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/unable-to-access-user-information-from-api-facebook-review-guidelines">Unable to access user information from api &#8211; Facebook Review Guidelines</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Now Facebook don’t provide all Permissions for Facebook Login.</p>
+<p>Default <a title="permissions" href="https://developers.facebook.com/docs/reference/fql/permissions/" target="_blank" rel="nofollow">permission</a> provide by facebook:</p>
+<p><span class="_5rf- _50f4 _50f7" style="font-weight: bold;color: #4e5665">email, public_profile, user_friends.</span></p>
+<p>Rest of <a title="permissions" href="https://developers.facebook.com/docs/reference/fql/permissions/" target="_blank" rel="nofollow">permission</a>  require approval before public usage.</p>
+<p>The review time estimate will range between 7 to 14 business days.</p>
+<p><a title="Facebook Review Guidelines" href="https://developers.facebook.com/docs/apps/review/" target="_blank">Click here</a> here to view step for Facebook Review Guidelines</p>
+<p> </p>
+<p>Source : <a title="Facebook Review Guidelines" href="https://developers.facebook.com/docs/apps/review/" target="_blank" rel="nofollow">https://developers.facebook.com/docs/apps/review/</a></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/unable-to-access-user-information-from-api-facebook-review-guidelines">Unable to access user information from api &#8211; Facebook Review Guidelines</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

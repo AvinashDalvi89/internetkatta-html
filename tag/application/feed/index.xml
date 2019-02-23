@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>application</title>
+	<atom:link href="http://www.internetkatta.com/tag/application/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Error You must add your mobile phone to your Twitter profile before granting your application write capabilities</title>
+		<link>http://www.internetkatta.com/programming/error-you-must-add-your-mobile-phone-to-your-twitter-profile-before-granting-your-application-write-capabilities</link>
+		<pubDate>Tue, 27 May 2014 12:30:53 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Social Networking]]></category>
+		<category><![CDATA[application]]></category>
+		<category><![CDATA[Carrier]]></category>
+		<category><![CDATA[granting]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[region]]></category>
+		<category><![CDATA[twitter]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=546</guid>
+		<description><![CDATA[<p>Error : Error You must add your mobile phone to your Twitter profile before granting your application write capabilities. Please read https://support.twitter.com/articles/110250-adding-your-mobile-number-to-your-account-via-web for more information Solution : 1) Go to https://twitter.com/ 2) Edit Profile https://twitter.com/settings/profile 3) Click on Mobile tab&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/error-you-must-add-your-mobile-phone-to-your-twitter-profile-before-granting-your-application-write-capabilities">Error You must add your mobile phone to your Twitter profile before granting your application write capabilities</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Error :</p>
+<p><strong>Error You must add your mobile phone to your Twitter profile before granting your application write capabilities. Please read https://support.twitter.com/articles/110250-adding-your-mobile-number-to-your-account-via-web for more information</strong></p>
+<p>Solution :</p>
+<p>1) Go to https://twitter.com/</p>
+<p>2) Edit Profile https://twitter.com/settings/profile</p>
+<p>3) Click on Mobile tab https://twitter.com/settings/devices</p>
+<p>4) Activate Twitter text messaging, enter your region, mobile number and select Carrier.</p>
+<p>5) done. if not “Sorry, we don’t have a connection to your carrier yet!”</p>
+<p>6) Don’t worry, we’re on it and will let you know once things are set up. In the meantime, use one of our long codes. Learn more. https://support.twitter.com/articles/14226-how-to-find-your-twitter-short-code-or-long-code</p>
+<p>7) Check for your region and Carrier.</p>
+<p>8) If your region or Carrier does not present.</p>
+<p>9) Repeat Point 1 to 4 from your mobile phone browser.</p>
+<p>10) Enjoy..</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/error-you-must-add-your-mobile-phone-to-your-twitter-profile-before-granting-your-application-write-capabilities">Error You must add your mobile phone to your Twitter profile before granting your application write capabilities</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

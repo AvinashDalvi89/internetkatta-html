@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>hash</title>
+	<atom:link href="http://www.internetkatta.com/tag/hash/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>PHP &#8211; Convert your password to hash V/V verify hash for multiple framework.</title>
+		<link>http://www.internetkatta.com/programming/php-convert-your-password-to-hash-vv-verify-hash-for-multiple-framework</link>
+		<pubDate>Fri, 08 Aug 2014 11:02:06 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Blowfish]]></category>
+		<category><![CDATA[Crypt]]></category>
+		<category><![CDATA[Drupal]]></category>
+		<category><![CDATA[hash]]></category>
+		<category><![CDATA[Joomla]]></category>
+		<category><![CDATA[Password]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=586</guid>
+		<description><![CDATA[<p>Hi, PHP-PasswordLib — Password Hashing And Validation Source : https://github.com/ircmaxell/PHP-PasswordLib Supported Password Storage Functions APR1 – Apache’s internal password function Blowfish(Zend Framework) – BCrypt Crypt – Crypt DES hashing Drupal – Drupal’s SHA512 based algorithm Hash – Raw md5, sha1, sha256 and&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/php-convert-your-password-to-hash-vv-verify-hash-for-multiple-framework">PHP &#8211; Convert your password to hash V/V verify hash for multiple framework.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Hi,</p>
+<p><strong>PHP-PasswordLib</strong> — Password Hashing And Validation</p>
+<pre><code>Source : <a title="Source" href="https://github.com/ircmaxell/PHP-PasswordLib" target="_blank" rel="nofollow">https://github.com/ircmaxell/PHP-PasswordLib</a></code></pre>
+<p><strong>Supported Password Storage Functions</strong></p>
+<p>APR1 – Apache’s internal password function<br />
+Blowfish(Zend Framework) – BCrypt<br />
+Crypt – Crypt DES hashing<br />
+Drupal – Drupal’s SHA512 based algorithm<br />
+Hash – Raw md5, sha1, sha256 and sha512 detected by length<br />
+Joomla – Joomla’s MD5 based algorithm<br />
+Crypt MD5 – Support for Crypt’s MD5 algorithm<br />
+PBKDF – A PBKDF implementation (which supports any supported password based key derivation)<br />
+PHPASS – An implementation of the portable hash from the PHPASS library<br />
+PHPBB – PHPBB’s MD5 based algorithm<br />
+Crypt SHA256 – Crypt’s SHA256 algorithm<br />
+Crypt SHA512 – Crypt’s SHA512 algorithm</p>
+<p><strong>Supported Random Number Sources</strong></p>
+<p>– **CAPICOM** – A COM object method call available on Windows systems<br />
+– **MTRand** – Generation based upon the mt_rand() functions<br />
+– **MicroTime** – A low entropy source based upon the server’s microtime<br />
+– **Rand** – A low entropy source based upon rand()<br />
+– **URandom** – Generation from the system’s /dev/urandom source<br />
+– **UniqID** – A low entropy source based upon uniqid()</p>
+<p><strong>Use</strong></p>
+<pre><code>$lib = new PasswordLib\PasswordLib();
+$hash = $lib->createPasswordHash($password);
+$boolean = $lib->verifyPasswordHash($password, $hash);</code></pre>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/php-convert-your-password-to-hash-vv-verify-hash-for-multiple-framework">PHP &#8211; Convert your password to hash V/V verify hash for multiple framework.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

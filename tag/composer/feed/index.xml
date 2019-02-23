@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>composer</title>
+	<atom:link href="http://www.internetkatta.com/tag/composer/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Include php packages in your project through php Composer</title>
+		<link>http://www.internetkatta.com/programming/include-php-packages-in-your-project-through-php-composer</link>
+		<pubDate>Mon, 02 Jun 2014 13:08:53 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[composer]]></category>
+		<category><![CDATA[Include]]></category>
+		<category><![CDATA[packages]]></category>
+		<category><![CDATA[phar]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[project]]></category>
+		<category><![CDATA[require]]></category>
+		<category><![CDATA[vendor]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=551</guid>
+		<description><![CDATA[<p>Steps : 1) curl -sS https://getcomposer.org/installer &#124; php. 2) php -r “readfile(‘https://getcomposer.org/installer’);” &#124; php 3) create a composer.json {     “require”: {          “monolog/monolog”: “1.2.*”      } } 4) php composer.phar install 5) composer install 6) require “/vendor/autoload.php”; 7) use monolog/monolog;&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/include-php-packages-in-your-project-through-php-composer">Include php packages in your project through php Composer</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Steps :</p>
+<p>1) curl -sS https://getcomposer.org/installer | php.</p>
+<p>2) php -r “readfile(‘https://getcomposer.org/installer’);” | php</p>
+<p>3) create a <strong>composer.json</strong></p>
+<p><strong>{     </strong></p>
+<p><strong>“require”: {   </strong></p>
+<p><strong>      “monolog/monolog”: “1.2.*” </strong></p>
+<p><strong>    } </strong></p>
+<p><strong>}</strong></p>
+<p>4) php composer.phar install</p>
+<p>5) composer install</p>
+<p>6) require “<project-path>/vendor/autoload.php”;</p>
+<p>7) use <strong>monolog/monolog</strong>;</p>
+<p>8) done..</p>
+<p>Source : <a title="https://getcomposer.org/doc/00-intro.md" href="https://getcomposer.org/doc/00-intro.md" target="_blank" rel="nofollow">https://getcomposer.org/doc/00-intro.md</a></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/include-php-packages-in-your-project-through-php-composer">Include php packages in your project through php Composer</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

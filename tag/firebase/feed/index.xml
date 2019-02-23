@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>firebase</title>
+	<atom:link href="http://www.internetkatta.com/tag/firebase/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Firebase integration with PHP</title>
+		<link>http://www.internetkatta.com/programming/firebase-integration-with-php</link>
+		<pubDate>Sun, 25 Nov 2018 16:03:18 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[firebase]]></category>
+		<category><![CDATA[php]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=1140</guid>
+		<description><![CDATA[<p>Step to start : Create firebase account for web app    https://firebase.google.com/products/  as per this guideline create cloud storage and create your      Firebase account Then create service account for configuration json parameters     follow this installation guide  &#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/firebase-integration-with-php">Firebase integration with PHP</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<div>
+<div>Step to start :</div>
+<ol>
+<li>
+<div>Create firebase account for web app</div>
+</li>
+</ol>
+<div>   <a href="https://firebase.google.com/products/" target="_blank" rel="noopener">https://firebase.google.com/products/</a>  as per this guideline create cloud storage and create your      Firebase account</div>
+<ol start="2">
+<li>
+<div>Then create service account for configuration json parameters</div>
+</li>
+</ol>
+<div>    follow this installation guide</div>
+<div><a href="https://firebase-php.readthedocs.io/en/stable/setup.html#setup">    https://firebase-php.readthedocs.io/en/stable/setup.html#setup</a></div>
+<div>    <a href="https://developers.google.com/identity/protocols/OAuth2ServiceAccount">https://developers.google.com/identity/protocols/OAuth2ServiceAccount</a></div>
+<div>    <a href="http://www.internetkatta.com/programming/firebase-integration-with-php/attachment/screen-shot-2018-11-25-at-9-03-00-pm" rel="attachment wp-att-1143"><img class="alignnone wp-image-1143" src="http://www.internetkatta.com/wp-content/uploads/2018/11/Screen-Shot-2018-11-25-at-9.03.00-PM.png" alt="" width="572" height="297" /></a></div>
+<div>    Download JSON file name will like “api-project-1075484619737-3371fe5240c8.json”. Keep this file      this will use in step 3 while doing configuration in project</div>
+<div><a href="http://www.internetkatta.com/programming/firebase-integration-with-php/attachment/screen-shot-2018-11-25-at-9-08-41-pm" rel="attachment wp-att-1144">    <img class="alignnone wp-image-1144" src="http://www.internetkatta.com/wp-content/uploads/2018/11/Screen-Shot-2018-11-25-at-9.08.41-PM.png" alt="" width="591" height="265" /></a></div>
+<ol start="3">
+<li>
+<div>Install firebase in your machine using composer</div>
+</li>
+</ol>
+<div>   <a href="https://firebase-php.readthedocs.io/en/stable/overview.html#installation">https://firebase-php.readthedocs.io/en/stable/overview.html#installation</a></div>
+<div>   <strong>Note : PHP 7.X is recommend for this.</strong></div>
+<div>   then</div>
+<div>   <a href="https://firebase-php.readthedocs.io/en/stable/overview.html#usage-example">https://firebase-php.readthedocs.io/en/stable/overview.html#usage-example</a></div>
+<div></div>
+<ol start="4">
+<li>
+<div>Installation complete! Enjoy. Next blog will cover fetching record from database.</div>
+</li>
+</ol>
+<div></div>
+<div></div>
+</div>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/firebase-integration-with-php">Firebase integration with PHP</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

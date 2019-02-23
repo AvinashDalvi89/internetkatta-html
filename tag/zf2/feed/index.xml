@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>zf2</title>
+	<atom:link href="http://www.internetkatta.com/tag/zf2/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>How to Dump/Print Doctrine entity in zf2?</title>
+		<link>http://www.internetkatta.com/programming/how-to-dumpprint-doctrine-entity-in-zf2</link>
+		<pubDate>Fri, 27 Mar 2015 10:43:16 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Zend Framework]]></category>
+		<category><![CDATA[Doctrine]]></category>
+		<category><![CDATA[dump]]></category>
+		<category><![CDATA[entity]]></category>
+		<category><![CDATA[framework]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[print]]></category>
+		<category><![CDATA[zend]]></category>
+		<category><![CDATA[zf2]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=670</guid>
+		<description><![CDATA[<p>Here is the solutions: \Doctrine\Common\Util\Debug::dump($UserEntity);</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/how-to-dumpprint-doctrine-entity-in-zf2">How to Dump/Print Doctrine entity in zf2?</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Here is the solutions:</p>
+<p>\Doctrine\Common\Util\Debug::dump($UserEntity);</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/how-to-dumpprint-doctrine-entity-in-zf2">How to Dump/Print Doctrine entity in zf2?</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Manange your ZF2 emailer from Mandrill dashboard.</title>
+		<link>http://www.internetkatta.com/programming/manange-your-zf2-emailer-from-mandrill-dashboard</link>
+		<pubDate>Thu, 20 Nov 2014 13:36:44 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Zend Framework]]></category>
+		<category><![CDATA[effortless]]></category>
+		<category><![CDATA[emailer]]></category>
+		<category><![CDATA[Mandrill]]></category>
+		<category><![CDATA[SlmMail]]></category>
+		<category><![CDATA[zf2]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=618</guid>
+		<description><![CDATA[<p>Now you can manage your ZF2 emailer from Mandrill dashboard without any developer effort 🙂 with the help SlmMail. Step to create mandrill template: 1) Navigate to https://mandrillapp.com/templates 2) Click on create new template and enter name for template. 3) Enter from&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/manange-your-zf2-emailer-from-mandrill-dashboard">Manange your ZF2 emailer from Mandrill dashboard.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Now you can manage your ZF2 emailer from <a title="Mandrill" href="https://mandrill.com/" target="_blank">Mandrill</a> dashboard without any developer effort <img src="https://s.w.org/images/core/emoji/11/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> with the help <a title="SlmMail" href="https://github.com/juriansluiman/SlmMail" target="_blank">SlmMail</a>.</p>
+<p>Step to create mandrill template:</p>
+<p>1) Navigate to <a title="templates" href="https://mandrillapp.com/templates" target="_blank">https://mandrillapp.com/templates</a></p>
+<p>2) Click on create new template and enter name for template.</p>
+<p>3) Enter from email, name and subject.</p>
+<p>4) Paste your html code.</p>
+<p>for eg.</p>
+<p><code>Hi *|name|*,</p>
+<p>test email.</p>
+<p>Thanks.</code></p>
+<p>5) *|name|* is variable passed  from api call.</p>
+<p>6) Click on Publish.</p>
+<p>ZF2 Configrution :</p>
+<p>1) Add “slm/mail”: “~1.5” in composer.json</p>
+<p>2) Use code</p>
+<p><code>$message = new \SlmMail\Mail\Message\Mandrill();<br />
+$mandrillService = $controller->getServiceLocator()->get('SlmMail\Service\MandrillService');<br />
+$message->setTemplate($templatename)->setGlobalVariables($sendArray);<br />
+$message->addTo($receiver);<br />
+if($subject != null)<br />
+$message->setSubject($subject);<br />
+$result = $mandrillService->send($message);</code></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/manange-your-zf2-emailer-from-mandrill-dashboard">Manange your ZF2 emailer from Mandrill dashboard.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>ZfcUser, BjyAuthorize and Doctrine working together in ZF2</title>
+		<link>http://www.internetkatta.com/programming/zf/zfcuser-bjyauthorize-and-doctrine-working-together-in-zf2</link>
+		<pubDate>Thu, 11 Sep 2014 03:11:30 +0000</pubDate>
+		<dc:creator><![CDATA[Arvind Kumar]]></dc:creator>
+				<category><![CDATA[Zend Framework]]></category>
+		<category><![CDATA[doctrine-orm]]></category>
+		<category><![CDATA[zf2]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=592</guid>
+		<description><![CDATA[<p>1.  Download the latest ZIP-File of ZendSkeletonApplication. 2. Unzip and put ZendSkeletonApplication in var/www . 3. Install ZfcUser, BjyAuthorize and Doctrine by editing your var/www/ZendSkeletonApplication/composer.json file. Your composer.json file would be like this { “name”: “zendframework/skeleton-application”, “description”: “Skeleton Application for ZF2”, “license”: “BSD-3-Clause”, “keywords”: [&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/zf/zfcuser-bjyauthorize-and-doctrine-working-together-in-zf2">ZfcUser, BjyAuthorize and Doctrine working together in ZF2</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>1. <span style="color: #555555"> Download the latest ZIP-File of </span><a style="color: #e86a4d" title="github: zendframework/ZendSkeletonApplication" href="https://github.com/zendframework/ZendSkeletonApplication" target="_blank">ZendSkeletonApplication</a>.</p>
+<p>2. Unzip and put ZendSkeletonApplication in var/www .</p>
+<p>3. Install ZfcUser, BjyAuthorize and Doctrine by editing your var/www/ZendSkeletonApplication/composer.json file. Your composer.json file would be like this<br />
+<ins datetime="2014-09-24T02:37:53+00:00"></ins></p>
+<p>{<br />
+“name”: “zendframework/skeleton-application”,<br />
+“description”: “Skeleton Application for ZF2”,<br />
+“license”: “BSD-3-Clause”,<br />
+“keywords”: [<br />
+“framework”,<br />
+“zf2”<br />
+],<br />
+“homepage”: “http://framework.zend.com/”,<br />
+“require”: {<br />
+“php”: “>=5.3.3”,<br />
+“zendframework/zendframework”: “2.3.*”,<br />
+“doctrine/doctrine-orm-module”: “0.7.*”,<br />
+“zf-commons/zfc-user”: “0.1.*”,<br />
+“zf-commons/zfc-user-doctrine-orm”: “0.1.*”,<br />
+“bjyoungblood/bjy-authorize”: “1.2.*”<br />
+}<br />
+}</p>
+<p>4. Update your project running php composer.phar update .</p>
+<p>5. Configure ZfcUser, Doctrine and BjyAuthorize by editing your config/application.config.php file.</p>
+<p>‘modules’ => array(<br />
+‘ZendDeveloperTools’,<br />
+‘Application’,<br />
+‘DoctrineModule’,<br />
+‘DoctrineORMModule’,<br />
+‘ZfcBase’,<br />
+‘ZfcUser’,<br />
+‘ZfcUserDoctrineORM’,<br />
+‘BjyAuthorize’,<br />
+),</p>
+<p>Note: If you plan to use ZendDeveloperTools, too, remember to add the following line at the top of your index.php.</p>
+<p><?php<br />
+define(‘REQUEST_MICROTIME’, microtime(true));</p>
+<p>chdir(dirname(__DIR__));<br />
+require ‘init_autoloader.php’;<br />
+Zend\Mvc\Application::init(require ‘config/application.config.php’)->run();</p>
+<p> </p>
+<p>6. Now we will create new module for ZfcUser, BjyAuthorize and Doctrine working together. SamUser is our module name and file structure for SamUser would look like this</p>
+<p>/module/SamUser<br />
+/config<br />
+doctrineconnection.local.php.dist<br />
+module.config.php<br />
+/src<br />
+/SamUser<br />
+/Entity<br />
+Role.php<br />
+User.php<br />
+Module.php<br />
+Module.php</p>
+<p>Note: Don’t forget to add SamUser in user  /config.application.config.php file.</p>
+<p>7. SamUser/Module.php file Data will be like this</p>
+<p><?php<br />
+require_once __DIR__ . ‘/src/SamUser/Module.php’;</p>
+<p> </p>
+<p>8.Simply include the Module.php.</p>
+<p> </p>
+<p><!– <span class="crayon-title">SamUser/src/SamUser/Module.php</span> –></p>
+<p><?php<br />
+namespace SamUser;</p>
+<p>class Module {<br />
+public function getConfig()<br />
+{<br />
+return include __DIR__ . ‘/../../config/module.config.php’;<br />
+}</p>
+<p>public function getAutoloaderConfig()<br />
+{<br />
+return array(<br />
+‘Zend\Loader\StandardAutoloader’ => array(<br />
+‘namespaces’ => array(<br />
+__NAMESPACE__ => __DIR__ . ‘/../../src/’ . __NAMESPACE__,<br />
+),<br />
+),<br />
+);<br />
+}<br />
+}</p>
+<p><!– <span class="crayon-title">SamUser/src/SamUser/Module.php</span> –></p>
+<p>9.Create a file <span class="crayon-title">SamUser/config/doctrineconnection.local.php.dist</span> .</p>
+<p><!– <span class="crayon-title">SamUser/config/doctrineconnection.local.php</span> –></p>
+<p><?php<br />
+/**<br />
+* This file will only be needed if you didn’t set up a Doctrine-Connection yet<br />
+*/<br />
+return array(<br />
+‘doctrine’ => array(<br />
+‘connection’ => array(<br />
+‘orm_default’ => array(<br />
+‘driverClass’ => ‘Doctrine\DBAL\Driver\PDOMySql\Driver’,<br />
+‘params’      => array(<br />
+‘host’     => ‘127.0.0.1’,<br />
+‘port’     => ‘3306’,<br />
+‘user’     => ‘root’,<br />
+‘password’ => ”,<br />
+‘dbname’   => ‘samuser’<br />
+)<br />
+)<br />
+)<br />
+)<br />
+);</p>
+<p><!– <span class="crayon-title">SamUser/config/doctrineconnection.local.php</span> –></p>
+<p> </p>
+<p>10.Create a file <span class="crayon-title">SamUser/config/module.config.php</span></p>
+<p><!– <span class="crayon-title">SamUser/config/module.config.php</span> –></p>
+<p><?php<br />
+return array(<br />
+‘doctrine’ => array(<br />
+‘driver’ => array(<br />
+// overriding zfc-user-doctrine-orm’s config<br />
+‘zfcuser_entity’ => array(<br />
+‘class’ => ‘Doctrine\ORM\Mapping\Driver\AnnotationDriver’,<br />
+‘paths’ => __DIR__ . ‘/../src/SamUser/Entity’,<br />
+),</p>
+<p>‘orm_default’ => array(<br />
+‘drivers’ => array(<br />
+‘SamUser\Entity’ => ‘zfcuser_entity’,<br />
+),<br />
+),<br />
+),<br />
+),</p>
+<p>‘zfcuser’ => array(<br />
+// telling ZfcUser to use our own class<br />
+‘user_entity_class’       => ‘SamUser\Entity\User’,<br />
+// telling ZfcUserDoctrineORM to skip the entities it defines<br />
+‘enable_default_entities’ => false,<br />
+),</p>
+<p>‘bjyauthorize’ => array(<br />
+// Using the authentication identity provider, which basically reads the roles from the auth service’s identity<br />
+‘identity_provider’ => ‘BjyAuthorize\Provider\Identity\AuthenticationIdentityProvider’,</p>
+<p>‘role_providers’        => array(<br />
+// using an object repository (entity repository) to load all roles into our ACL<br />
+‘BjyAuthorize\Provider\Role\ObjectRepositoryProvider’ => array(<br />
+‘object_manager’    => ‘doctrine.entity_manager.orm_default’,<br />
+‘role_entity_class’ => ‘SamUser\Entity\Role’,<br />
+),<br />
+),<br />
+),<br />
+);</p>
+<p><!– <span class="crayon-title">SamUser/config/module.config.php</span> –></p>
+<p> </p>
+<p>11. Now we need to create two  entity user and role.</p>
+<p>Copy the following files:</p>
+<ul>
+<li>/vendor/bjyoungblood/bjy-authorize/data/Role.php.dist<br />
+to<br />
+/module/SamUser /src/SamUser/Entity/Role.php</li>
+<li>/vendor/bjyoungblood/bjy-authorize/data/User.php.dist<br />
+to<br />
+/module/SamUser /src/SamUser/Entity/User.php</li>
+</ul>
+<p>Within these files you’ll see a couple of Class usages that we need to edit. Namely those are <span id="crayon-54222c4a8f40a" class="crayon-syntax crayon-syntax-inline  crayon-theme-classic crayon-theme-classic-inline crayon-font-monaco" style="font-size: 12px !important;line-height: 15px !important"><span class="crayon-pre" style="font-size: 12px !important;line-height: 15px !important"><span class="i">Mynamespace</span><span class="sy">\</span><span class="i">User</span></span></span> and <span id="crayon-54222c4a8fbdc" class="crayon-syntax crayon-syntax-inline  crayon-theme-classic crayon-theme-classic-inline crayon-font-monaco" style="font-size: 12px !important;line-height: 15px !important"><span class="crayon-pre" style="font-size: 12px !important;line-height: 15px !important"><span class="i">Mynamespace</span><span class="sy">\</span><span class="i">Role</span></span></span>. Modify all these to be <span id="crayon-54222c4a903aa" class="crayon-syntax crayon-syntax-inline  crayon-theme-classic crayon-theme-classic-inline crayon-font-monaco" style="font-size: 12px !important;line-height: 15px !important"><span class="crayon-pre" style="font-size: 12px !important;line-height: 15px !important"><span class="i">SamUser</span><span class="sy">\</span><span class="i">Entity</span><span class="sy">\</span><span class="i">User</span></span></span> and <span id="crayon-54222c4a90b7a" class="crayon-syntax crayon-syntax-inline  crayon-theme-classic crayon-theme-classic-inline crayon-font-monaco" style="font-size: 12px !important;line-height: 15px !important"><span class="crayon-pre" style="font-size: 12px !important;line-height: 15px !important"><span class="i">SamUser</span><span class="sy">\</span><span class="i">Entity</span><span class="sy">\</span><span class="i">Role</span></span></span>.</p>
+<p> </p>
+<p>12. If you have done all these things properly then you have to validate your entity schema and create tables in database by doctrine update command. Process goes below.</p>
+<p>Go to vendor/bin folder and then run</p>
+<p><span class="i">a) doctrine</span><span class="o">–</span><span class="e">module </span><span class="i">orm</span><span class="o">:</span><span class="i">validate</span><span class="o">–</span><span class="i">schema   </span>(It will validate entity is right or not)</p>
+<p>b)<span class="i">doctrine</span><span class="o">–</span><span class="e">module </span><span class="i">orm</span><span class="o">:</span><span class="i">schema</span><span class="o">–</span><span class="i">tool</span><span class="o">:</span><span class="i">update</span><span class="o">—</span><span class="e">force</span> (This table will create table in database from your entity)</p>
+<p> </p>
+<p>13. Now insert data in role table for some roles.</p>
+<div class="crayon-pre" style="font-size: 12px !important;line-height: 15px !important">
+<div id="crayon-54222c4a9422a-1" class="crayon-line"><span class="st">INSERT</span><span class="st">INTO</span>`<span class="r">role</span>`</div>
+<div id="crayon-54222c4a9422a-2" class="crayon-line crayon-striped-line"><span class="h">    </span>(`id`,`parent_id`,`roleId`)</div>
+<div id="crayon-54222c4a9422a-3" class="crayon-line"><span class="st">VALUES</span></div>
+<div id="crayon-54222c4a9422a-4" class="crayon-line crayon-striped-line"><span class="h">    </span>(1,<span class="r">NULL</span>,<span class="s">‘guest’</span>),</div>
+<div id="crayon-54222c4a9422a-5" class="crayon-line"><span class="h">    </span>(2,1,<span class="s">‘user’</span>),</div>
+<div id="crayon-54222c4a9422a-6" class="crayon-line crayon-striped-line"><span class="h">    </span>(3,2,<span class="s">‘moderator’</span>),</div>
+<div id="crayon-54222c4a9422a-7" class="crayon-line"><span class="h">    </span>(4,3,<span class="s">‘administrator’</span>);</div>
+<div class="crayon-line"></div>
+<div class="crayon-line"></div>
+</div>
+<p> </p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/zf/zfcuser-bjyauthorize-and-doctrine-working-together-in-zf2">ZfcUser, BjyAuthorize and Doctrine working together in ZF2</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

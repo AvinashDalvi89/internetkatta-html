@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>awslex</title>
+	<atom:link href="http://www.internetkatta.com/tag/awslex/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Amazon Lex Bot with messaging services</title>
+		<link>http://www.internetkatta.com/hosting/aws/amazon-lex-bot-messaging-services</link>
+		<pubDate>Wed, 04 Apr 2018 04:25:44 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[aws]]></category>
+		<category><![CDATA[Home Feature]]></category>
+		<category><![CDATA[awslex]]></category>
+		<category><![CDATA[chatbot]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=1094</guid>
+		<description><![CDATA[<p>Is your Amazon Lex chatbot ready to talk to the world? When it is, chances are that you’ll want it to be able to interact with as many users as possible. Amazon Lex offers built-in integration with Facebook, Slack and&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/amazon-lex-bot-messaging-services">Amazon Lex Bot with messaging services</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Is your Amazon Lex chatbot ready to talk to the world? When it is, chances are that you’ll want it to be able to interact with as many users as possible. Amazon Lex offers built-in integration with Facebook, Slack and Twilio. But what if you want to connect to a messaging service that isn’t supported? Well, there’s an API for that–the Amazon Lex API. In this post, I show how to integrate an Amazon Lex bot with an external messaging service by using Twilio Programmable SMS as the example service.</p>
+<p>You can integrate any messaging service that provides the right APIs with Amazon Lex using the design pattern described in this post. The solution includes a serverless middle tier or a preprocessing layer “in front of” Amazon Lex. This is useful if you want to incorporate Amazon Lex as another building block into your systems. For example, if you’re in an enterprise, you could use this solution to implement custom message routing to specialized bots developed by different business units.</p>
+<p>For simpler uses cases, the <a href="http://docs.aws.amazon.com/lex/latest/dg/twilio-bot-association.html">built-in integration for Twilio</a> in the Amazon Lex console might be a better option.</p>
+<h2>Architecture and message flow</h2>
+<p>For this integration, I chose a serverless architecture that uses Amazon API Gateway and AWS Lambda to robustly and scalably integrate the Amazon Lex bot with the Twilio messaging service. Going serverless means that you don’t have to worry about managing individual instances, and that you incur costs only for the resources that your application uses. API Gateway provides the secure API endpoint for a Lambda function that implements your business logic.</p>
+<p><img class="alignnone size-full wp-image-736" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2017/05/19/Lex_Bot_1.gif" alt="" width="714" height="293" /></p>
+<p>Before diving into the details, let’s examine how messages flow between the end user and your bot:</p>
+<ol>
+<li>The end user sends an SMS text to your Twilio number.</li>
+<li>Based on your configuration, Twilio makes an API call to the HTTPS endpoint hosted by API Gateway.</li>
+<li>API Gateway optionally authenticates the request, and then passes the request parameters to a Lambda function.</li>
+<li>The Lambda function runs your business logic and uses the PostText runtime API call to communicate with your chatbot(s). For the sake of brevity, I haven’t included custom logic in this example. You can implement your own custom routing logic and send messages to different bots based on your own business rules.</li>
+<li>An HTTPS response is sent to the Twilio endpoint, which relays the message to the user as an SMS text message.</li>
+</ol>
+<p>Now let’s set up each component.</p>
+<h2>Creating an Amazon Lex bot</h2>
+<p>Start by creating a bot. For this example, use one of the example bots that are provided in the Amazon Lex console. This is what you need to do:</p>
+<ol>
+<li>Log in to the <a href="https://console.aws.amazon.com/lex/home?region=us-east-1" target="_blank" rel="noopener noreferrer">Amazon Lex console</a>, and choose <strong>Create</strong> in the <strong>Bots</strong></li>
+<li>Choose the <strong>BookTrip</strong> sample, note the name of the AWS Identity and Access Management (IAM) role, and choose <strong>Create</strong>.</li>
+<li>After Amazon Lex builds the bot, test it in the console.</li>
+<li>Publish the bot. For the <strong>Alias</strong>, use dev.</li>
+</ol>
+<p>You now have a working bot, but it can’t communicate with anyone outside the console. Let’s change that!</p>
+<h2>Setting up an SMS-enabled Twilio phone number<strong> </strong></h2>
+<p>Next, set up a Twilio SMS-enabled phone number where users can send SMS messages to interact with your bot. If you don’t already have a Twilio account, you can <a href="https://www.twilio.com/try-twilio" target="_blank" rel="noopener noreferrer">sign-up for a trial account</a>, which includes a free phone number. Make sure that your Twilio number has SMS capability turned on, and that you verify your own phone number with Twilio for testing.</p>
+<p>On the Twilio Console Dashboard, note your Twilio AUTH TOKEN.</p>
+<p>We’ll return to the Twilio Console to configure the webhook that posts the SMS message to our serverless application. But first, you need to create your serverless application.<strong> </strong></p>
+<h2>Lambda–the preprocessing layer between Amazon Lex and Twilio</h2>
+<p>Lambda gives you the ability to run custom code based on an event. In this case, that event is an HTTPS call to API Gateway made by Twilio.</p>
+<p>Before diving into coding the Lambda function, you need to set up permissions.</p>
+<ol>
+<li>Sign in to the IAM console at <a href="https://console.aws.amazon.com/iam/" target="_blank" rel="noopener noreferrer">https://console.aws.amazon.com/iam/</a>.</li>
+<li>For <strong>Roles</strong>, choose <strong>Create a new role</strong>. For <strong>AWS Service Role</strong>, choose <strong>Lambda</strong>.</li>
+<li>On the next page, choose <strong>Next Step</strong> without selecting a policy (you’ll define a custom policy). Name this role <em>lambda-exec-role-for-lex,</em> and then choose <strong>Create role</strong>.</li>
+<li>Search the list of roles to find the new role. Expand the <strong>Inline Policies</strong> section and create a new custom policy by pasting in this JSON:</li>
+</ol>
+<div class="hide-language">
+<pre class=" language-json" data-language="Json"><code class=" language-json"><span class="token punctuation">{</span>
+    <span class="token property">"Version"</span><span class="token operator">:</span> <span class="token string">"2012-10-17"</span><span class="token punctuation">,</span>
+    <span class="token property">"Statement"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"Effect"</span><span class="token operator">:</span> <span class="token string">"Allow"</span><span class="token punctuation">,</span>
+            <span class="token property">"Action"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token string">"logs:CreateLogGroup"</span><span class="token punctuation">,</span>
+                <span class="token string">"logs:CreateLogStream"</span><span class="token punctuation">,</span>
+                <span class="token string">"logs:PutLogEvents"</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token property">"Resource"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token string">"*"</span>
+            <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+	    <span class="token punctuation">{</span>
+            <span class="token property">"Effect"</span><span class="token operator">:</span> <span class="token string">"Allow"</span><span class="token punctuation">,</span>
+            <span class="token property">"Action"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token string">"lex:PostText"</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token property">"Resource"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token string">"*"</span>
+            <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span></code></pre>
+</div>
+<p>This policy permits Lambda to use the <tt>PostText</tt> API call and Amazon CloudWatch Logs.</p>
+<p>Now create the Lambda function:<strong> </strong></p>
+<ol>
+<li>If you haven’t already, <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">install Node.js</a>.</li>
+<li>Clone the GitHub repository:
+<div class="hide-language">
+<pre class=" language-code"><code class=" language-code">git clone https://github.com/awslabs/amazon-lex-twilio-integration.git</code></pre>
+</div>
+<p>If you’re interested in the validation checks and the call to the Amazon Lex API, see the comments in <tt>index.js</tt>.</li>
+</ol>
+<ol start="3">
+<li>Navigate to the project directory and install the necessary Node.js modules:
+<div class="hide-language">
+<pre class=" language-code"><code class=" language-code">cd amazon-lex-twilio-integration; npm install</code></pre>
+</div>
+</li>
+<li>Compress the contents of the project directory into a .zip file. For example, on a Mac, you can use the following command:
+<div class="hide-language">
+<pre class=" language-code"><code class=" language-code">zip -r AmazonLexTwilioIntegration.zip</code></pre>
+</div>
+</li>
+<li>Log in to the <a href="https://console.aws.amazon.com/lambda/home?region=us-east-1" target="_blank" rel="noopener noreferrer">AWS Lambda console</a>, and choose <strong>Create a Lambda function</strong>.</li>
+<li>Choose the <strong>Blank Function</strong> blueprint, and choose <strong>Next</strong>.</li>
+<li>Leave the trigger empty, and then choose <strong>Next</strong>.</li>
+<li>For the Lambda function, type <tt>LexTwilioIntegration</tt>, and for the <strong>Runtime environment</strong>, choose <strong>js 4.3</strong>.</li>
+<li>Because the Node.js application uses third-party modules, you can’t use the Lambda console editor to edit code. Choose <strong>Upload a .ZIP file,</strong> and choose the .zip file that you created in step 4.</li>
+<li>The Lambda function uses four environment variables. Add them:<br />
+<img class="size-full wp-image-739 alignnone" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2017/05/19/Lex_Bot_2.gif" alt="" width="750" height="214" /><br />
+You need to create the gateway before you can set the API_GATEWAY_URL value, so leave that field blank for now. You will provide this value later.</li>
+<li>Leave the <strong>Handler</strong> set to <tt>index.handler</tt>, and then choose <strong>Choose an existing role</strong>. Type <tt>lambda-exec-role-for-lex</tt>, which is the role that you created for this Lambda function to assume.</li>
+<li>To review the details for the Lambda function, choose <strong>Next</strong>, and then choose <strong>Create function</strong>. This sets up the Lambda function.</li>
+<li>Quickly test to see if the Lambda function can communicate with your chatbot. Choose <strong>Actions</strong>, and then choose <strong>Configure test event</strong> and paste in the following JSON:
+<div class="hide-language">
+<pre class=" language-json" data-language="Json"><code class=" language-json"><span class="token punctuation">{</span>
+<span class="token property">"body-json"</span><span class="token operator">:</span> <span class="token string">"From=867-5309&Body=book+hotel"</span>
+<span class="token punctuation">}</span></code></pre>
+</div>
+<p>This simulates the <tt>From</tt> and <tt>Body</tt> parameters that the Twilio webhook will submit to your HTTPS endpoint. You should see a response from the chatbot that looks something like this:</p>
+<p><img class="alignnone size-full wp-image-741" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2017/05/19/Lex_Bot_3.gif" alt="" width="750" height="117" /></li>
+</ol>
+<p>You’ve gotten a response from your bot! Now you can create your API endpoint.</p>
+<h2>Using AWS API Gateway to create an HTTPS endpoint<strong> </strong></h2>
+<p>You need an HTTPS endpoint that can receive POST requests from Twilio and relay your bot’s responses to Twilio. Instead of configuring multiple web servers to create a highly-available API endpoint, use API Gateway. It not only provides an API endpoint, but also additional security and monitoring capabilities.</p>
+<ol>
+<li>Log in to the <a href="https://console.aws.amazon.com/apigateway/home?region=us-east-1#/apis" target="_blank" rel="noopener noreferrer">API Gateway console</a>, and choose <strong>Create API</strong>.</li>
+<li>Give the API the name <tt>LexTwilioIntegration</tt>. Choose <strong>Create API</strong>.</li>
+<li>On the <strong>Resources page</strong>, choose <strong>Actions</strong>, and then choose <strong>Create Method</strong>.<br />
+<img class="alignnone size-full wp-image-743" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2017/05/19/Lex_Bot_4.gif" alt="" width="750" height="282" /></li>
+<li>Choose <strong>POST,</strong> and then choose the checkmark to save the new method.<br />
+<img class="alignnone size-full wp-image-745" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2017/05/19/Lex_Bot_5.gif" alt="" width="750" height="107" /></li>
+<li>On the POST-Setup page, leave the <strong>Integration Type</strong> <tt>Lambda Function</tt>. Choose the <strong>Lambda Region</strong> (us-east-1, for this example), for <strong>Lambda Function</strong>, type <tt>LexTwilioIntegration</tt>, and then choose <strong>Save</strong>.<br />
+<img class="alignnone size-full wp-image-746" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2017/05/19/Lex_Bot_6.gif" alt="" width="750" height="397" /></li>
+<li>Choose <strong>Method Execution</strong>, and then choose <strong>Integration Request</strong>.<br />
+<img class="alignnone size-full wp-image-747" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2017/05/19/Lex_Bot_7.gif" alt="" width="750" height="200" /></li>
+<li>Expand <strong>Body Mapping Templates</strong>, and for <strong>Request body passthrough</strong>, choose <strong>When there are no templates defined</strong>.<br />
+<img class="alignnone size-full wp-image-748" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2017/05/19/Lex_Bot_8.gif" alt="" width="750" height="160" /></li>
+<li>Define a body mapping template for the <tt>Content-Type</tt> header in the request coming in from Twilio. This ensures that the request parameters are transformed into a format that your Lambda function can understand. Choose <strong>Add mapping template</strong> and for <strong>Content-Type</strong>, type <tt>application/x-www-form-urlencoded</tt>. That’s the header that we expect from the Twilio webhook. To save the mapping template, choose the checkmark next to the text field. To expand and populate the template definition, choose the name of the template. Fortunately, there’s a canned template that will work for the Lambda function. Under <strong>Generate template</strong>, select the <strong>Method request passthough</strong> template, and then choose <strong>Save</strong>.<br />
+<img class="alignnone size-full wp-image-749" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2017/05/19/Lex_Bot_9.gif" alt="" width="751" height="771" /></li>
+<li>For testing purposes, add another mapping template for the <strong>Content-Type</strong> <strong>application/json</strong>. Choose the <strong>Method request passthrough</strong> template for, too.</li>
+<li>Return to <strong>Method Execution</strong>, and choose <strong>Method Response</strong>. Expand the HTTP Status <strong>200</strong>. For <strong>Response Headers for 200</strong>, add a new header named <tt>Content-Type</tt>, and then choose the checkmark to save it.</li>
+<li>Return to <strong>Method Execution</strong> again, and choose <strong>Integration Response</strong>. Expand the method response status for <strong>200</strong>, and then expand the <strong>Header Mapping</strong>s section. You should see the <tt>Content-Type</tt> header that we added in the last step. Now give it a value by typing <tt>'text/xml'</tt> (be sure to include the single quotes). Now expand <strong>Body Mappings Templates</strong>. For <strong>Content-Type</strong>, choose <strong>application/json</strong>, add the following line, and then choose <strong>Save</strong>.
+<div class="hide-language">
+<pre class=" language-code"><code class=" language-code">$input.path('$')</code></pre>
+</div>
+</li>
+<li>You’re now ready to test your new API to make sure it triggers your Lambda function. Navigate to <strong>Method Execution</strong>, and choose <strong>Test</strong>. In the <strong>Body</strong> field, type <tt>"From=867-5309&Body=book+hotel"</tt> and choose <strong>Test</strong>. This should trigger the Lambda function. You should see the response from the chatbot in the <tt>Logs</tt> section.<br />
+<img class="alignnone size-full wp-image-750" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2017/05/19/Lex_Bot_10.gif" alt="" width="600" height="211" /><br />
+This shows the response from the chatbot both before and after it has been transformed by the Body Mapping Template. If you look closely, you will see that the template removed the enclosing double quotes to make the response compliant with Twilio SMS’s expectations.</li>
+<li>Deploy the API by choosing <strong>Actions</strong>, and then choosing <strong>Deploy API</strong>. When you deploy for the first time, you have to create a new stage. Record the Invoke URL for the stage that you deployed to.</li>
+</ol>
+<h2>Filling in the blanks</h2>
+<p>Before you can start interacting your awesome bot, you need to provide a few more parameters.</p>
+<ol>
+<li>Log in to the <a href="https://www.twilio.com/console" target="_blank" rel="noopener noreferrer">Twilio console</a>, navigate to <strong>phone numbers (“#”)</strong>, and select the phone number that you were given.</li>
+<li>On the <strong>Configure</strong> tab, find the <strong>Messaging</strong> For <strong>Configure With</strong>, choose <strong>Webhooks/TwiML</strong>, and then, in the <strong>A MESSAGE COMES IN</strong>–<strong>Webhook</strong> field, add the API Gateways Invoke URL that you recorded.<br />
+<img class="alignnone size-full wp-image-751" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2017/05/19/Lex_Bot_11.gif" alt="" width="750" height="161" /></li>
+<li>Log in to the <a href="https://console.aws.amazon.com/lambda/home?region=us-east-1" target="_blank" rel="noopener noreferrer">Lambda console</a>, and select your Lambda function. Add the Lambda API_GATEWAY_URL environment variable. You should now be able to send an SMS message to your Twilio number and interact with your bot.<br />
+<img class="alignnone size-full wp-image-752" src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2017/05/19/Lex_Bot_12.gif" alt="" width="301" height="410" /><br />
+<strong>Tip</strong>: If you don’t get an SMS response, log in to the Twilio SMS console and use the SMS logs to debug.If you don’t want to see the Twilio trial account note, <a href="https://www.twilio.com/console/billing/upgrade" target="_blank" rel="noopener noreferrer">upgrade your Twilio account</a>. This also removes other <a href="https://support.twilio.com/hc/en-us/articles/223136107-How-does-Twilio-s-Free-Trial-work-" target="_blank" rel="noopener noreferrer">trial account restriction</a>s, like the requirement to verify phone numbers before you can receive SMS messages. For detailed cost information for sending and receiving SMS messages in your region, see the <a href="https://www.twilio.com/sms/pricing" target="_blank" rel="noopener noreferrer">Twilio SMS pricing page</a>.</li>
+</ol>
+<ol start="4">
+<li>If you are going to use this solution in production, we highly recommend that you uncomment the block of code in js that checks for the Twilio signature and validates that the request is, in fact, coming in from Twilio (index.js: line 30 thru 45).<strong> </strong></li>
+</ol>
+<p>Reference source : <a href="https://aws.amazon.com/blogs/machine-learning/integrate-your-amazon-lex-bot-with-any-messaging-service/" target="_blank" rel="noopener">https://aws.amazon.com/blogs/machine-learning/integrate-your-amazon-lex-bot-with-any-messaging-service/</a></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/amazon-lex-bot-messaging-services">Amazon Lex Bot with messaging services</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>AngularJs</title>
+	<atom:link href="http://www.internetkatta.com/category/angular-js/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</title>
+		<link>http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront</link>
+		<pubDate>Thu, 13 Sep 2018 08:12:36 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[AngularJs]]></category>
+		<category><![CDATA[aws]]></category>
+		<category><![CDATA[Hosting]]></category>
+		<category><![CDATA[angular]]></category>
+		<category><![CDATA[cloudfront]]></category>
+		<category><![CDATA[s3]]></category>
+		<category><![CDATA[s3 bucket]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=1107</guid>
+		<description><![CDATA[<p>Why this is required to do ? Because S3 website doesn’t know URL rewriting concept which other server knows. Whenever type any route path its should land first on index.html then further. Need to give command to S3 setting and&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront">Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Why this is required to do ?</p>
+<p>Because S3 website doesn’t know URL rewriting concept which other server knows. Whenever type any route path its should land first on index.html then further. Need to give command to S3 setting and AWS Cloudfront error response code.</p>
+<ol>
+<li style="list-style-type: none">
+<ol>
+<li>Create a Angular build</li>
+<li>Copy paste dist folder source and paste into S3 bucket</li>
+<li>Set up S3 website hosting index and error page to index.html</li>
+<li>Once completed uploading a code into S3 create Cloudfront as per your requirement and assign bucket to it.</li>
+<li>Go to Error response tab in Cloudfront set up value as per below reference images</li>
+</ol>
+</li>
+</ol>
+<p><a href="http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront/attachment/screenshot-2018-5-12-aws-cloudfront-management-console1-2" rel="attachment wp-att-1120"><img class="alignnone size-full wp-image-1120" src="http://www.internetkatta.com/wp-content/uploads/2018/07/Screenshot-2018-5-12-AWS-CloudFront-Management-Console1-1.png" alt="" width="913" height="341" /></a><br />
+<a href="http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront/attachment/screenshot-2018-5-12-aws-cloudfront-management-console" rel="attachment wp-att-1121"><img class="alignnone size-medium wp-image-1121" src="http://www.internetkatta.com/wp-content/uploads/2018/07/Screenshot-2018-5-12-AWS-CloudFront-Management-Console.png" alt="" width="300" height="64" /></a></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront">Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>How to create AWS S3 file explorer in angularjs</title>
+		<link>http://www.internetkatta.com/angular-js/create-aws-s3-file-explorer-angularjs</link>
+		<pubDate>Mon, 19 Mar 2018 12:22:04 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[AngularJs]]></category>
+		<category><![CDATA[Home Feature]]></category>
+		<category><![CDATA[angularjs]]></category>
+		<category><![CDATA[aws]]></category>
+		<category><![CDATA[s3 bucket]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=1086</guid>
+		<description><![CDATA[<p>AWS AngularJs S3 Explorer : Set up presigned URL for S3 file path – CORS configuration – Bucket Policy – [Code language=”json”] { “Version”: “2012-10-17”, “Statement”: [ { “Sid”: “PublicListGet”, “Effect”: “Allow”, “Principal”: “*”, “Action”: [ “s3:List*”, “s3:Get*” ], “Resource”:&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/create-aws-s3-file-explorer-angularjs">How to create AWS S3 file explorer in angularjs</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>AWS AngularJs S3 Explorer :</p>
+<p>Set up presigned URL for S3 file path –</p>
+<pre class="brush: jscript; title: ; notranslate">s3.getSignedUrl('getObject'{
+      Bucket: 'your bucket name',
+      Expires: 60 * 60,    //This means that url valid for 1 hour
+      Key: 'profile-image/xxxxxxxxxx.jpg'    //profile-image is the folder name that is already created in the bucket 
+  }, function(err, url){
+           if(err) {
+           console.log(err);
+      }
+         else {
+          var profileImage = url;
+      }
+  }
+</pre>
+<p>CORS configuration – </p>
+<pre class="brush: plain; title: ; notranslate"> 
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;CORSConfiguration xmlns=&quot;http://s3.amazonaws.com/doc/2006-03-01/&quot;&gt;
+&lt;CORSRule&gt;
+    &lt;AllowedOrigin&gt;*&lt;/AllowedOrigin&gt;
+    &lt;AllowedOrigin&gt;http://media.los.knabfinance.com.s3.amazonaws.com&lt;/AllowedOrigin&gt;
+    &lt;AllowedMethod&gt;PUT&lt;/AllowedMethod&gt;
+    &lt;AllowedMethod&gt;POST&lt;/AllowedMethod&gt;
+    &lt;AllowedMethod&gt;GET&lt;/AllowedMethod&gt;
+    &lt;AllowedMethod&gt;DELETE&lt;/AllowedMethod&gt;
+    &lt;MaxAgeSeconds&gt;3000&lt;/MaxAgeSeconds&gt;
+    &lt;AllowedHeader&gt;*&lt;/AllowedHeader&gt;
+&lt;/CORSRule&gt;
+&lt;/CORSConfiguration&gt;
+
+
+</pre>
+<p>Bucket Policy –<br />
+[Code language=”json”]<br />
+{<br />
+    “Version”: “2012-10-17”,<br />
+    “Statement”: [<br />
+        {<br />
+            “Sid”: “PublicListGet”,<br />
+            “Effect”: “Allow”,<br />
+            “Principal”: “*”,<br />
+            “Action”: [<br />
+                “s3:List*”,<br />
+                “s3:Get*”<br />
+            ],<br />
+            “Resource”: [<br />
+                “arn:aws:s3:::bucket_name”,<br />
+                “arn:aws:s3:::bucket_name/*”<br />
+            ]<br />
+        }<br />
+    ]<br />
+}<br />
+[/code]</p>
+<p>Reference source :  <a href="https://github.com/awslabs/aws-js-s3-explorer" target="_blank" rel="noopener">https://github.com/awslabs/aws-js-s3-explorer</a></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/create-aws-s3-file-explorer-angularjs">How to create AWS S3 file explorer in angularjs</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>ng model option use for form submit in angular js</title>
+		<link>http://www.internetkatta.com/angular-js/ng-model-option-use-for-form-submit-in-angular-js</link>
+		<pubDate>Fri, 17 Jun 2016 10:00:10 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[AngularJs]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=836</guid>
+		<description><![CDATA[<p>ngModelOptions : afasfsfsa options to apply to the current model. Valid keys are: updateOn: string specifying which event should the input be bound to. You can set several events using an space delimited list. There is a special event called default that&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/ng-model-option-use-for-form-submit-in-angular-js">ng model option use for form submit in angular js</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<div>
+<p>ngModelOptions : afasfsfsa</p>
+<p>options to apply to the current model. Valid keys are:</p>
+<ul>
+<li><code>updateOn</code>: string specifying which event should the input be bound to. You can set several events using an space delimited list. There is a special event called <code>default</code> that matches the default events belonging of the control.</li>
+<li><code>debounce</code>: integer value which contains the debounce model update value in milliseconds. A value of 0 triggers an immediate update. If an object is supplied instead, you can specify a custom value for each event. For example:<code>ng-model-options="{ updateOn: 'default blur', debounce: { 'default': 500, 'blur': 0 } }"</code></li>
+<li><code>allowInvalid</code>: boolean value which indicates that the model can be set with values that did not validate correctly instead of the default behavior of setting the model to undefined.</li>
+<li><code>getterSetter</code>: boolean value which determines whether or not to treat functions bound to <code>ngModel</code> as getters/setters.</li>
+<li><code>timezone</code>: Defines the timezone to be used to read/write the <code>Date</code> instance in the model for<code><input type="date"></code>, <code><input type="time"></code>, … . It understands UTC/GMT and the continental US time zone abbreviations, but for general use, use a time zone offset, for example, <code>'+0430'</code> (4 hours, 30 minutes east of the Greenwich meridian) If not specified, the timezone of the browser will be used.</li>
+</ul>
+<pre xml:space="preserve"></pre>
+</div>
+<div> Any query you comment on this post will give you solution.</div>
+<div><a href="https://docs.angularjs.org/api/ng/directive/ngModelOptions" target="_blank" shape="rect">https://docs.angularjs.org/api/ng/directive/ngModelOptions</a></div>
+<div></div>
+<div></div>
+<div></div>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/ng-model-option-use-for-form-submit-in-angular-js">ng model option use for form submit in angular js</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>using ng-model-option on submit for api form post</title>
+		<link>http://www.internetkatta.com/angular-js/using-ng-model-option-on-submit-for-api-form-post</link>
+		<pubDate>Thu, 12 May 2016 10:53:07 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[AngularJs]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=828</guid>
+		<description><![CDATA[<p>< form action =" " ng-model-options="{ updateOn: 'submit' }"> < input type="text" ng-model="user.name" ng-hide="user.name"/> < label ng-show="user.name">{{user.name}} This is one example, some time we have to hide and show based on values is present on ng-model value. If you use&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/using-ng-model-option-on-submit-for-api-form-post">using ng-model-option on submit for api form post</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<pre><code>
+< form action =" " ng-model-options="{ updateOn: 'submit' }">
+     < input type="text" ng-model="user.name"  ng-hide="user.name"/>
+   < label ng-show="user.name">{{user.name}}</label>
+</form>
+</code>
+</pre>
+<p>This is one example, some time we have to hide and show based on values is present on ng-model value. If you use default ng update model then its directly update it and hide input once you type a value. Its cause problem when you need to update that value before submit or type more in that field. this is way to approach sync all $scope variable with ng-model-option update parameters. because updating all model take time when call for API for posting data may not get a data. below approach solve your problem.</p>
+<p><code><br />
+var phase;<br />
+var settime = setInterval(function(){<br />
+phase = $scope.$$phase;<br />
+if (phase == '$apply' || phase == '$digest') {<br />
+} else {<br />
+// code will come here.<br />
+clearInterval(settime);<br />
+}<br />
+}, 100);</code></p>
+<p><a href="https://docs.angularjs.org/api/ng/directive/ngModelOptions" target="_blank">More details are here</a></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/using-ng-model-option-on-submit-for-api-form-post">using ng-model-option on submit for api form post</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>AngularJS with Pretty URLs: Removing the # in Amazon S3</title>
+		<link>http://www.internetkatta.com/angular-js/angularjs-with-pretty-urls-removing-the-in-amazon-s3</link>
+		<pubDate>Thu, 21 Apr 2016 08:18:52 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[AngularJs]]></category>
+		<category><![CDATA[Programming]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=799</guid>
+		<description><![CDATA[<p>I tried this solution.Its very helpful. Read more</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/angularjs-with-pretty-urls-removing-the-in-amazon-s3">AngularJS with Pretty URLs: Removing the # in Amazon S3</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>I tried this solution.Its very helpful.<br />
+<a href="http://zanon.io/posts/angularjs-with-pretty-urls-removing-the-in-amazon-s3" target="_blank">Read more</a></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/angularjs-with-pretty-urls-removing-the-in-amazon-s3">AngularJS with Pretty URLs: Removing the # in Amazon S3</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

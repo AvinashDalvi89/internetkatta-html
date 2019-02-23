@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>codereview</title>
+	<atom:link href="http://www.internetkatta.com/tag/codereview/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Code review process and helper</title>
+		<link>http://www.internetkatta.com/programming/code-review-process-helper</link>
+		<pubDate>Sat, 20 Jan 2018 04:51:57 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[codereview]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[github]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=1073</guid>
+		<description><![CDATA[<p>Your team is only as good as your weakest reviewer. The light pass In this first pass of a code diff, we typically look for the following: – Obvious mistakes: typos, poor variable names, unclear function names, large function definitions.&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/code-review-process-helper">Code review process and helper</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p style="text-align: center;"><strong>Your team is only as good as your weakest reviewer.</strong></p>
+<p>The light pass</p>
+<p>In this first pass of a code diff, we typically look for the following:</p>
+<p>– Obvious mistakes: typos, poor variable names, unclear function names, large function definitions.<br />
+– At least one test. This assumes mandatory tests are part of the dev culture.<br />
+– Commented out code that should be deleted.<br />
+– Violations of our styleguide that linters don’t catch yet.</p>
+<p>Things to avoid :</p>
+<p>– If the pull request author proofread their diff (which they should be doing) before pinging for a review, then there’s a good chance that there are only a few violations of the above points. Many reviewers, at this point, will just go ahead and give the “looks good to me” (LGTM). Also at this phase, sloppy or lazy reviewers will do a “terms of service” review: scroll, scroll, scroll, accept. We can do better.<br />
+– I find that this trust happens a ton with less experienced developers. They believe that authors with more experience must know what they’re doing, so there’s no need to question the code</p>
+<p>Things to follow :</p>
+<p>– Trust no one. Question everything (kindly). Assume that the author has made mistakes that you need to catch. Save your users from those bugs.<br />
+– Giving a valuable code review requires that pull requests are small (<200 lines as a rough gauge)<br />
+– Small chunks of code are much easier to review than large ones.</p>
+<p>Reference Source : https://medium.com/@mrjoelkemp/giving-better-code-reviews-16109e0fdd36</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/code-review-process-helper">Code review process and helper</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

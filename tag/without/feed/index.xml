@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>without</title>
+	<atom:link href="http://www.internetkatta.com/tag/without/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Deploy code without git root repository</title>
+		<link>http://www.internetkatta.com/hosting/deploy-code-without-git-root-repository</link>
+		<pubDate>Tue, 13 May 2014 06:12:03 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Hosting]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[repository]]></category>
+		<category><![CDATA[root]]></category>
+		<category><![CDATA[without]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=515</guid>
+		<description><![CDATA[<p>Steps: Clone your git repository git clone https://github.com/demo/demo.git . where “.” dot represents current directory. done..</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/deploy-code-without-git-root-repository">Deploy code without git root repository</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Steps:</p>
+<p>Clone your git repository <strong>git clone https://github.com/demo/demo.git .</strong></p>
+<p>where “.” dot represents current directory.</p>
+<p>done..</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/deploy-code-without-git-root-repository">Deploy code without git root repository</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

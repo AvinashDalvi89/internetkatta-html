@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>emailer</title>
+	<atom:link href="http://www.internetkatta.com/tag/emailer/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Manange your ZF2 emailer from Mandrill dashboard.</title>
+		<link>http://www.internetkatta.com/programming/manange-your-zf2-emailer-from-mandrill-dashboard</link>
+		<pubDate>Thu, 20 Nov 2014 13:36:44 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Zend Framework]]></category>
+		<category><![CDATA[effortless]]></category>
+		<category><![CDATA[emailer]]></category>
+		<category><![CDATA[Mandrill]]></category>
+		<category><![CDATA[SlmMail]]></category>
+		<category><![CDATA[zf2]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=618</guid>
+		<description><![CDATA[<p>Now you can manage your ZF2 emailer from Mandrill dashboard without any developer effort 🙂 with the help SlmMail. Step to create mandrill template: 1) Navigate to https://mandrillapp.com/templates 2) Click on create new template and enter name for template. 3) Enter from&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/manange-your-zf2-emailer-from-mandrill-dashboard">Manange your ZF2 emailer from Mandrill dashboard.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Now you can manage your ZF2 emailer from <a title="Mandrill" href="https://mandrill.com/" target="_blank">Mandrill</a> dashboard without any developer effort <img src="https://s.w.org/images/core/emoji/11/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> with the help <a title="SlmMail" href="https://github.com/juriansluiman/SlmMail" target="_blank">SlmMail</a>.</p>
+<p>Step to create mandrill template:</p>
+<p>1) Navigate to <a title="templates" href="https://mandrillapp.com/templates" target="_blank">https://mandrillapp.com/templates</a></p>
+<p>2) Click on create new template and enter name for template.</p>
+<p>3) Enter from email, name and subject.</p>
+<p>4) Paste your html code.</p>
+<p>for eg.</p>
+<p><code>Hi *|name|*,</p>
+<p>test email.</p>
+<p>Thanks.</code></p>
+<p>5) *|name|* is variable passed  from api call.</p>
+<p>6) Click on Publish.</p>
+<p>ZF2 Configrution :</p>
+<p>1) Add “slm/mail”: “~1.5” in composer.json</p>
+<p>2) Use code</p>
+<p><code>$message = new \SlmMail\Mail\Message\Mandrill();<br />
+$mandrillService = $controller->getServiceLocator()->get('SlmMail\Service\MandrillService');<br />
+$message->setTemplate($templatename)->setGlobalVariables($sendArray);<br />
+$message->addTo($receiver);<br />
+if($subject != null)<br />
+$message->setSubject($subject);<br />
+$result = $mandrillService->send($message);</code></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/manange-your-zf2-emailer-from-mandrill-dashboard">Manange your ZF2 emailer from Mandrill dashboard.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

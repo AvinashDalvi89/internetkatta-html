@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>git</title>
+	<atom:link href="http://www.internetkatta.com/category/programming/git/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Announcing unlimited free private repos and unified Enterprise offering</title>
+		<link>https://blog.github.com/2019-01-07-new-year-new-github/#new_tab</link>
+		<pubDate>Tue, 08 Jan 2019 11:23:14 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[git]]></category>
+		<category><![CDATA[Home Feature]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=1149</guid>
+		<description><![CDATA[<p>The post <a rel="nofollow" href="https://blog.github.com/2019-01-07-new-year-new-github/#new_tab">Announcing unlimited free private repos and unified Enterprise offering</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="https://blog.github.com/2019-01-07-new-year-new-github/#new_tab">Announcing unlimited free private repos and unified Enterprise offering</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Introducing Bitbucket Cloud branching model support</title>
+		<link>https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab</link>
+		<pubDate>Wed, 17 Oct 2018 09:30:34 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[git]]></category>
+		<category><![CDATA[Home Feature]]></category>
+		<category><![CDATA[bitbucket]]></category>
+		<category><![CDATA[branching]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=1136</guid>
+		<description><![CDATA[<p>We want to make your Git or Mercurial development process easier in Bitbucket Cloud and so we’re excited to announce new support for your team’s branching workflow. We heard that branches being named inconsistently was a common problem which resulted&#8230;</p>
+<p>The post <a rel="nofollow" href="https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab">Introducing Bitbucket Cloud branching model support</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>We want to make your Git or Mercurial development process easier in Bitbucket Cloud and so we’re excited to announce new support for your team’s branching workflow.</p>
+<p>We heard that branches being named inconsistently was a common problem which resulted in a slower workflow and general confusion. Even when you’ve decided on a naming scheme, there is repeated effort naming branches, and errors can easily slip in.</p>
+<p>The post <a rel="nofollow" href="https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab">Introducing Bitbucket Cloud branching model support</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Some useful git command</title>
+		<link>http://www.internetkatta.com/programming/git/some-useful-git-command</link>
+		<pubDate>Fri, 17 Jun 2016 10:20:42 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[git]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=855</guid>
+		<description><![CDATA[<p>git init Initialization of git repository when you pushing new code or creating new repository git status show list changed/ added/ deleted files git remote -v Show remote repository mapping git add fillename/folder/ Add files or folder for stagged state&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/git/some-useful-git-command">Some useful git command</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><code>git init</code></p>
+<p>Initialization of git repository when you pushing new code or creating new repository</p>
+<p><code>git status</code></p>
+<p>show list changed/ added/ deleted files</p>
+<p><code>git remote -v</code></p>
+<p>Show remote repository mapping</p>
+<p><code>git add fillename/folder/</code></p>
+<p>Add files or folder for stagged state</p>
+<p><code>git add .</code></p>
+<p>Add all files and folders to stagged state</p>
+<p><code>git commit -m “Message” filename filename</code></p>
+<p>Commit changes and ready for push state to repository</p>
+<p><code>git commit -v</code></p>
+<p>Show stagged committed changes</p>
+<p><code>git fetch origin</code></p>
+<p>Fetch latest code from origin or repository</p>
+<p><code>git merge origin/master</code></p>
+<p>Merge changes which is fetch by fetch command</p>
+<p><code>git pull</code></p>
+<p>Do all task like fetching and merging changes to local code</p>
+<p><code>git checkout -b branchname origin/master -- no-track</code></p>
+<p>Creating branch from origin master</p>
+<p><code>git checkout -- filename</code></p>
+<p>Revert changes to previous one</p>
+<p><code>git push -u origin master</code></p>
+<p>Pushing changes to repository</p>
+<p><code>git commit -- amend<br />
+</code><br />
+Modify previous committed message</p>
+<p><code>git branch</code></p>
+<p>Show list of branch present in repository</p>
+<p><code>git branch -D branchname</code></p>
+<p>Delete branch from repository</p>
+<p><code>git rm file</code></p>
+<p>Remove file from git status which changed</p>
+<p><code>git log</code></p>
+<p>Show log of committed changes with commit number</p>
+<p><code>git config user.name ‘avinash’</code></p>
+<p>Set up git user name for pushing changes</p>
+<p><code>git config user.email abc@xyz.com</code></p>
+<p>Set up git user email for pushing changes</p>
+<p><code>git diff filename</code></p>
+<p>Show difference which is made because of changes</p>
+<p>Add .gitignore file – This files include list of files or folder which is not to be push while</p>
+<p>pushing changes to repository</p>
+<p>Note :- Commit should small and frequently</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/git/some-useful-git-command">Some useful git command</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Code commit GuideLine</title>
+		<link>http://www.internetkatta.com/programming/git/code-commit-guideline</link>
+		<pubDate>Fri, 17 Jun 2016 10:03:47 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[git]]></category>
+		<category><![CDATA[code commit]]></category>
+		<category><![CDATA[version control]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=847</guid>
+		<description><![CDATA[<p>Best Practices with Feature &#038; Bug Branches Try to avoid committing unfinished work to your repository’s default working branch. Create a branch any time you begin non-trivial work including features and complex bug-fixes. Don’t forget to delete feature branches once&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/git/code-commit-guideline">Code commit GuideLine</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<div>
+<h4>Best Practices with Feature & Bug Branches</h4>
+<ul>
+<li>Try to avoid committing unfinished work to your repository’s default working branch.</li>
+<li>Create a branch any time you begin non-trivial work including features and complex bug-fixes.</li>
+<li>Don’t forget to delete feature branches once they were merged into stable branch. This will keep your repository clean.</li>
+</ul>
+<p>Much like feature and bug-fix branches, <strong>environment branches</strong> make it easy for you to separate your in-progress code from your stable code. Using environment branches and deploying from them means you will always know <em>exactly</em> what code is running on your servers in each of your environments.</p>
+</div>
+<div></div>
+<div>
+<p>In addition to your development environment, you’re likely to have at least one other environment:<strong>production</strong>, where your website or application actually runs. Having a production environment branch and making that the only source of code that goes to production ensures that you have a snapshot of what is on your production server at any time, and a granular history of what’s been added to production and when.</p>
+<p>In most cases you will have a <strong>staging</strong> environment as well, where your team or clients can review changes together. Having a staging environment branch will help you keep that environment with the same benefits as a production branch.</p>
+<p>It’s a best practice to only execute a merge into an environment branch at the time you intend to deploy. If you complete a merge without deploying, your environment branch will be out of sync with your actual production environment.</p>
+</div>
+<div>
+<h4>Best Practices with Environment Branches</h4>
+<ul>
+<li>Use your repository’s default working branch as your “stable” branch.</li>
+<li>Create a branch for each environment, including staging and production.</li>
+<li>Never merge into an environment branch unless you are ready to deploy to that environment.</li>
+<li>Perform a diff between branches before merging—this can help prevent merging something that wasn’t intended, and can also help with writing release notes.</li>
+<li>Merges should only flow in one direction: first from feature to staging for testing; then from feature to stable once tested; then from stable to production to ship.</li>
+</ul>
+<div></div>
+<div>
+<p>Deployments should be treated as part of a development workflow, not as an afterthought. If you are developing a web site or an application, your workflow will usually include at least three environments: Development, Staging and Production. In that case the workflow might look like this:</p>
+<ul>
+<li>Developers work on bugs and features in separate branches. Really minor updates can be committed directly to the stable development branch.</li>
+<li>Once features are implemented, they are merged into the staging branch and deployed to the Staging environment for quality assurance and testing.</li>
+<li>After testing is complete, feature branches are merged into the development branch.</li>
+<li>On the release date, the development branch is merged into production and then deployed to the Production environment.</li>
+</ul>
+<div></div>
+<div>Testing on a local computer removes the need to commit, push and deploy completely. Every change can be verified locally first, then, once it’s more or less stable, it can be pushed to a Staging environment for proper quality assurance testing.</div>
+<div></div>
+</div>
+</div>
+<div></div>
+<div></div>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/git/code-commit-guideline">Code commit GuideLine</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Could not open a connection to your authentication agent</title>
+		<link>http://www.internetkatta.com/hosting/could-not-open-a-connection-to-your-authentication-agent</link>
+		<pubDate>Mon, 02 Jun 2014 12:31:54 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[git]]></category>
+		<category><![CDATA[Hosting]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=549</guid>
+		<description><![CDATA[<p>You might need to start ssh-agent before you run the ssh-add command: eval`ssh-agent -s` ssh-add</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/could-not-open-a-connection-to-your-authentication-agent">Could not open a connection to your authentication agent</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p style="margin: 0px 0px 1em; padding: 0px; border: 0px; font-size: 13.63636302947998px; vertical-align: baseline; background-color: #ffffff; clear: both; color: #000000; font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.27272605895996px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-position: initial initial; background-repeat: initial initial;">You might need to start<span class="Apple-converted-space"> </span><code style="margin: 0px; padding: 1px 5px; border: 0px; font-size: 13.63636302947998px; vertical-align: baseline; background-color: #eeeeee; font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif; white-space: pre-wrap; background-position: initial initial; background-repeat: initial initial;">ssh-agent</code><span class="Apple-converted-space"> </span>before you run the<span class="Apple-converted-space"> </span><code style="margin: 0px; padding: 1px 5px; border: 0px; font-size: 13.63636302947998px; vertical-align: baseline; background-color: #eeeeee; font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif; white-space: pre-wrap; background-position: initial initial; background-repeat: initial initial;">ssh-add</code><span class="Apple-converted-space"> </span>command:</p>
+<pre class="lang-bash prettyprint prettyprinted" style="margin: 0px 0px 10px; padding: 5px; border: 0px; font-size: 13.63636302947998px; vertical-align: baseline; background-color: #eeeeee; font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif; overflow: auto; width: auto; max-height: 600px; word-wrap: normal; color: #000000; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.27272605895996px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-position: initial initial; background-repeat: initial initial;"><code style="margin: 0px; padding: 0px; border: 0px; font-size: 13.63636302947998px; vertical-align: baseline; background-color: #eeeeee; font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif; white-space: inherit; background-position: initial initial; background-repeat: initial initial;"><span class="kwd" style="margin: 0px; padding: 0px; border: 0px; font-size: 13.63636302947998px; vertical-align: baseline; background-color: transparent; color: #00008b; background-position: initial initial; background-repeat: initial initial;">eval</span><span class="str" style="margin: 0px; padding: 0px; border: 0px; font-size: 13.63636302947998px; vertical-align: baseline; background-color: transparent; color: #800000; background-position: initial initial; background-repeat: initial initial;">`ssh-agent -s`</span><span class="pln" style="margin: 0px; padding: 0px; border: 0px; font-size: 13.63636302947998px; vertical-align: baseline; background-color: transparent; color: #000000; background-position: initial initial; background-repeat: initial initial;">
+ssh</span><span class="pun" style="margin: 0px; padding: 0px; border: 0px; font-size: 13.63636302947998px; vertical-align: baseline; background-color: transparent; color: #000000; background-position: initial initial; background-repeat: initial initial;">-</span><span class="pln" style="margin: 0px; padding: 0px; border: 0px; font-size: 13.63636302947998px; vertical-align: baseline; background-color: transparent; color: #000000; background-position: initial initial; background-repeat: initial initial;">add</span></code></pre>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/could-not-open-a-connection-to-your-authentication-agent">Could not open a connection to your authentication agent</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

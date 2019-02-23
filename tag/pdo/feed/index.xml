@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>pdo</title>
+	<atom:link href="http://www.internetkatta.com/tag/pdo/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>How to use Doctrine prepare query with different PDO fetch style in zf2</title>
+		<link>http://www.internetkatta.com/programming/how-to-use-doctrine-prepare-query-with-different-fetch-style-in-zf2</link>
+		<pubDate>Fri, 10 Jul 2015 13:07:50 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Zend Framework]]></category>
+		<category><![CDATA[Doctrine]]></category>
+		<category><![CDATA[fetch]]></category>
+		<category><![CDATA[pdo]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=740</guid>
+		<description><![CDATA[<p>OR How can we use table column value as array key in resultset. $queryBuilder = $this->getEntityManager()->prepare("SELECT customer_id FROM customer WHERE id = :id"); $queryBuilder->bindValue('id',99); $queryBuilder->execute(); /* Fetch all of the values of the first column */ $queryBuilder = $statement->fetchAll(\PDO::FETCH_COLUMN, 0);&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/how-to-use-doctrine-prepare-query-with-different-fetch-style-in-zf2">How to use Doctrine prepare query with different PDO fetch style in zf2</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>OR How can we use table column value as array key in resultset.<br />
+<code><br />
+$queryBuilder = $this->getEntityManager()->prepare("SELECT customer_id FROM customer WHERE id = :id");<br />
+$queryBuilder->bindValue('id',99);<br />
+$queryBuilder->execute();</p>
+<p>/* Fetch all of the values of the first column */<br />
+$queryBuilder = $statement->fetchAll(\PDO::FETCH_COLUMN, 0);</p>
+<p>/* Group values by the first column */<br />
+$queryBuilder = $statement->fetchAll(\PDO::FETCH_COLUMN|\PDO::FETCH_GROUP);</p>
+<p>/* Fetch all by class object */<br />
+$queryBuilder = $statement->fetchAll(\PDO::FETCH_CLASS, "customer");</p>
+<p></code></p>
+<p>Source: <a rel="nofollow" href="http://php.net/manual/en/pdostatement.fetchall.php" target="_blank">http://php.net/manual/en/pdostatement.fetchall.php</a></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/how-to-use-doctrine-prepare-query-with-different-fetch-style-in-zf2">How to use Doctrine prepare query with different PDO fetch style in zf2</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

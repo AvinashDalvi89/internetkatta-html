@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Quick</title>
+	<atom:link href="http://www.internetkatta.com/tag/quick/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Quick sql command and queries</title>
+		<link>http://www.internetkatta.com/programming/quick-sql-command-and-queries</link>
+		<pubDate>Fri, 10 Jul 2015 09:14:42 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[command]]></category>
+		<category><![CDATA[queries]]></category>
+		<category><![CDATA[query]]></category>
+		<category><![CDATA[Quick]]></category>
+		<category><![CDATA[sql]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=519</guid>
+		<description><![CDATA[<p>1) Create Database create database myworld; 2) Backup and Restore Database Backup: mysql -u myworld -p -h localhost myworld < myworld.sql Restore: mysql -u myworld -p -h localhost use database; source ./restorefile.sql 3) Drop Database DROP DATABASE myworld; 4) Create&#8230;
+</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/quick-sql-command-and-queries">Quick sql command and queries</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><strong>1) Create Database</strong></p>
+<p>create database myworld;</p>
+<p><strong>2) Backup and Restore Database</strong></p>
+<p>Backup:<br />
+mysql -u myworld -p -h localhost myworld < myworld.sql</p>
+<p>Restore:<br />
+mysql -u myworld -p -h localhost</p>
+<p>use database;</p>
+<p>source ./restorefile.sql</p>
+<p><strong>3) Drop Database</strong></p>
+<p>DROP DATABASE myworld;</p>
+<p><strong>4) Create copy of table</strong></p>
+<p>create table myworld_table1 like myworld_table;<br />
+insert myworld_table1 select * from myworld_table;</p>
+<p><strong>5) Get mysql user and super user list</strong></p>
+<p>select User,Super_priv from mysql.user;</p>
+<p><strong>6) Get global and session time_zone</strong></p>
+<p>SELECT @@global.time_zone, @@session.time_zone;</p>
+<p><strong>7) Truncate table</strong></p>
+<p>TRUNCATE TABLE myworld;</p>
+<p><strong>8) Truncate table with foreign key </strong></p>
+<p>SET FOREIGN_KEY_CHECKS = 0;<br />
+TRUNCATE TABLE myworld;<br />
+SET FOREIGN_KEY_CHECKS = 1;</p>
+<p><strong>9) Add or subtract interval from date</strong></p>
+<p>SELECT id,DATE_ADD(NOW(),INTERVAL 45 DAY) AS intervalbydate;<br />
+SELECT id,DATE_ADD(NOW(),INTERVAL 45 MINUTE) AS intervalbymin;<br />
+SELECT id,DATE_ADD(NOW(),INTERVAL 45 HOUR) AS intervalbyhour;<br />
+SELECT id,DATE_ADD(NOW(), INTERVAL ‘5:30’ HOUR_MINUTE) AS intervalbyhourandmin;</p>
+<p>SELECT id,DATE_SUB(NOW(),INTERVAL 45 DAY) AS intervalbydate;<br />
+SELECT id,DATE_SUB(NOW(),INTERVAL 45 MINUTE) AS intervalbymin;<br />
+SELECT id,DATE_SUB(NOW(),INTERVAL 45 HOUR) AS intervalbyhour;<br />
+SELECT id,DATE_ADD(NOW(), INTERVAL ‘5:30’ HOUR_MINUTE) AS intervalbyhourandmin;</p>
+<p><strong>10) Get current timestamp and date</strong></p>
+<p>SELECT NOW();<br />
+SELECT CURDATE();</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/quick-sql-command-and-queries">Quick sql command and queries</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

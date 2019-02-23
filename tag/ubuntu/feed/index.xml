@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ubuntu</title>
+	<atom:link href="http://www.internetkatta.com/tag/ubuntu/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Share PC internet connection over wifi in ubuntu</title>
+		<link>http://www.internetkatta.com/operating-system/share-pc-internet-connection-over-wifi-in-ubuntu</link>
+		<pubDate>Fri, 10 Apr 2015 05:37:51 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[Operating System]]></category>
+		<category><![CDATA[ubuntu]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=693</guid>
+		<description><![CDATA[<p>Trying to share PC internet connection using WiFi device or dongle in Ubuntu Os ? To get started, press Ctrl+Alt+T on keyboard to open the terminal. When it opens, run the commands below one by one to install ap-hotspot. Ap-hotspot&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/share-pc-internet-connection-over-wifi-in-ubuntu">Share PC internet connection over wifi in ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Trying to share PC internet connection using WiFi device or dongle in Ubuntu Os ?</p>
+<p><b>To get started</b>, press Ctrl+Alt+T on keyboard to open the terminal. When it opens, run the commands below one by one to install ap-hotspot.</p>
+<p><b>Ap-hotspot</b> is an open-source project that automatically creates an infrastructure (Access Point mode) wireless hotspot in Ubuntu that should work with Android and Windows Phone devices</p>
+<pre>sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update</pre>
+<pre>sudo apt-get install ap-hotspot
+sudo ap-hotspot configure</pre>
+<p><a href="http://internetkatta.com/wp-content/uploads/2015/04/adhoc_configure.png"><img class="alignnone size-medium wp-image-694" src="http://internetkatta.com/wp-content/uploads/2015/04/adhoc_configure-300x169.png" alt="adhoc_configure" width="300" height="169" srcset="http://www.internetkatta.com/wp-content/uploads/2015/04/adhoc_configure-300x169.png 300w, http://www.internetkatta.com/wp-content/uploads/2015/04/adhoc_configure-1024x576.png 1024w, http://www.internetkatta.com/wp-content/uploads/2015/04/adhoc_configure.png 1366w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<pre>sudo ap-hotspot start
+
+Use this configuration in your android phone or laptop for connection 
+<a href="http://internetkatta.com/wp-content/uploads/2015/04/ifconfig.png"><img class="alignnone size-medium wp-image-695" src="http://internetkatta.com/wp-content/uploads/2015/04/ifconfig-300x169.png" alt="ifconfig" width="300" height="169" srcset="http://www.internetkatta.com/wp-content/uploads/2015/04/ifconfig-300x169.png 300w, http://www.internetkatta.com/wp-content/uploads/2015/04/ifconfig-1024x576.png 1024w, http://www.internetkatta.com/wp-content/uploads/2015/04/ifconfig.png 1366w" sizes="(max-width: 300px) 100vw, 300px" /></a></pre>
+<p>To stop the wireless hotspot, execute this command in Ubuntu terminal:</p>
+<pre>sudo ap-hotspot stop</pre>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/share-pc-internet-connection-over-wifi-in-ubuntu">Share PC internet connection over wifi in ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>How to add virtual host in ubuntu</title>
+		<link>http://www.internetkatta.com/operating-system/how-to-add-virtual-host-in-ubuntu</link>
+		<pubDate>Tue, 30 Dec 2014 16:32:40 +0000</pubDate>
+		<dc:creator><![CDATA[Arvind Kumar]]></dc:creator>
+				<category><![CDATA[Operating System]]></category>
+		<category><![CDATA[host]]></category>
+		<category><![CDATA[server]]></category>
+		<category><![CDATA[ubuntu]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=631</guid>
+		<description><![CDATA[<p>1) Edit the file /etc/hosts and add host in file 127.0.0.1 foo 2) Go to /etc/apache2/sites-available/ and create a file with name foo (file name should be hostname ) and content of file will be like ServerName foo DocumentRoot /var/www/foo/foo&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/how-to-add-virtual-host-in-ubuntu">How to add virtual host in ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>1) Edit the file /etc/hosts and add host in file<br />
+127.0.0.1 foo</p>
+<p>2) Go to /etc/apache2/sites-available/ and create a file with name foo (file name should be hostname ) and content of file will be like</p>
+<p style="text-align: justify;"><VirtualHost *:80><br />
+ServerName foo<br />
+DocumentRoot /var/www/foo/foo</p>
+<p># Other directives here<br />
+<Directory /><br />
+Options FollowSymLinks<br />
+AllowOverride None<br />
+</Directory><br />
+<Directory /var/www/foo/foo><br />
+Options Indexes FollowSymLinks MultiViews<br />
+AllowOverride None<br />
+Order allow,deny<br />
+allow from all<br />
+</Directory><br />
+</VirtualHost></p>
+<p>3) Run below commands to activate host</p>
+<p><code> sudo a2ensite foo </code><br />
+<code> sudo /etc/init.d/apache2 reload </code></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/how-to-add-virtual-host-in-ubuntu">How to add virtual host in ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>How to install MongoDB on Ubuntu</title>
+		<link>http://www.internetkatta.com/operating-system/how-to-install-mongodb-on-ubuntu</link>
+		<pubDate>Sat, 15 Nov 2014 17:47:44 +0000</pubDate>
+		<dc:creator><![CDATA[Arvind Kumar]]></dc:creator>
+				<category><![CDATA[Operating System]]></category>
+		<category><![CDATA[install]]></category>
+		<category><![CDATA[mongodb]]></category>
+		<category><![CDATA[ubuntu]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=611</guid>
+		<description><![CDATA[<p>Please follow the steps for installation. 1.Import the public key used by the package management system sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10 2.Create a list file for MongoDB. echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' &#124; sudo tee /etc/apt/sources.list.d/mongodb.list 3.Reload local&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/how-to-install-mongodb-on-ubuntu">How to install MongoDB on Ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Please follow the steps for installation.</p>
+<p>1.<strong>Import the public key used by the package management system</strong></p>
+<pre>sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10</pre>
+<p>2.<strong>Create a list file for MongoDB.</strong></p>
+<pre><span class="nb">echo</span> <span class="s1">'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen'</span> | sudo tee /etc/apt/sources.list.d/mongodb.list</pre>
+<p>3.<strong>Reload local package database.</strong></p>
+<pre>sudo apt-get update</pre>
+<p>4.<strong>Install the MongoDB packages.</strong></p>
+<pre>sudo apt-get install -y mongodb-org</pre>
+<p>If all above command run successfully ManogoDB is installed successfully.</p>
+<p>a) <strong>Start MongoDB</strong></p>
+<pre>sudo service mongod start</pre>
+<p>b) <strong>Stop MongoDB</strong></p>
+<pre>sudo service mongodb stop</pre>
+<p>c) <strong> Restart MongoDB</strong></p>
+<pre>sudo service mongodb restart</pre>
+<p>d) <strong> To use mongodb run</strong></p>
+<pre>mongo</pre>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/how-to-install-mongodb-on-ubuntu">How to install MongoDB on Ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Install fonts in Ubuntu 12.04</title>
+		<link>http://www.internetkatta.com/operating-system/install-fonts-in-ubuntu-12-04</link>
+		<pubDate>Wed, 30 Apr 2014 07:18:16 +0000</pubDate>
+		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
+				<category><![CDATA[Operating System]]></category>
+		<category><![CDATA[12.04]]></category>
+		<category><![CDATA[fonts]]></category>
+		<category><![CDATA[ubuntu]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=476</guid>
+		<description><![CDATA[<p>Steps : 1) Go to Home folder 2)  press ctrl+H(to access hidden file and folder) 3) Copy your fonts into .fonts folder. 4) Done..</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/install-fonts-in-ubuntu-12-04">Install fonts in Ubuntu 12.04</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Steps :</p>
+<p>1) Go to Home folder</p>
+<p>2)  press ctrl+H(to access hidden file and folder)</p>
+<p>3) Copy your fonts into .fonts folder.</p>
+<p>4) Done..</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/install-fonts-in-ubuntu-12-04">Install fonts in Ubuntu 12.04</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

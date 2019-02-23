@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>google drive</title>
+	<atom:link href="http://www.internetkatta.com/tag/google-drive/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Google Drive file replacement API using python</title>
+		<link>http://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python</link>
+		<pubDate>Fri, 08 Dec 2017 16:04:42 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[google drive]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=999</guid>
+		<description><![CDATA[<p>Reference Source : Google Drive API</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python">Google Drive file replacement API using python</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<pre class="brush: python; title: ; notranslate">def get_file_id(self, file_name, folder_id):
+
+        page_token = None
+        while True:
+            response = self.drive_service.files().list(
+                q="'" + folder_id + "' in parents and name = '" + file_name + "' and mimeType = 'application/vnd.ms-excel'",
+                spaces='drive',
+                fields='nextPageToken, files(id, name)',
+                pageToken=page_token).execute()
+            for file in response.get('files', []):
+                # Process change
+                print 'Found file: %s (%s)' % (file.get('name'), file.get('id'))
+                return file.get('id')
+            page_token = response.get('nextPageToken', None)
+            if page_token is None:
+                break
+
+    def upload_file(self, file_name, file_path, folder_id):
+
+        file_id = self.get_file_id(file_name, folder_id)
+
+        #folder_id = "0B78zygFL7eYSOVE0SjBzVGh5OVE"
+        file_metadata = {'name': file_name, 'mimeType': 'application/vnd.ms-excel', 'parents': [folder_id]}
+        media = MediaFileUpload(file_path,
+                                mimetype='application/vnd.ms-excel')
+
+        if file_id:
+            self.delete_file(file_id)
+            # file = self.drive_service.files().update(body=file_metadata,
+            #                                          media_body=media,
+            #                                          fields='id', fileId=file_id).execute()
+
+        file = self.drive_service.files().create(body=file_metadata,
+                                                     media_body=media,
+                                                     fields='id').execute()
+
+        print 'File ID: %s' % file.get('id')
+
+    def delete_file(self, file_id):
+        """Permanently delete a file, skipping the trash.
+
+        Args:
+          service: Drive API service instance.
+          file_id: ID of the file to delete.
+        """
+        try:
+            self.drive_service.files().delete(fileId=file_id).execute()
+        except errors.HttpError, error:
+            print 'An error occurred: %s' % error
+</pre>
+<p>Reference Source : <a href="https://developers.google.com/drive/v2/reference/files" target="_blank" rel="noopener">Google Drive API</a></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python">Google Drive file replacement API using python</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

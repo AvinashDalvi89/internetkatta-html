@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>install</title>
+	<atom:link href="http://www.internetkatta.com/tag/install/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>How to install MongoDB on Ubuntu</title>
+		<link>http://www.internetkatta.com/operating-system/how-to-install-mongodb-on-ubuntu</link>
+		<pubDate>Sat, 15 Nov 2014 17:47:44 +0000</pubDate>
+		<dc:creator><![CDATA[Arvind Kumar]]></dc:creator>
+				<category><![CDATA[Operating System]]></category>
+		<category><![CDATA[install]]></category>
+		<category><![CDATA[mongodb]]></category>
+		<category><![CDATA[ubuntu]]></category>
+
+		<guid isPermaLink="false">http://internetkatta.com/?p=611</guid>
+		<description><![CDATA[<p>Please follow the steps for installation. 1.Import the public key used by the package management system sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10 2.Create a list file for MongoDB. echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' &#124; sudo tee /etc/apt/sources.list.d/mongodb.list 3.Reload local&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/how-to-install-mongodb-on-ubuntu">How to install MongoDB on Ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Please follow the steps for installation.</p>
+<p>1.<strong>Import the public key used by the package management system</strong></p>
+<pre>sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10</pre>
+<p>2.<strong>Create a list file for MongoDB.</strong></p>
+<pre><span class="nb">echo</span> <span class="s1">'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen'</span> | sudo tee /etc/apt/sources.list.d/mongodb.list</pre>
+<p>3.<strong>Reload local package database.</strong></p>
+<pre>sudo apt-get update</pre>
+<p>4.<strong>Install the MongoDB packages.</strong></p>
+<pre>sudo apt-get install -y mongodb-org</pre>
+<p>If all above command run successfully ManogoDB is installed successfully.</p>
+<p>a) <strong>Start MongoDB</strong></p>
+<pre>sudo service mongod start</pre>
+<p>b) <strong>Stop MongoDB</strong></p>
+<pre>sudo service mongodb stop</pre>
+<p>c) <strong> Restart MongoDB</strong></p>
+<pre>sudo service mongodb restart</pre>
+<p>d) <strong> To use mongodb run</strong></p>
+<pre>mongo</pre>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/how-to-install-mongodb-on-ubuntu">How to install MongoDB on Ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>code commit</title>
+	<atom:link href="http://www.internetkatta.com/tag/code-commit/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Code commit GuideLine</title>
+		<link>http://www.internetkatta.com/programming/git/code-commit-guideline</link>
+		<pubDate>Fri, 17 Jun 2016 10:03:47 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[git]]></category>
+		<category><![CDATA[code commit]]></category>
+		<category><![CDATA[version control]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=847</guid>
+		<description><![CDATA[<p>Best Practices with Feature &#038; Bug Branches Try to avoid committing unfinished work to your repository’s default working branch. Create a branch any time you begin non-trivial work including features and complex bug-fixes. Don’t forget to delete feature branches once&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/git/code-commit-guideline">Code commit GuideLine</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<div>
+<h4>Best Practices with Feature & Bug Branches</h4>
+<ul>
+<li>Try to avoid committing unfinished work to your repository’s default working branch.</li>
+<li>Create a branch any time you begin non-trivial work including features and complex bug-fixes.</li>
+<li>Don’t forget to delete feature branches once they were merged into stable branch. This will keep your repository clean.</li>
+</ul>
+<p>Much like feature and bug-fix branches, <strong>environment branches</strong> make it easy for you to separate your in-progress code from your stable code. Using environment branches and deploying from them means you will always know <em>exactly</em> what code is running on your servers in each of your environments.</p>
+</div>
+<div></div>
+<div>
+<p>In addition to your development environment, you’re likely to have at least one other environment:<strong>production</strong>, where your website or application actually runs. Having a production environment branch and making that the only source of code that goes to production ensures that you have a snapshot of what is on your production server at any time, and a granular history of what’s been added to production and when.</p>
+<p>In most cases you will have a <strong>staging</strong> environment as well, where your team or clients can review changes together. Having a staging environment branch will help you keep that environment with the same benefits as a production branch.</p>
+<p>It’s a best practice to only execute a merge into an environment branch at the time you intend to deploy. If you complete a merge without deploying, your environment branch will be out of sync with your actual production environment.</p>
+</div>
+<div>
+<h4>Best Practices with Environment Branches</h4>
+<ul>
+<li>Use your repository’s default working branch as your “stable” branch.</li>
+<li>Create a branch for each environment, including staging and production.</li>
+<li>Never merge into an environment branch unless you are ready to deploy to that environment.</li>
+<li>Perform a diff between branches before merging—this can help prevent merging something that wasn’t intended, and can also help with writing release notes.</li>
+<li>Merges should only flow in one direction: first from feature to staging for testing; then from feature to stable once tested; then from stable to production to ship.</li>
+</ul>
+<div></div>
+<div>
+<p>Deployments should be treated as part of a development workflow, not as an afterthought. If you are developing a web site or an application, your workflow will usually include at least three environments: Development, Staging and Production. In that case the workflow might look like this:</p>
+<ul>
+<li>Developers work on bugs and features in separate branches. Really minor updates can be committed directly to the stable development branch.</li>
+<li>Once features are implemented, they are merged into the staging branch and deployed to the Staging environment for quality assurance and testing.</li>
+<li>After testing is complete, feature branches are merged into the development branch.</li>
+<li>On the release date, the development branch is merged into production and then deployed to the Production environment.</li>
+</ul>
+<div></div>
+<div>Testing on a local computer removes the need to commit, push and deploy completely. Every change can be verified locally first, then, once it’s more or less stable, it can be pushed to a Staging environment for proper quality assurance testing.</div>
+<div></div>
+</div>
+</div>
+<div></div>
+<div></div>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/git/code-commit-guideline">Code commit GuideLine</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

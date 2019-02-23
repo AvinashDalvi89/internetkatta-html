@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Magento</title>
+	<atom:link href="http://www.internetkatta.com/category/programming/magento/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.internetkatta.com</link>
+	<description>Platform for Technology news, Knowledge, Information sharing</description>
+	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>custom magneto attribute as dropdown in fronted</title>
+		<link>http://www.internetkatta.com/programming/custom-magneto-attribute-as-dropdown-in-fronted</link>
+		<pubDate>Fri, 29 Apr 2016 06:02:26 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[Magento]]></category>
+		<category><![CDATA[Programming]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=806</guid>
+		<description><![CDATA[<p>< select class=" required-entry required-entry select" name="product[age]" id="age" > &#038;lt?php continue; } ?></p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/custom-magneto-attribute-as-dropdown-in-fronted">custom magneto attribute as dropdown in fronted</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[
+<pre> < select class=" required-entry required-entry select" name="product[age]" id="age" >
+</pre>
+<pre><?php $productId = $this->getProduct()->getId();
+$product = Mage::getModel('catalog/product')->setStoreId(Mage::app()->getStore()->getId())->load($productId);
+$selectedvalue  = $product->getAttributeText('age');
+
+$atributeCode = 'age';
+$attribute = Mage::getModel('eav/config')->getAttribute('catalog_product',$atributeCode);
+        $options = $attribute->getSource()->getAllOptions();
+
+        foreach($options as $key => $value){
+
+
+            if(in_array($selectedvalue,$value)){
+                ?>
+                <option>
+                <?php echo $value['label'] ; ?>
+                </option>&lt?php 
+                continue;
+            }
+?>
+                <option>
+                <?php echo $value['label']; ?>
+                </option><?php 
+
+        }?>
+ </pre>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/custom-magneto-attribute-as-dropdown-in-fronted">custom magneto attribute as dropdown in fronted</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Adding custom page links to the navigation bar in magento</title>
+		<link>http://www.internetkatta.com/programming/magento/adding-custom-page-links-to-the-navigation-bar-in-magento</link>
+		<pubDate>Fri, 04 Mar 2016 09:49:15 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[Magento]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=768</guid>
+		<description><![CDATA[<p>Step 1: Adding the Subcategory Go to Catalog -> Manage Categories in your Magento Admin. Select ‘Default Category’ on the left, then click the ‘Add Subcategory’ button: Fill in the fields: – Specify your link Name. – Set ‘Is Active’&#8230;</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/magento/adding-custom-page-links-to-the-navigation-bar-in-magento">Adding custom page links to the navigation bar in magento</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Step 1: Adding the Subcategory</p>
+<p>Go to Catalog -> Manage Categories in your Magento Admin.</p>
+<p>Select ‘Default Category’ on the left, then click the ‘Add Subcategory’ button: </p>
+<p>Fill in the fields:</p>
+<p>– Specify your link Name.</p>
+<p>– Set ‘Is Active’ to Yes.</p>
+<p>– In the URL Key field type the name of your page link in lowercase letters with hyphens instead of spaces (f.e.’About Us’ becomes about-us): </p>
+<p>– Scroll down to the bottom of the form and set Include to Navigation Menu to ‘yes’.</p>
+<p>– Click ‘Save Category’ button:</p>
+<p>Step 2: Creating a Redirect</p>
+<p>Navigate to Catalog -> URL Rewrite Management.</p>
+<p>In the search box of the Request Path column, type in the URL key for the subcategory, and click Search.</p>
+<p>When the subcategory is located, click ‘Edit’ to open the record: </p>
+<p>Open the notepad on your PC and save the following info: the ID path of your URL Rewrite and the Request path:</p>
+<p>Now we should delete the URL Rewrite for each language – click the Delete button at the top right.</p>
+<p>Step 3: Adding a new URL rewrite</p>
+<p>In Catalog -> URL Rewrite Management click Add URL Rewrite button at the top right.</p>
+<p>In the Create URL Rewrite field select ‘Custom’.</p>
+<p>Fill in the URL Rewrite Information form:</p>
+<p>– Add the ID path for the item which you have noted and saved in the notepad on step 2.2.</p>
+<p>– Add the Request Path for the item which you have noted and saved in the notepad on step 2.2.</p>
+<p>– To fill in the Target Path field, open any navigation menu on your site and copy-paste its url into the field, f.e: http://yourdomain.com/index.php/contacts/ (where ‘contacts’ is the Request Path for the Contact Us navigation page). Replace the Request Path with the new item Request Path which you have noted and saved in the notepad on step 2.2 of this tutorial.</p>
+<p>Set Redirect to ‘Permanent 301′.</p>
+<p>Click ‘save’ button at the top right:</p>
+<p>Step 4: Creating a page</p>
+<p>Go to CMS -> Pages.</p>
+<p>Click ‘Add New Page’.</p>
+<p>Specify the page title, the URL key for the page, select All Store Views:</p>
+<p>Switch to the Content Tab on the left. Put the html for your page content here.</p>
+<p>Switch to the Design Tab on the left. In the layout field choose the desired Page Layout:</p>
+<p>Click ‘Save Page’.</p>
+<p>Step 5: Clearing your Magento Cache</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/magento/adding-custom-page-links-to-the-navigation-bar-in-magento">Adding custom page links to the navigation bar in magento</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>The order confirmation email is not sent in magento 1.9.2</title>
+		<link>http://www.internetkatta.com/programming/the-order-confirmation-email-is-not-sent-in-magento-1-9-2</link>
+		<pubDate>Fri, 04 Mar 2016 09:40:05 +0000</pubDate>
+		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
+				<category><![CDATA[Magento]]></category>
+		<category><![CDATA[Programming]]></category>
+
+		<guid isPermaLink="false">http://www.internetkatta.com/?p=766</guid>
+		<description><![CDATA[<p>Just make a small change in order.php (public_html/app/code/core/Mage/Sales/Model/Order.php) First, create one directory structure on the path below, then copy and paste the file to the path below. (public_html/app/code/local/Mage/Sales/Model/Order.php) Now, change from $mailer->setQueue($emailQueue)->send(); to $mailer->send();</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/the-order-confirmation-email-is-not-sent-in-magento-1-9-2">The order confirmation email is not sent in magento 1.9.2</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Just make a small change in order.php<br />
+(public_html/app/code/core/Mage/Sales/Model/Order.php)<br />
+First, create one directory structure on the path below, then copy and paste the file to the path below.<br />
+(public_html/app/code/local/Mage/Sales/Model/Order.php)<br />
+Now, change from<br />
+$mailer->setQueue($emailQueue)->send();<br />
+to<br />
+$mailer->send();</p>
+<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/the-order-confirmation-email-is-not-sent-in-magento-1-9-2">The order confirmation email is not sent in magento 1.9.2</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
