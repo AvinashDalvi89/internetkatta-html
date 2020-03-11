@@ -9,42 +9,44 @@
 
 <channel>
 	<title>Programming</title>
-	<atom:link href="http://www.internetkatta.com/category/programming/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/category/programming/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
 	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Announcing unlimited free private repos and unified Enterprise offering</title>
-		<link>https://blog.github.com/2019-01-07-new-year-new-github/#new_tab</link>
-		<pubDate>Tue, 08 Jan 2019 11:23:14 +0000</pubDate>
+		<link>https://blog.github.com/2019-01-07-new-year-new-github/#new_tab?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=announcing-unlimited-free-private-repos-and-unified-enterprise-offering</link>
+				<pubDate>Tue, 08 Jan 2019 11:23:14 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[git]]></category>
 		<category><![CDATA[Home Feature]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1149</guid>
-		<description><![CDATA[<p>The post <a rel="nofollow" href="https://blog.github.com/2019-01-07-new-year-new-github/#new_tab">Announcing unlimited free private repos and unified Enterprise offering</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>The post <a rel="nofollow" href="https://blog.github.com/2019-01-07-new-year-new-github/#new_tab">Announcing unlimited free private repos and unified Enterprise offering</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="https://blog.github.com/2019-01-07-new-year-new-github/#new_tab">Announcing unlimited free private repos and unified Enterprise offering</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+								<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="https://blog.github.com/2019-01-07-new-year-new-github/#new_tab">Announcing unlimited free private repos and unified Enterprise offering</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Firebase integration with PHP</title>
-		<link>http://www.internetkatta.com/programming/firebase-integration-with-php</link>
-		<pubDate>Sun, 25 Nov 2018 16:03:18 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/firebase-integration-with-php?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=firebase-integration-with-php</link>
+				<pubDate>Sun, 25 Nov 2018 16:03:18 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Programming]]></category>
 		<category><![CDATA[firebase]]></category>
 		<category><![CDATA[php]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1140</guid>
-		<description><![CDATA[<p>Step to start : Create firebase account for web app    https://firebase.google.com/products/  as per this guideline create cloud storage and create your      Firebase account Then create service account for configuration json parameters     follow this installation guide  &#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/firebase-integration-with-php">Firebase integration with PHP</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Step to start : Create firebase account for web app    https://firebase.google.com/products/  as per this guideline create cloud storage and create your      Firebase account Then create service account for configuration json parameters     follow this installation guide  &#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/firebase-integration-with-php">Firebase integration with PHP</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div>
+								<content:encoded><![CDATA[<div>
 <div>Step to start :</div>
 <ol>
 <li>
@@ -81,13 +83,13 @@
 <div></div>
 <div></div>
 </div>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/firebase-integration-with-php">Firebase integration with PHP</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/firebase-integration-with-php">Firebase integration with PHP</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Introducing Bitbucket Cloud branching model support</title>
-		<link>https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab</link>
-		<pubDate>Wed, 17 Oct 2018 09:30:34 +0000</pubDate>
+		<link>https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=introducing-bitbucket-cloud-branching-model-support</link>
+				<pubDate>Wed, 17 Oct 2018 09:30:34 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[git]]></category>
 		<category><![CDATA[Home Feature]]></category>
@@ -95,18 +97,18 @@
 		<category><![CDATA[branching]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1136</guid>
-		<description><![CDATA[<p>We want to make your Git or Mercurial development process easier in Bitbucket Cloud and so we’re excited to announce new support for your team’s branching workflow. We heard that branches being named inconsistently was a common problem which resulted&#8230;</p>
-<p>The post <a rel="nofollow" href="https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab">Introducing Bitbucket Cloud branching model support</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>We want to make your Git or Mercurial development process easier in Bitbucket Cloud and so we’re excited to announce new support for your team’s branching workflow. We heard that branches being named inconsistently was a common problem which resulted&#8230;</p>
+<p>The post <a rel="nofollow" href="https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab">Introducing Bitbucket Cloud branching model support</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>We want to make your Git or Mercurial development process easier in Bitbucket Cloud and so we’re excited to announce new support for your team’s branching workflow.</p>
+								<content:encoded><![CDATA[<p>We want to make your Git or Mercurial development process easier in Bitbucket Cloud and so we’re excited to announce new support for your team’s branching workflow.</p>
 <p>We heard that branches being named inconsistently was a common problem which resulted in a slower workflow and general confusion. Even when you’ve decided on a naming scheme, there is repeated effort naming branches, and errors can easily slip in.</p>
-<p>The post <a rel="nofollow" href="https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab">Introducing Bitbucket Cloud branching model support</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab">Introducing Bitbucket Cloud branching model support</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Code review process and helper</title>
-		<link>http://www.internetkatta.com/programming/code-review-process-helper</link>
-		<pubDate>Sat, 20 Jan 2018 04:51:57 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/code-review-process-helper?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=code-review-process-helper</link>
+				<pubDate>Sat, 20 Jan 2018 04:51:57 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Programming]]></category>
 		<category><![CDATA[codereview]]></category>
@@ -114,10 +116,10 @@
 		<category><![CDATA[github]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1073</guid>
-		<description><![CDATA[<p>Your team is only as good as your weakest reviewer. The light pass In this first pass of a code diff, we typically look for the following: – Obvious mistakes: typos, poor variable names, unclear function names, large function definitions.&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/code-review-process-helper">Code review process and helper</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Your team is only as good as your weakest reviewer. The light pass In this first pass of a code diff, we typically look for the following: – Obvious mistakes: typos, poor variable names, unclear function names, large function definitions.&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/code-review-process-helper">Code review process and helper</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p style="text-align: center;"><strong>Your team is only as good as your weakest reviewer.</strong></p>
+								<content:encoded><![CDATA[<p style="text-align: center;"><strong>Your team is only as good as your weakest reviewer.</strong></p>
 <p>The light pass</p>
 <p>In this first pass of a code diff, we typically look for the following:</p>
 <p>– Obvious mistakes: typos, poor variable names, unclear function names, large function definitions.<br />
@@ -132,34 +134,34 @@
 – Giving a valuable code review requires that pull requests are small (<200 lines as a rough gauge)<br />
 – Small chunks of code are much easier to review than large ones.</p>
 <p>Reference Source : https://medium.com/@mrjoelkemp/giving-better-code-reviews-16109e0fdd36</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/code-review-process-helper">Code review process and helper</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/code-review-process-helper">Code review process and helper</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>The Three Laws of  Test Driven Developement</title>
-		<link>http://www.internetkatta.com/programming/three-laws-test-driven-developement</link>
-		<pubDate>Fri, 19 Jan 2018 11:41:32 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/three-laws-test-driven-developement?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=three-laws-test-driven-developement</link>
+				<pubDate>Fri, 19 Jan 2018 11:41:32 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Programming]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1064</guid>
-		<description><![CDATA[<p>Three Laws of TDD. You must write a failing test before you write any production code. You must not write more of a test than is sufficient to fail, or fail to compile. You must not write more production code&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/three-laws-test-driven-developement">The Three Laws of  Test Driven Developement</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Three Laws of TDD. You must write a failing test before you write any production code. You must not write more of a test than is sufficient to fail, or fail to compile. You must not write more production code&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/three-laws-test-driven-developement">The Three Laws of  Test Driven Developement</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p><a style="color: #303030;" href="http://programmer.97things.oreilly.com/wiki/index.php/The_Three_Laws_of_Test-Driven_Development" target="_blank" rel="noopener">Three Laws of TDD</a>.</p>
+								<content:encoded><![CDATA[<p><a style="color: #303030;" href="http://programmer.97things.oreilly.com/wiki/index.php/The_Three_Laws_of_Test-Driven_Development" target="_blank" rel="noopener">Three Laws of TDD</a>.</p>
 <ol>
 <li>You must write a failing test before you write any production code.</li>
 <li>You must not write more of a test than is sufficient to fail, or fail to compile.</li>
 <li>You must not write more production code than is sufficient to make the currently failing test pass.</li>
 </ol>
 <p><a style="color: #303030; font-weight: bold; text-decoration: underline;" href="http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html" target="_blank" rel="noopener">For more details </a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/three-laws-test-driven-developement">The Three Laws of  Test Driven Developement</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/three-laws-test-driven-developement">The Three Laws of  Test Driven Developement</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Search ACF data and display it in Algolia(WordPress plugin) result</title>
-		<link>http://www.internetkatta.com/programming/wordpress-programming/search-acf-data-display-algoliawordpress-plugin-result</link>
-		<pubDate>Mon, 15 Jan 2018 13:14:38 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/wordpress-programming/search-acf-data-display-algoliawordpress-plugin-result?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=search-acf-data-display-algoliawordpress-plugin-result</link>
+				<pubDate>Mon, 15 Jan 2018 13:14:38 +0000</pubDate>
 		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
 				<category><![CDATA[Programming]]></category>
 		<category><![CDATA[Wordpress]]></category>
@@ -171,10 +173,10 @@
 		<category><![CDATA[wordpress]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1057</guid>
-		<description><![CDATA[<p>Install Algolia plugin form here. Reference: ACF Algolia add_filter( 'algolia_post_shared_attributes', 'my_post_attributes', 10, 2 ); add_filter( 'algolia_searchable_post_shared_attributes', 'my_post_attributes', 10, 2 ); /** * @param array $attributes * @param WP_Post $post * * @return array */ function my_post_attributes( array $attributes, WP_Post $post&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/wordpress-programming/search-acf-data-display-algoliawordpress-plugin-result">Search ACF data and display it in Algolia(WordPress plugin) result</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Install Algolia plugin form here. Reference: ACF Algolia add_filter( 'algolia_post_shared_attributes', 'my_post_attributes', 10, 2 ); add_filter( 'algolia_searchable_post_shared_attributes', 'my_post_attributes', 10, 2 ); /** * @param array $attributes * @param WP_Post $post * * @return array */ function my_post_attributes( array $attributes, WP_Post $post&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/wordpress-programming/search-acf-data-display-algoliawordpress-plugin-result">Search ACF data and display it in Algolia(WordPress plugin) result</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Install Algolia plugin form <a href="http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site">here</a>.</p>
+								<content:encoded><![CDATA[<p>Install Algolia plugin form <a href="http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site">here</a>.</p>
 <p>Reference: <a href="https://community.algolia.com/wordpress/advanced-custom-fields.html">ACF Algolia </a><br />
 <code></p>
 <p>add_filter( 'algolia_post_shared_attributes', 'my_post_attributes', 10, 2 );<br />
@@ -233,13 +235,13 @@ function my_posts_index_settings( array $settings ) {</p>
       <span class="suggestion-post-acfContent">{{{ data._snippetResult['bio'].value }}}</span><br />
 <# } #><br />
 </code></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/wordpress-programming/search-acf-data-display-algoliawordpress-plugin-result">Search ACF data and display it in Algolia(WordPress plugin) result</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/wordpress-programming/search-acf-data-display-algoliawordpress-plugin-result">Search ACF data and display it in Algolia(WordPress plugin) result</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Add google like fast to your WordPress site</title>
-		<link>http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site</link>
-		<pubDate>Mon, 15 Jan 2018 12:40:34 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/add-google-like-fast-wordpress-site?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=add-google-like-fast-wordpress-site</link>
+				<pubDate>Mon, 15 Jan 2018 12:40:34 +0000</pubDate>
 		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
 				<category><![CDATA[Programming]]></category>
 		<category><![CDATA[Wordpress]]></category>
@@ -252,10 +254,10 @@ function my_posts_index_settings( array $settings ) {</p>
 		<category><![CDATA[wordpress]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1051</guid>
-		<description><![CDATA[<p>Download Or Install algolia plugin from Url Download Algolia Activate plugin Search by Algolia – Instant &#038; Relevant results Now Algolia will ask for API configuration, Create new from here. Free forever for search result upto 10K Records/100K Operations. 1)&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site">Add google like fast to your WordPress site</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Download Or Install algolia plugin from Url Download Algolia Activate plugin Search by Algolia – Instant &#038; Relevant results Now Algolia will ask for API configuration, Create new from here. Free forever for search result upto 10K Records/100K Operations. 1)&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/add-google-like-fast-wordpress-site">Add google like fast to your WordPress site</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Download Or Install algolia plugin from Url <a href="https://wordpress.org/plugins/search-by-algolia-instant-relevant-results/">Download Algolia</a></p>
+								<content:encoded><![CDATA[<p>Download Or Install algolia plugin from Url <a href="https://wordpress.org/plugins/search-by-algolia-instant-relevant-results/">Download Algolia</a></p>
 <p>Activate plugin <strong>Search by Algolia – Instant & Relevant results</strong> </p>
 <p>Now Algolia will ask for API configuration, Create new from <a href="https://www.algolia.com/users/sign_up">here</a>. Free forever for search result upto 10K Records/100K Operations.</p>
 <p>1) Copy Api keys for algolia to wordpress algolia setting and validate same from wordpess.</p>
@@ -264,22 +266,22 @@ function my_posts_index_settings( array $settings ) {</p>
 <p>4) Re-index selected Index and push setting for same.</p>
 <p>5) Now navigate <strong>Search Page</strong> re-index page record and push setting.</p>
 <p>6) Now select <strong>Use Algolia with Instantsearch.js</strong> from Search results for fast result experience on search page.</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/add-google-like-fast-wordpress-site">Add google like fast to your WordPress site</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/add-google-like-fast-wordpress-site">Add google like fast to your WordPress site</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Create directory and upload file with 755 permission via PHP</title>
-		<link>http://www.internetkatta.com/programming/create-directory-upload-file-755-permission-via-php</link>
-		<pubDate>Mon, 15 Jan 2018 12:08:04 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/create-directory-upload-file-755-permission-via-php?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=create-directory-upload-file-755-permission-via-php</link>
+				<pubDate>Mon, 15 Jan 2018 12:08:04 +0000</pubDate>
 		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
 				<category><![CDATA[Hosting]]></category>
 		<category><![CDATA[Programming]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=967</guid>
-		<description><![CDATA[<p>You just need to change the the owner or group of your upload directory. First of all you will need apache user. ps aux &#124; egrep '(apache&#124;httpd)' www-data, apache, nobody would be one the user. For Dedicated Server chown -R&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/create-directory-upload-file-755-permission-via-php">Create directory and upload file with 755 permission via PHP</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>You just need to change the the owner or group of your upload directory. First of all you will need apache user. ps aux &#124; egrep '(apache&#124;httpd)' www-data, apache, nobody would be one the user. For Dedicated Server chown -R&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/create-directory-upload-file-755-permission-via-php">Create directory and upload file with 755 permission via PHP</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>You just need to change the the owner or group of your upload directory.</p>
+								<content:encoded><![CDATA[<p>You just need to change the the owner or group of your upload directory.</p>
 <p>First of all you will need apache user.<br />
 <code><br />
 ps aux | egrep '(apache|httpd)'</code></p>
@@ -289,39 +291,39 @@ ps aux | egrep '(apache|httpd)'</code></p>
 <p>For VPS Server</p>
 <p><code>chown -R FTPSSHuser:apache uploadDirectory</code></p>
 <p>whereas FTPSSHuser is your FTP | SSH user.</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/create-directory-upload-file-755-permission-via-php">Create directory and upload file with 755 permission via PHP</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/create-directory-upload-file-755-permission-via-php">Create directory and upload file with 755 permission via PHP</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>How to run mautic cron command from UI</title>
-		<link>http://www.internetkatta.com/programming/how-to-run-mautic-cron-command-from-ui</link>
-		<pubDate>Sun, 24 Dec 2017 06:36:44 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/how-to-run-mautic-cron-command-from-ui?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-run-mautic-cron-command-from-ui</link>
+				<pubDate>Sun, 24 Dec 2017 06:36:44 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Programming]]></category>
 		<category><![CDATA[mautic]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1024</guid>
-		<description><![CDATA[<p>Script to run Mautic (https://mautic.org)/ commands from a URL. Read more</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/how-to-run-mautic-cron-command-from-ui">How to run mautic cron command from UI</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Script to run Mautic (https://mautic.org)/ commands from a URL. Read more</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/how-to-run-mautic-cron-command-from-ui">How to run mautic cron command from UI</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Script to run Mautic (<a href="https://mautic.org/" rel="nofollow">https://mautic.org/</a>) commands from a URL.</p>
+								<content:encoded><![CDATA[<p>Script to run Mautic (<a href="https://mautic.org/" rel="nofollow">https://mautic.org/</a>) commands from a URL.</p>
 <p><a href="https://gist.github.com/escopecz/9a1a0b10861941a457f4" target="_blank" rel="noopener">Read more</a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/how-to-run-mautic-cron-command-from-ui">How to run mautic cron command from UI</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/how-to-run-mautic-cron-command-from-ui">How to run mautic cron command from UI</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Google Drive file replacement API using python</title>
-		<link>http://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python</link>
-		<pubDate>Fri, 08 Dec 2017 16:04:42 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=google-drive-file-replacement-api-using-python</link>
+				<pubDate>Fri, 08 Dec 2017 16:04:42 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Python]]></category>
 		<category><![CDATA[google drive]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=999</guid>
-		<description><![CDATA[<p>Reference Source : Google Drive API</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python">Google Drive file replacement API using python</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Reference Source : Google Drive API</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python">Google Drive file replacement API using python</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<pre class="brush: python; title: ; notranslate">def get_file_id(self, file_name, folder_id):
+								<content:encoded><![CDATA[<pre class="brush: python; title: ; notranslate">def get_file_id(self, file_name, folder_id):
 
         page_token = None
         while True:
@@ -372,8 +374,8 @@ ps aux | egrep '(apache|httpd)'</code></p>
             print 'An error occurred: %s' % error
 </pre>
 <p>Reference Source : <a href="https://developers.google.com/drive/v2/reference/files" target="_blank" rel="noopener">Google Drive API</a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python">Google Drive file replacement API using python</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python">Google Drive file replacement API using python</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

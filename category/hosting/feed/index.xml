@@ -9,18 +9,20 @@
 
 <channel>
 	<title>Hosting</title>
-	<atom:link href="http://www.internetkatta.com/category/hosting/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/category/hosting/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 08 Jan 2019 11:38:53 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</title>
-		<link>http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront</link>
-		<pubDate>Thu, 13 Sep 2018 08:12:36 +0000</pubDate>
+		<link>https://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront</link>
+				<pubDate>Thu, 13 Sep 2018 08:12:36 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[AngularJs]]></category>
 		<category><![CDATA[aws]]></category>
@@ -31,10 +33,10 @@
 		<category><![CDATA[s3 bucket]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1107</guid>
-		<description><![CDATA[<p>Why this is required to do ? Because S3 website doesn’t know URL rewriting concept which other server knows. Whenever type any route path its should land first on index.html then further. Need to give command to S3 setting and&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront">Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Why this is required to do ? Because S3 website doesn’t know URL rewriting concept which other server knows. Whenever type any route path its should land first on index.html then further. Need to give command to S3 setting and&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront">Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Why this is required to do ?</p>
+								<content:encoded><![CDATA[<p>Why this is required to do ?</p>
 <p>Because S3 website doesn’t know URL rewriting concept which other server knows. Whenever type any route path its should land first on index.html then further. Need to give command to S3 setting and AWS Cloudfront error response code.</p>
 <ol>
 <li style="list-style-type: none">
@@ -49,21 +51,21 @@
 </ol>
 <p><a href="http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront/attachment/screenshot-2018-5-12-aws-cloudfront-management-console1-2" rel="attachment wp-att-1120"><img class="alignnone size-full wp-image-1120" src="http://www.internetkatta.com/wp-content/uploads/2018/07/Screenshot-2018-5-12-AWS-CloudFront-Management-Console1-1.png" alt="" width="913" height="341" /></a><br />
 <a href="http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront/attachment/screenshot-2018-5-12-aws-cloudfront-management-console" rel="attachment wp-att-1121"><img class="alignnone size-medium wp-image-1121" src="http://www.internetkatta.com/wp-content/uploads/2018/07/Screenshot-2018-5-12-AWS-CloudFront-Management-Console.png" alt="" width="300" height="64" /></a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront">Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront">Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>How to renew Godaddy SSL certificate on Tomcat server</title>
-		<link>http://www.internetkatta.com/hosting/how-to-renew-godaddy-ssl-certificate-on-tomcat-server</link>
-		<pubDate>Thu, 13 Sep 2018 05:47:47 +0000</pubDate>
+		<link>https://www.internetkatta.com/hosting/how-to-renew-godaddy-ssl-certificate-on-tomcat-server?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-renew-godaddy-ssl-certificate-on-tomcat-server</link>
+				<pubDate>Thu, 13 Sep 2018 05:47:47 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Hosting]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1117</guid>
-		<description><![CDATA[<p>The 59a41eaec32d2046.crt file contains only the SSL certificate issued by Go Daddy, presumably for an internet facing web server. The “gd_bundle-g2-g1.crt” file is a concatenation of the Go Daddy intermediate and root certificates. The “gdig2.crt.pem” file contains a redundant copy&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/how-to-renew-godaddy-ssl-certificate-on-tomcat-server">How to renew Godaddy SSL certificate on Tomcat server</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>The 59a41eaec32d2046.crt file contains only the SSL certificate issued by Go Daddy, presumably for an internet facing web server. The “gd_bundle-g2-g1.crt” file is a concatenation of the Go Daddy intermediate and root certificates. The “gdig2.crt.pem” file contains a redundant copy&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/how-to-renew-godaddy-ssl-certificate-on-tomcat-server">How to renew Godaddy SSL certificate on Tomcat server</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<ul>
+								<content:encoded><![CDATA[<ul>
 <li>The 59a41eaec32d2046.crt file contains only the SSL certificate issued by Go Daddy, presumably for an internet facing web server.</li>
 <li>The “gd_bundle-g2-g1.crt” file is a concatenation of the Go Daddy intermediate and root certificates.</li>
 <li>The “gdig2.crt.pem” file contains a redundant copy of the Go Daddy root certificate.</li>
@@ -73,22 +75,22 @@
 </ul>
 <p>You just need to replace tomcat certificate if your renew from existing vendor. certificate name hexcode.crt Other no need to change. Its works for me.</p>
 <p>keytool -import -alias tomcat -keystore tomcat.keystore -trustcacerts -file filepath</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/how-to-renew-godaddy-ssl-certificate-on-tomcat-server">How to renew Godaddy SSL certificate on Tomcat server</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/how-to-renew-godaddy-ssl-certificate-on-tomcat-server">How to renew Godaddy SSL certificate on Tomcat server</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Analysis of AWS mumbai region from different sources</title>
-		<link>http://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources</link>
-		<pubDate>Thu, 19 Apr 2018 04:07:36 +0000</pubDate>
+		<link>https://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=analysis-of-aws-mumbai-region-from-different-sources</link>
+				<pubDate>Thu, 19 Apr 2018 04:07:36 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[aws]]></category>
 		<category><![CDATA[awsmumbai]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1098</guid>
-		<description><![CDATA[<p>This blog will explain benefit of Mumbai region : https://blog.cloudthat.com/why-do-we-opt-for-aws-mumbai-region-as-an-indian-cloud-customer/ Here is list of service which AWS provide in Mumbai region https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-mumbai-region/ Migration help from one region to another region : https://d0.awsstatic.com/whitepapers/aws-migrate-resources-to-new-region.pdf Costing analysis by region : https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources">Analysis of AWS mumbai region from different sources</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>This blog will explain benefit of Mumbai region : https://blog.cloudthat.com/why-do-we-opt-for-aws-mumbai-region-as-an-indian-cloud-customer/ Here is list of service which AWS provide in Mumbai region https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-mumbai-region/ Migration help from one region to another region : https://d0.awsstatic.com/whitepapers/aws-migrate-resources-to-new-region.pdf Costing analysis by region : https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources">Analysis of AWS mumbai region from different sources</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div><b>This blog will explain benefit of Mumbai region</b> :</div>
+								<content:encoded><![CDATA[<div><b>This blog will explain benefit of Mumbai region</b> :</div>
 <div></div>
 <p><a href="https://blog.cloudthat.com/why-do-we-opt-for-aws-mumbai-region-as-an-indian-cloud-customer/" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?hl=en&q=https://blog.cloudthat.com/why-do-we-opt-for-aws-mumbai-region-as-an-indian-cloud-customer/&source=gmail&ust=1524196940551000&usg=AFQjCNFPqwoVNlOlSb6cO3e6iAE0Ho9jog">https://blog.cloudthat.com/<wbr />why-do-we-opt-for-aws-mumbai-<wbr />region-as-an-indian-cloud-<wbr />customer/</a></p>
 <div></div>
@@ -104,13 +106,13 @@
 <div></div>
 <div><a href="https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?hl=en&q=https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/&source=gmail&ust=1524196940552000&usg=AFQjCNEUlyRa_OuYSVd35iNztCCLocG3Gw">https://www.concurrencylabs./<wbr />com/blog/choose-your-aws-<wbr />region-wisely/</a></div>
 <div></div>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources">Analysis of AWS mumbai region from different sources</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources">Analysis of AWS mumbai region from different sources</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Amazon Lex Bot with messaging services</title>
-		<link>http://www.internetkatta.com/hosting/aws/amazon-lex-bot-messaging-services</link>
-		<pubDate>Wed, 04 Apr 2018 04:25:44 +0000</pubDate>
+		<link>https://www.internetkatta.com/hosting/aws/amazon-lex-bot-messaging-services?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=amazon-lex-bot-messaging-services</link>
+				<pubDate>Wed, 04 Apr 2018 04:25:44 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[aws]]></category>
 		<category><![CDATA[Home Feature]]></category>
@@ -118,10 +120,10 @@
 		<category><![CDATA[chatbot]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1094</guid>
-		<description><![CDATA[<p>Is your Amazon Lex chatbot ready to talk to the world? When it is, chances are that you’ll want it to be able to interact with as many users as possible. Amazon Lex offers built-in integration with Facebook, Slack and&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/amazon-lex-bot-messaging-services">Amazon Lex Bot with messaging services</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Is your Amazon Lex chatbot ready to talk to the world? When it is, chances are that you’ll want it to be able to interact with as many users as possible. Amazon Lex offers built-in integration with Facebook, Slack and&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/aws/amazon-lex-bot-messaging-services">Amazon Lex Bot with messaging services</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Is your Amazon Lex chatbot ready to talk to the world? When it is, chances are that you’ll want it to be able to interact with as many users as possible. Amazon Lex offers built-in integration with Facebook, Slack and Twilio. But what if you want to connect to a messaging service that isn’t supported? Well, there’s an API for that–the Amazon Lex API. In this post, I show how to integrate an Amazon Lex bot with an external messaging service by using Twilio Programmable SMS as the example service.</p>
+								<content:encoded><![CDATA[<p>Is your Amazon Lex chatbot ready to talk to the world? When it is, chances are that you’ll want it to be able to interact with as many users as possible. Amazon Lex offers built-in integration with Facebook, Slack and Twilio. But what if you want to connect to a messaging service that isn’t supported? Well, there’s an API for that–the Amazon Lex API. In this post, I show how to integrate an Amazon Lex bot with an external messaging service by using Twilio Programmable SMS as the example service.</p>
 <p>You can integrate any messaging service that provides the right APIs with Amazon Lex using the design pattern described in this post. The solution includes a serverless middle tier or a preprocessing layer “in front of” Amazon Lex. This is useful if you want to incorporate Amazon Lex as another building block into your systems. For example, if you’re in an enterprise, you could use this solution to implement custom message routing to specialized bots developed by different business units.</p>
 <p>For simpler uses cases, the <a href="http://docs.aws.amazon.com/lex/latest/dg/twilio-bot-association.html">built-in integration for Twilio</a> in the Amazon Lex console might be a better option.</p>
 <h2>Architecture and message flow</h2>
@@ -269,22 +271,22 @@ This shows the response from the chatbot both before and after it has been trans
 <li>If you are going to use this solution in production, we highly recommend that you uncomment the block of code in js that checks for the Twilio signature and validates that the request is, in fact, coming in from Twilio (index.js: line 30 thru 45).<strong> </strong></li>
 </ol>
 <p>Reference source : <a href="https://aws.amazon.com/blogs/machine-learning/integrate-your-amazon-lex-bot-with-any-messaging-service/" target="_blank" rel="noopener">https://aws.amazon.com/blogs/machine-learning/integrate-your-amazon-lex-bot-with-any-messaging-service/</a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/amazon-lex-bot-messaging-services">Amazon Lex Bot with messaging services</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/aws/amazon-lex-bot-messaging-services">Amazon Lex Bot with messaging services</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>How to set up VPC in aws</title>
-		<link>http://www.internetkatta.com/hosting/aws/set-vpc-aws</link>
-		<pubDate>Sun, 21 Jan 2018 04:22:19 +0000</pubDate>
+		<link>https://www.internetkatta.com/hosting/aws/set-vpc-aws?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=set-vpc-aws</link>
+				<pubDate>Sun, 21 Jan 2018 04:22:19 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[aws]]></category>
 		<category><![CDATA[awsvpc]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1070</guid>
-		<description><![CDATA[<p>What is VPC ? A virtual private cloud (VPC) is a virtual network dedicated to your AWS account. It is logically isolated from other virtual networks in the AWS cloud. This virtual network closely resembles a traditional network that you’d operate in your own data center.&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/set-vpc-aws">How to set up VPC in aws</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>What is VPC ? A virtual private cloud (VPC) is a virtual network dedicated to your AWS account. It is logically isolated from other virtual networks in the AWS cloud. This virtual network closely resembles a traditional network that you’d operate in your own data center.&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/aws/set-vpc-aws">How to set up VPC in aws</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div>
+								<content:encoded><![CDATA[<div>
 <div><b>What is VPC ?</b></div>
 <ul>
 <li>A <b>virtual private cloud</b> (<b>VPC</b>) is a virtual network dedicated to your <b>AWS</b> account.</li>
@@ -324,22 +326,22 @@ This shows the response from the chatbot both before and after it has been trans
 <div><a href="http://www.mylinuxguru.com/" target="_blank" rel="noopener">More help for AWS</a></div>
 </div>
 <div><a href="https://www.youtube.com/watch?v=CP7yd7nOb5Q" target="_blank" rel="noopener">https://www.youtube.com/watch?v=CP7yd7nOb5Q</a></div>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/set-vpc-aws">How to set up VPC in aws</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/aws/set-vpc-aws">How to set up VPC in aws</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Create directory and upload file with 755 permission via PHP</title>
-		<link>http://www.internetkatta.com/programming/create-directory-upload-file-755-permission-via-php</link>
-		<pubDate>Mon, 15 Jan 2018 12:08:04 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/create-directory-upload-file-755-permission-via-php?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=create-directory-upload-file-755-permission-via-php</link>
+				<pubDate>Mon, 15 Jan 2018 12:08:04 +0000</pubDate>
 		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
 				<category><![CDATA[Hosting]]></category>
 		<category><![CDATA[Programming]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=967</guid>
-		<description><![CDATA[<p>You just need to change the the owner or group of your upload directory. First of all you will need apache user. ps aux &#124; egrep '(apache&#124;httpd)' www-data, apache, nobody would be one the user. For Dedicated Server chown -R&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/create-directory-upload-file-755-permission-via-php">Create directory and upload file with 755 permission via PHP</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>You just need to change the the owner or group of your upload directory. First of all you will need apache user. ps aux &#124; egrep '(apache&#124;httpd)' www-data, apache, nobody would be one the user. For Dedicated Server chown -R&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/create-directory-upload-file-755-permission-via-php">Create directory and upload file with 755 permission via PHP</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>You just need to change the the owner or group of your upload directory.</p>
+								<content:encoded><![CDATA[<p>You just need to change the the owner or group of your upload directory.</p>
 <p>First of all you will need apache user.<br />
 <code><br />
 ps aux | egrep '(apache|httpd)'</code></p>
@@ -349,44 +351,44 @@ ps aux | egrep '(apache|httpd)'</code></p>
 <p>For VPS Server</p>
 <p><code>chown -R FTPSSHuser:apache uploadDirectory</code></p>
 <p>whereas FTPSSHuser is your FTP | SSH user.</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/create-directory-upload-file-755-permission-via-php">Create directory and upload file with 755 permission via PHP</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/create-directory-upload-file-755-permission-via-php">Create directory and upload file with 755 permission via PHP</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>AWS lambda release new UI feature with run time editor</title>
-		<link>http://www.internetkatta.com/hosting/aws/aws-lambda-release-new-ui-feature-with-run-time-editor</link>
-		<pubDate>Sun, 03 Dec 2017 05:18:50 +0000</pubDate>
+		<link>https://www.internetkatta.com/hosting/aws/aws-lambda-release-new-ui-feature-with-run-time-editor?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=aws-lambda-release-new-ui-feature-with-run-time-editor</link>
+				<pubDate>Sun, 03 Dec 2017 05:18:50 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[aws]]></category>
 		<category><![CDATA[lambda]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=994</guid>
-		<description><![CDATA[<p>AWS lambda release new feature : Online file editor UI changes to add trigger like SNS, APIgateway Added Configuration parameters like database environment variable.</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/aws-lambda-release-new-ui-feature-with-run-time-editor">AWS lambda release new UI feature with run time editor</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>AWS lambda release new feature : Online file editor UI changes to add trigger like SNS, APIgateway Added Configuration parameters like database environment variable.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/aws/aws-lambda-release-new-ui-feature-with-run-time-editor">AWS lambda release new UI feature with run time editor</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>AWS lambda release new feature :</p>
+								<content:encoded><![CDATA[<p>AWS lambda release new feature :</p>
 <ul>
 <li>Online file editor</li>
 <li>UI changes to add trigger like SNS, APIgateway</li>
 <li>Added Configuration parameters like database environment variable.</li>
 </ul>
 <p><iframe src="https://www.youtube.com/embed/x9fdbEFQpnk" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/aws-lambda-release-new-ui-feature-with-run-time-editor">AWS lambda release new UI feature with run time editor</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/aws/aws-lambda-release-new-ui-feature-with-run-time-editor">AWS lambda release new UI feature with run time editor</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>How to restore crash or down aws ec2 data backup</title>
-		<link>http://www.internetkatta.com/hosting/how-to-restore-crash-or-down-aws-ec2-data-backup</link>
-		<pubDate>Fri, 06 Jan 2017 13:00:02 +0000</pubDate>
+		<link>https://www.internetkatta.com/hosting/how-to-restore-crash-or-down-aws-ec2-data-backup?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-restore-crash-or-down-aws-ec2-data-backup</link>
+				<pubDate>Fri, 06 Jan 2017 13:00:02 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[aws]]></category>
 		<category><![CDATA[Hosting]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=915</guid>
-		<description><![CDATA[<p>Here are the steps for restoring data from aws ec2: first stop ec2 instance detach volume attached to that ec2 instance launch new ec2 or used any existing ec2 running instance attached same volume to new ec2 login to new&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/how-to-restore-crash-or-down-aws-ec2-data-backup">How to restore crash or down aws ec2 data backup</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Here are the steps for restoring data from aws ec2: first stop ec2 instance detach volume attached to that ec2 instance launch new ec2 or used any existing ec2 running instance attached same volume to new ec2 login to new&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/how-to-restore-crash-or-down-aws-ec2-data-backup">How to restore crash or down aws ec2 data backup</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Here are the steps for restoring data from aws ec2:</p>
+								<content:encoded><![CDATA[<p>Here are the steps for restoring data from aws ec2:</p>
 <ol>
 <li>first stop ec2 instance</li>
 <li>detach volume attached to that ec2 instance</li>
@@ -400,23 +402,23 @@ ps aux | egrep '(apache|httpd)'</code></p>
 <pre>sudo fdisk -l
 </pre>
 <pre>mount /dev/sdb1 /media/newhd</pre>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/how-to-restore-crash-or-down-aws-ec2-data-backup">How to restore crash or down aws ec2 data backup</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/how-to-restore-crash-or-down-aws-ec2-data-backup">How to restore crash or down aws ec2 data backup</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Restore innodb mysql from one ec2 to another ec2</title>
-		<link>http://www.internetkatta.com/hosting/restore-innodb-mysql-from-one-ec2-to-another-ec2</link>
-		<pubDate>Thu, 05 Jan 2017 02:08:36 +0000</pubDate>
+		<link>https://www.internetkatta.com/hosting/restore-innodb-mysql-from-one-ec2-to-another-ec2?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=restore-innodb-mysql-from-one-ec2-to-another-ec2</link>
+				<pubDate>Thu, 05 Jan 2017 02:08:36 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Hosting]]></category>
 		<category><![CDATA[innodb]]></category>
 		<category><![CDATA[mysql]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=913</guid>
-		<description><![CDATA[<p>Here are the steps for restoring an InnoDB MySQL Database on Ubuntu 12.04: Shut down the mysql service (sudo service mysql stop) Copy the database folder that contains the .frm files to /var/lib/mysql/[DBNAME].  As far as I know, this folder&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/restore-innodb-mysql-from-one-ec2-to-another-ec2">Restore innodb mysql from one ec2 to another ec2</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Here are the steps for restoring an InnoDB MySQL Database on Ubuntu 12.04: Shut down the mysql service (sudo service mysql stop) Copy the database folder that contains the .frm files to /var/lib/mysql/[DBNAME].  As far as I know, this folder&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/restore-innodb-mysql-from-one-ec2-to-another-ec2">Restore innodb mysql from one ec2 to another ec2</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Here are the steps for restoring an InnoDB MySQL Database on Ubuntu 12.04:</p>
+								<content:encoded><![CDATA[<p>Here are the steps for restoring an InnoDB MySQL Database on Ubuntu 12.04:</p>
 <ol>
 <li>Shut down the mysql service (sudo service mysql stop)</li>
 <li>Copy the database folder that contains the .frm files to /var/lib/mysql/[DBNAME].  As far as I know, this folder must be the same name as the old database.</li>
@@ -425,13 +427,13 @@ ps aux | egrep '(apache|httpd)'</code></p>
 Note : This is not recommended if your server is a production server.</li>
 <li>Start the mysql service (sudo service mysql start)</li>
 </ol>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/restore-innodb-mysql-from-one-ec2-to-another-ec2">Restore innodb mysql from one ec2 to another ec2</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/restore-innodb-mysql-from-one-ec2-to-another-ec2">Restore innodb mysql from one ec2 to another ec2</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Host wordpress site on aws s3 bucket</title>
-		<link>http://www.internetkatta.com/programming/host-wordpress-site-on-aws-s3-bucket</link>
-		<pubDate>Fri, 17 Jun 2016 10:36:19 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/host-wordpress-site-on-aws-s3-bucket?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=host-wordpress-site-on-aws-s3-bucket</link>
+				<pubDate>Fri, 17 Jun 2016 10:36:19 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[aws]]></category>
 		<category><![CDATA[Hosting]]></category>
@@ -443,10 +445,10 @@ Note : This is not recommended if your server is a production server.</li>
 		<category><![CDATA[wordpress]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=858</guid>
-		<description><![CDATA[<p>Follow these step to host wordpress site on aws S3 : create one subdomain or test domain for only publishing or creating post/pages from wp-admin host all wordpress setup on that domain create s3 bucket where we are going put&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/host-wordpress-site-on-aws-s3-bucket">Host wordpress site on aws s3 bucket</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Follow these step to host wordpress site on aws S3 : create one subdomain or test domain for only publishing or creating post/pages from wp-admin host all wordpress setup on that domain create s3 bucket where we are going put&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/host-wordpress-site-on-aws-s3-bucket">Host wordpress site on aws s3 bucket</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div>Follow these step to host wordpress site on aws S3 :</div>
+								<content:encoded><![CDATA[<div>Follow these step to host wordpress site on aws S3 :</div>
 <ol>
 <li>create one subdomain or test domain for only publishing or creating post/pages from wp-admin</li>
 <li>host all wordpress setup on that domain</li>
@@ -458,8 +460,8 @@ Note : This is not recommended if your server is a production server.</li>
 </ol>
 <div></div>
 <div>Any query feel free to comment</div>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/host-wordpress-site-on-aws-s3-bucket">Host wordpress site on aws s3 bucket</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/host-wordpress-site-on-aws-s3-bucket">Host wordpress site on aws s3 bucket</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

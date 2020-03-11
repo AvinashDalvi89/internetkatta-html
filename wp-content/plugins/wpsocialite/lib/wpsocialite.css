@@ -21,7 +21,7 @@
 
 .wpsocialite.large { display: block; list-style: none; padding: 0; margin: 20px; overflow: visible; }
 .wpsocialite.large > li { display: block; margin: 0; padding: 10px; float: left; }
-.wpsocialite.large .socialite { display: block; position: relative; background: url('http://www.internetkatta.com/wp-content/plugins/wpsocialite/lib/social-sprite.png') 0 0 no-repeat; }
+.wpsocialite.large .socialite { display: block; position: relative; background: url('https://www.internetkatta.com/wp-content/plugins/wpsocialite/lib/social-sprite.png') 0 0 no-repeat; }
 .wpsocialite.large .socialite-loaded { background: none !important; }
 .wpsocialite.large .twitter-share { width: 55px; height: 65px; background-position: 0 0; }
 .wpsocialite.large .googleplus-one { width: 50px; height: 65px; background-position: -75px 0; }
@@ -41,7 +41,7 @@
 
 .wpsocialite.small { display: block; list-style: none; padding: 10px; margin: 10px; overflow: visible; }
 .wpsocialite.small > li { margin: 0; display:inline; float:left; width:20%; }
-.wpsocialite.small .socialite { display: block; position: relative; width: 150px; height: 30px; background: url('http://www.internetkatta.com/wp-content/plugins/wpsocialite/lib/custom-default.png') 0 0 no-repeat; }
+.wpsocialite.small .socialite { display: block; position: relative; width: 150px; height: 30px; background: url('https://www.internetkatta.com/wp-content/plugins/wpsocialite/lib/custom-default.png') 0 0 no-repeat; }
 .wpsocialite.small .socialite-loaded { background: none; }
 
 .wpsocialite.small .twitter-share { background-position: 0 0; }

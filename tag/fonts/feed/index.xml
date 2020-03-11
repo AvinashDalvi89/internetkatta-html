@@ -9,18 +9,20 @@
 
 <channel>
 	<title>fonts</title>
-	<atom:link href="http://www.internetkatta.com/tag/fonts/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/tag/fonts/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 13 May 2014 18:33:30 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Install fonts in Ubuntu 12.04</title>
-		<link>http://www.internetkatta.com/operating-system/install-fonts-in-ubuntu-12-04</link>
-		<pubDate>Wed, 30 Apr 2014 07:18:16 +0000</pubDate>
+		<link>https://www.internetkatta.com/operating-system/install-fonts-in-ubuntu-12-04?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=install-fonts-in-ubuntu-12-04</link>
+				<pubDate>Wed, 30 Apr 2014 07:18:16 +0000</pubDate>
 		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
 				<category><![CDATA[Operating System]]></category>
 		<category><![CDATA[12.04]]></category>
@@ -28,16 +30,16 @@
 		<category><![CDATA[ubuntu]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=476</guid>
-		<description><![CDATA[<p>Steps : 1) Go to Home folder 2)  press ctrl+H(to access hidden file and folder) 3) Copy your fonts into .fonts folder. 4) Done..</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/install-fonts-in-ubuntu-12-04">Install fonts in Ubuntu 12.04</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Steps : 1) Go to Home folder 2)  press ctrl+H(to access hidden file and folder) 3) Copy your fonts into .fonts folder. 4) Done..</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/install-fonts-in-ubuntu-12-04">Install fonts in Ubuntu 12.04</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Steps :</p>
+								<content:encoded><![CDATA[<p>Steps :</p>
 <p>1) Go to Home folder</p>
 <p>2)  press ctrl+H(to access hidden file and folder)</p>
 <p>3) Copy your fonts into .fonts folder.</p>
 <p>4) Done..</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/install-fonts-in-ubuntu-12-04">Install fonts in Ubuntu 12.04</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/install-fonts-in-ubuntu-12-04">Install fonts in Ubuntu 12.04</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

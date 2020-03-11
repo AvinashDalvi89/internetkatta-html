@@ -9,27 +9,29 @@
 
 <channel>
 	<title>awsmumbai</title>
-	<atom:link href="http://www.internetkatta.com/tag/awsmumbai/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/tag/awsmumbai/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 27 Sep 2018 04:54:41 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Analysis of AWS mumbai region from different sources</title>
-		<link>http://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources</link>
-		<pubDate>Thu, 19 Apr 2018 04:07:36 +0000</pubDate>
+		<link>https://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=analysis-of-aws-mumbai-region-from-different-sources</link>
+				<pubDate>Thu, 19 Apr 2018 04:07:36 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[aws]]></category>
 		<category><![CDATA[awsmumbai]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1098</guid>
-		<description><![CDATA[<p>This blog will explain benefit of Mumbai region : https://blog.cloudthat.com/why-do-we-opt-for-aws-mumbai-region-as-an-indian-cloud-customer/ Here is list of service which AWS provide in Mumbai region https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-mumbai-region/ Migration help from one region to another region : https://d0.awsstatic.com/whitepapers/aws-migrate-resources-to-new-region.pdf Costing analysis by region : https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources">Analysis of AWS mumbai region from different sources</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>This blog will explain benefit of Mumbai region : https://blog.cloudthat.com/why-do-we-opt-for-aws-mumbai-region-as-an-indian-cloud-customer/ Here is list of service which AWS provide in Mumbai region https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-mumbai-region/ Migration help from one region to another region : https://d0.awsstatic.com/whitepapers/aws-migrate-resources-to-new-region.pdf Costing analysis by region : https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources">Analysis of AWS mumbai region from different sources</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div><b>This blog will explain benefit of Mumbai region</b> :</div>
+								<content:encoded><![CDATA[<div><b>This blog will explain benefit of Mumbai region</b> :</div>
 <div></div>
 <p><a href="https://blog.cloudthat.com/why-do-we-opt-for-aws-mumbai-region-as-an-indian-cloud-customer/" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?hl=en&q=https://blog.cloudthat.com/why-do-we-opt-for-aws-mumbai-region-as-an-indian-cloud-customer/&source=gmail&ust=1524196940551000&usg=AFQjCNFPqwoVNlOlSb6cO3e6iAE0Ho9jog">https://blog.cloudthat.com/<wbr />why-do-we-opt-for-aws-mumbai-<wbr />region-as-an-indian-cloud-<wbr />customer/</a></p>
 <div></div>
@@ -45,8 +47,8 @@
 <div></div>
 <div><a href="https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?hl=en&q=https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/&source=gmail&ust=1524196940552000&usg=AFQjCNEUlyRa_OuYSVd35iNztCCLocG3Gw">https://www.concurrencylabs./<wbr />com/blog/choose-your-aws-<wbr />region-wisely/</a></div>
 <div></div>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources">Analysis of AWS mumbai region from different sources</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources">Analysis of AWS mumbai region from different sources</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

@@ -9,28 +9,30 @@
 
 <channel>
 	<title>Operating System</title>
-	<atom:link href="http://www.internetkatta.com/category/operating-system/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/category/operating-system/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 25 Dec 2017 06:29:58 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Change default Keyboard Shortcut &#8211; MySQL WorkBench</title>
-		<link>http://www.internetkatta.com/operating-system/tools/change-default-keyboard-shortcut-mysql-workbench</link>
-		<pubDate>Tue, 21 Nov 2017 01:53:27 +0000</pubDate>
+		<link>https://www.internetkatta.com/operating-system/tools/change-default-keyboard-shortcut-mysql-workbench?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=change-default-keyboard-shortcut-mysql-workbench</link>
+				<pubDate>Tue, 21 Nov 2017 01:53:27 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Tools]]></category>
 		<category><![CDATA[myql]]></category>
 		<category><![CDATA[workbench]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=987</guid>
-		<description><![CDATA[<p>Changing the data/main_menu.xml file to change the execute SQL shortcut doesn’t seem to work as suggested. I changed it from Modifier+Shift+Return to F5 and nothing happens, even after restarting the application. Any thoughts? &#60;value type=”object” struct-name=”app.MenuItem” id=”com.mysql.wb.menu.query.exec” &#62; &#60;link type=”object”&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/tools/change-default-keyboard-shortcut-mysql-workbench">Change default Keyboard Shortcut &#8211; MySQL WorkBench</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Changing the data/main_menu.xml file to change the execute SQL shortcut doesn’t seem to work as suggested. I changed it from Modifier+Shift+Return to F5 and nothing happens, even after restarting the application. Any thoughts? &#60;value type=”object” struct-name=”app.MenuItem” id=”com.mysql.wb.menu.query.exec” &#62; &#60;link type=”object”&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/tools/change-default-keyboard-shortcut-mysql-workbench">Change default Keyboard Shortcut &#8211; MySQL WorkBench</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Changing the data/main_menu.xml file to change the execute SQL shortcut doesn’t seem to work as suggested.</p>
+								<content:encoded><![CDATA[<p>Changing the data/main_menu.xml file to change the execute SQL shortcut doesn’t seem to work as suggested.</p>
 <p>I changed it from Modifier+Shift+Return to F5 and nothing happens, even after restarting the application.</p>
 <p>Any thoughts?</p>
 <p>&lt;value type=”object” struct-name=”app.MenuItem” id=”com.mysql.wb.menu.query.exec” &gt;<br />
@@ -43,13 +45,13 @@
 &lt;/value&gt;</p>
 <p> </p>
 <p>Reference Source : <a href="https://forums.mysql.com/read.php?152,413700,415679#msg-415679" target="_blank" rel="noopener">Mysql Workbench Forum</a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/tools/change-default-keyboard-shortcut-mysql-workbench">Change default Keyboard Shortcut &#8211; MySQL WorkBench</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/tools/change-default-keyboard-shortcut-mysql-workbench">Change default Keyboard Shortcut &#8211; MySQL WorkBench</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Microsoft Launch Visual Studio Live Share</title>
-		<link>http://www.internetkatta.com/operating-system/microsoft-launch-visual-studio-live-share</link>
-		<pubDate>Thu, 16 Nov 2017 07:49:43 +0000</pubDate>
+		<link>https://www.internetkatta.com/operating-system/microsoft-launch-visual-studio-live-share?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=microsoft-launch-visual-studio-live-share</link>
+				<pubDate>Thu, 16 Nov 2017 07:49:43 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Operating System]]></category>
 		<category><![CDATA[Tools]]></category>
@@ -57,48 +59,48 @@
 		<category><![CDATA[visualstudio]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=979</guid>
-		<description><![CDATA[<p>Microsoft is slowly coming to open source era which was started early days back. First stroke of Microsoft was launching Visual Studio C++ with all extension which is required and love to have all developer nowadays. Next big things is&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/microsoft-launch-visual-studio-live-share">Microsoft Launch Visual Studio Live Share</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Microsoft is slowly coming to open source era which was started early days back. First stroke of Microsoft was launching Visual Studio C++ with all extension which is required and love to have all developer nowadays. Next big things is&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/microsoft-launch-visual-studio-live-share">Microsoft Launch Visual Studio Live Share</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Microsoft is slowly coming to open source era which was started early days back. First stroke of Microsoft was launching Visual Studio C++ with all extension which is required and love to have all developer nowadays. Next big things is coming as yesterday launch of live share functionality.</p>
+								<content:encoded><![CDATA[<p>Microsoft is slowly coming to open source era which was started early days back. First stroke of Microsoft was launching Visual Studio C++ with all extension which is required and love to have all developer nowadays. Next big things is coming as yesterday launch of live share functionality.</p>
 <p>What is Live Share?<br />
 Live Share enables your team to quickly collaborate on the same codebase without the need to synchronize code or to configure the same development tools, settings, or environment.</p>
 <p>Reference Source : <a href="https://code.visualstudio.com/blogs/2017/11/15/live-share" target="_blank" rel="noopener">Introducing Visual Studio Live Share</a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/microsoft-launch-visual-studio-live-share">Microsoft Launch Visual Studio Live Share</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/microsoft-launch-visual-studio-live-share">Microsoft Launch Visual Studio Live Share</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Open source code tool for developer</title>
-		<link>http://www.internetkatta.com/operating-system/tools/open-source-code-tool-for-developer</link>
-		<pubDate>Mon, 08 May 2017 08:38:04 +0000</pubDate>
+		<link>https://www.internetkatta.com/operating-system/tools/open-source-code-tool-for-developer?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=open-source-code-tool-for-developer</link>
+				<pubDate>Mon, 08 May 2017 08:38:04 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Tools]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=930</guid>
-		<description><![CDATA[<p>Visual Studio – https://code.visualstudio.com/ Sublime text editor – https://www.sublimetext.com/   Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/tools/open-source-code-tool-for-developer">Open source code tool for developer</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Visual Studio – https://code.visualstudio.com/ Sublime text editor – https://www.sublimetext.com/   Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/tools/open-source-code-tool-for-developer">Open source code tool for developer</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<ul>
+								<content:encoded><![CDATA[<ul>
 <li>Visual Studio – <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">https://code.visualstudio.com/</a></li>
 <li>Sublime text editor – <a href="https://www.sublimetext.com/" target="_blank" rel="noopener noreferrer">https://www.sublimetext.com/</a></li>
 </ul>
 <p> </p>
 <p>Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Python, PHP, Go)</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/tools/open-source-code-tool-for-developer">Open source code tool for developer</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/tools/open-source-code-tool-for-developer">Open source code tool for developer</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Install mcrypt for php on Mac OSX</title>
-		<link>http://www.internetkatta.com/operating-system/install-mcrypt-for-php-on-mac-osx</link>
-		<pubDate>Thu, 05 Nov 2015 13:14:05 +0000</pubDate>
+		<link>https://www.internetkatta.com/operating-system/install-mcrypt-for-php-on-mac-osx?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=install-mcrypt-for-php-on-mac-osx</link>
+				<pubDate>Thu, 05 Nov 2015 13:14:05 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Operating System]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=761</guid>
-		<description><![CDATA[<p>mcrypt is a file encryption method using secure techniques to exchange data. It is required for some web apps for example , the shopping cart software or a php framework likeLaravel. This tutorial has been tested in OSX 10.10 Yosemite. This&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/install-mcrypt-for-php-on-mac-osx">Install mcrypt for php on Mac OSX</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>mcrypt is a file encryption method using secure techniques to exchange data. It is required for some web apps for example , the shopping cart software or a php framework likeLaravel. This tutorial has been tested in OSX 10.10 Yosemite. This&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/install-mcrypt-for-php-on-mac-osx">Install mcrypt for php on Mac OSX</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p><strong>mcrypt</strong> is a file encryption method using secure techniques to exchange data. It is required for some web apps for example , the shopping cart software or a php framework like<strong>Laravel</strong>. This tutorial has been tested in OSX 10.10 Yosemite.</p>
+								<content:encoded><![CDATA[<p><strong>mcrypt</strong> is a file encryption method using secure techniques to exchange data. It is required for some web apps for example , the shopping cart software or a php framework like<strong>Laravel</strong>. This tutorial has been tested in OSX 10.10 Yosemite.</p>
 <p>This guide is really for users with the version of PHP that shipped with OSX Yosemite which is version 5.5.14. Other downloadable AMP stacks already have <strong>mcrypt</strong> baked in.</p>
 <h2>ommand Line Tools</h2>
 <p>First up you will need the OSX 10.10 version of <strong>Command Line Tools</strong> which you can download via the Apple available updates in the App store.</p>
@@ -181,42 +183,42 @@ Zend Extension Api No: 220121212<br />
 <p>If it didn’t load you may need to declare the extensions directory in /etc/php.ini</p>
 <pre class="crayon:false">extension_dir = "/usr/lib/php/extensions/no-debug-non-zts-20100525/"</pre>
 <p> </p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/install-mcrypt-for-php-on-mac-osx">Install mcrypt for php on Mac OSX</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/install-mcrypt-for-php-on-mac-osx">Install mcrypt for php on Mac OSX</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Share PC internet connection over wifi in ubuntu</title>
-		<link>http://www.internetkatta.com/operating-system/share-pc-internet-connection-over-wifi-in-ubuntu</link>
-		<pubDate>Fri, 10 Apr 2015 05:37:51 +0000</pubDate>
+		<link>https://www.internetkatta.com/operating-system/share-pc-internet-connection-over-wifi-in-ubuntu?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=share-pc-internet-connection-over-wifi-in-ubuntu</link>
+				<pubDate>Fri, 10 Apr 2015 05:37:51 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Operating System]]></category>
 		<category><![CDATA[ubuntu]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=693</guid>
-		<description><![CDATA[<p>Trying to share PC internet connection using WiFi device or dongle in Ubuntu Os ? To get started, press Ctrl+Alt+T on keyboard to open the terminal. When it opens, run the commands below one by one to install ap-hotspot. Ap-hotspot&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/share-pc-internet-connection-over-wifi-in-ubuntu">Share PC internet connection over wifi in ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Trying to share PC internet connection using WiFi device or dongle in Ubuntu Os ? To get started, press Ctrl+Alt+T on keyboard to open the terminal. When it opens, run the commands below one by one to install ap-hotspot. Ap-hotspot&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/share-pc-internet-connection-over-wifi-in-ubuntu">Share PC internet connection over wifi in ubuntu</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Trying to share PC internet connection using WiFi device or dongle in Ubuntu Os ?</p>
+								<content:encoded><![CDATA[<p>Trying to share PC internet connection using WiFi device or dongle in Ubuntu Os ?</p>
 <p><b>To get started</b>, press Ctrl+Alt+T on keyboard to open the terminal. When it opens, run the commands below one by one to install ap-hotspot.</p>
 <p><b>Ap-hotspot</b> is an open-source project that automatically creates an infrastructure (Access Point mode) wireless hotspot in Ubuntu that should work with Android and Windows Phone devices</p>
 <pre>sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt-get update</pre>
 <pre>sudo apt-get install ap-hotspot
 sudo ap-hotspot configure</pre>
-<p><a href="http://internetkatta.com/wp-content/uploads/2015/04/adhoc_configure.png"><img class="alignnone size-medium wp-image-694" src="http://internetkatta.com/wp-content/uploads/2015/04/adhoc_configure-300x169.png" alt="adhoc_configure" width="300" height="169" srcset="http://www.internetkatta.com/wp-content/uploads/2015/04/adhoc_configure-300x169.png 300w, http://www.internetkatta.com/wp-content/uploads/2015/04/adhoc_configure-1024x576.png 1024w, http://www.internetkatta.com/wp-content/uploads/2015/04/adhoc_configure.png 1366w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p><a href="http://internetkatta.com/wp-content/uploads/2015/04/adhoc_configure.png"><img class="alignnone size-medium wp-image-694" src="http://internetkatta.com/wp-content/uploads/2015/04/adhoc_configure-300x169.png" alt="adhoc_configure" width="300" height="169" srcset="https://www.internetkatta.com/wp-content/uploads/2015/04/adhoc_configure-300x169.png 300w, https://www.internetkatta.com/wp-content/uploads/2015/04/adhoc_configure-1024x576.png 1024w, https://www.internetkatta.com/wp-content/uploads/2015/04/adhoc_configure.png 1366w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
 <pre>sudo ap-hotspot start
 
 Use this configuration in your android phone or laptop for connection 
-<a href="http://internetkatta.com/wp-content/uploads/2015/04/ifconfig.png"><img class="alignnone size-medium wp-image-695" src="http://internetkatta.com/wp-content/uploads/2015/04/ifconfig-300x169.png" alt="ifconfig" width="300" height="169" srcset="http://www.internetkatta.com/wp-content/uploads/2015/04/ifconfig-300x169.png 300w, http://www.internetkatta.com/wp-content/uploads/2015/04/ifconfig-1024x576.png 1024w, http://www.internetkatta.com/wp-content/uploads/2015/04/ifconfig.png 1366w" sizes="(max-width: 300px) 100vw, 300px" /></a></pre>
+<a href="http://internetkatta.com/wp-content/uploads/2015/04/ifconfig.png"><img class="alignnone size-medium wp-image-695" src="http://internetkatta.com/wp-content/uploads/2015/04/ifconfig-300x169.png" alt="ifconfig" width="300" height="169" srcset="https://www.internetkatta.com/wp-content/uploads/2015/04/ifconfig-300x169.png 300w, https://www.internetkatta.com/wp-content/uploads/2015/04/ifconfig-1024x576.png 1024w, https://www.internetkatta.com/wp-content/uploads/2015/04/ifconfig.png 1366w" sizes="(max-width: 300px) 100vw, 300px" /></a></pre>
 <p>To stop the wireless hotspot, execute this command in Ubuntu terminal:</p>
 <pre>sudo ap-hotspot stop</pre>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/share-pc-internet-connection-over-wifi-in-ubuntu">Share PC internet connection over wifi in ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/share-pc-internet-connection-over-wifi-in-ubuntu">Share PC internet connection over wifi in ubuntu</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>How to add virtual host in ubuntu</title>
-		<link>http://www.internetkatta.com/operating-system/how-to-add-virtual-host-in-ubuntu</link>
-		<pubDate>Tue, 30 Dec 2014 16:32:40 +0000</pubDate>
+		<link>https://www.internetkatta.com/operating-system/how-to-add-virtual-host-in-ubuntu?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-add-virtual-host-in-ubuntu</link>
+				<pubDate>Tue, 30 Dec 2014 16:32:40 +0000</pubDate>
 		<dc:creator><![CDATA[Arvind Kumar]]></dc:creator>
 				<category><![CDATA[Operating System]]></category>
 		<category><![CDATA[host]]></category>
@@ -224,10 +226,10 @@ Use this configuration in your android phone or laptop for connection
 		<category><![CDATA[ubuntu]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=631</guid>
-		<description><![CDATA[<p>1) Edit the file /etc/hosts and add host in file 127.0.0.1 foo 2) Go to /etc/apache2/sites-available/ and create a file with name foo (file name should be hostname ) and content of file will be like ServerName foo DocumentRoot /var/www/foo/foo&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/how-to-add-virtual-host-in-ubuntu">How to add virtual host in ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>1) Edit the file /etc/hosts and add host in file 127.0.0.1 foo 2) Go to /etc/apache2/sites-available/ and create a file with name foo (file name should be hostname ) and content of file will be like ServerName foo DocumentRoot /var/www/foo/foo&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/how-to-add-virtual-host-in-ubuntu">How to add virtual host in ubuntu</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>1) Edit the file /etc/hosts and add host in file<br />
+								<content:encoded><![CDATA[<p>1) Edit the file /etc/hosts and add host in file<br />
 127.0.0.1 foo</p>
 <p>2) Go to /etc/apache2/sites-available/ and create a file with name foo (file name should be hostname ) and content of file will be like</p>
 <p style="text-align: justify;"><VirtualHost *:80><br />
@@ -248,21 +250,21 @@ allow from all<br />
 <p>3) Run below commands to activate host</p>
 <p><code> sudo a2ensite foo </code><br />
 <code> sudo /etc/init.d/apache2 reload </code></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/how-to-add-virtual-host-in-ubuntu">How to add virtual host in ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/how-to-add-virtual-host-in-ubuntu">How to add virtual host in ubuntu</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>How to install VPN on ubuntu OS</title>
-		<link>http://www.internetkatta.com/operating-system/how-to-install-vpn-on-ubuntu-os</link>
-		<pubDate>Thu, 20 Nov 2014 12:55:22 +0000</pubDate>
+		<link>https://www.internetkatta.com/operating-system/how-to-install-vpn-on-ubuntu-os?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-install-vpn-on-ubuntu-os</link>
+				<pubDate>Thu, 20 Nov 2014 12:55:22 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Operating System]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=603</guid>
-		<description><![CDATA[<p>To install the latest Java JRE and Plugin on Linux:  Run the command “sudo apt-­get install ­y ia32­libs” to install 32­bit support.  Go to http://www.java.com/en/download and click on the “Free Java Download” button. Click the “Linux x64” option.  Move the&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/how-to-install-vpn-on-ubuntu-os">How to install VPN on ubuntu OS</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>To install the latest Java JRE and Plugin on Linux:  Run the command “sudo apt-­get install ­y ia32­libs” to install 32­bit support.  Go to http://www.java.com/en/download and click on the “Free Java Download” button. Click the “Linux x64” option.  Move the&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/how-to-install-vpn-on-ubuntu-os">How to install VPN on ubuntu OS</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p><strong>To install the latest Java JRE and Plugin on Linux:</strong></p>
+								<content:encoded><![CDATA[<p><strong>To install the latest Java JRE and Plugin on Linux:</strong></p>
 <ol>
 <li> Run the command “sudo apt-­get install ­y ia32­libs” to install 32­bit support.</li>
 <li> Go to http://www.java.com/en/download and click on the “Free Java Download” button.<br />
@@ -329,13 +331,13 @@ the “Yes” button.</li>
 <li>Since this is the first time Network Connect is running, it wil</li>
 </ol>
 <p> </p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/how-to-install-vpn-on-ubuntu-os">How to install VPN on ubuntu OS</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/how-to-install-vpn-on-ubuntu-os">How to install VPN on ubuntu OS</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>How to install MongoDB on Ubuntu</title>
-		<link>http://www.internetkatta.com/operating-system/how-to-install-mongodb-on-ubuntu</link>
-		<pubDate>Sat, 15 Nov 2014 17:47:44 +0000</pubDate>
+		<link>https://www.internetkatta.com/operating-system/how-to-install-mongodb-on-ubuntu?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-install-mongodb-on-ubuntu</link>
+				<pubDate>Sat, 15 Nov 2014 17:47:44 +0000</pubDate>
 		<dc:creator><![CDATA[Arvind Kumar]]></dc:creator>
 				<category><![CDATA[Operating System]]></category>
 		<category><![CDATA[install]]></category>
@@ -343,10 +345,10 @@ the “Yes” button.</li>
 		<category><![CDATA[ubuntu]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=611</guid>
-		<description><![CDATA[<p>Please follow the steps for installation. 1.Import the public key used by the package management system sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10 2.Create a list file for MongoDB. echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' &#124; sudo tee /etc/apt/sources.list.d/mongodb.list 3.Reload local&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/how-to-install-mongodb-on-ubuntu">How to install MongoDB on Ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Please follow the steps for installation. 1.Import the public key used by the package management system sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10 2.Create a list file for MongoDB. echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' &#124; sudo tee /etc/apt/sources.list.d/mongodb.list 3.Reload local&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/how-to-install-mongodb-on-ubuntu">How to install MongoDB on Ubuntu</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Please follow the steps for installation.</p>
+								<content:encoded><![CDATA[<p>Please follow the steps for installation.</p>
 <p>1.<strong>Import the public key used by the package management system</strong></p>
 <pre>sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10</pre>
 <p>2.<strong>Create a list file for MongoDB.</strong></p>
@@ -364,32 +366,32 @@ the “Yes” button.</li>
 <pre>sudo service mongodb restart</pre>
 <p>d) <strong> To use mongodb run</strong></p>
 <pre>mongo</pre>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/how-to-install-mongodb-on-ubuntu">How to install MongoDB on Ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/how-to-install-mongodb-on-ubuntu">How to install MongoDB on Ubuntu</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>How to install nodejs on Ubuntu</title>
-		<link>http://www.internetkatta.com/operating-system/how-to-install-nodejs-on-ubuntu</link>
-		<pubDate>Sat, 15 Nov 2014 15:42:23 +0000</pubDate>
+		<link>https://www.internetkatta.com/operating-system/how-to-install-nodejs-on-ubuntu?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-install-nodejs-on-ubuntu</link>
+				<pubDate>Sat, 15 Nov 2014 15:42:23 +0000</pubDate>
 		<dc:creator><![CDATA[Arvind Kumar]]></dc:creator>
 				<category><![CDATA[Operating System]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=608</guid>
-		<description><![CDATA[<p>Nodejs is a javascript framework which run on server side and help to develop web application quickly. Follow below command one by one for installation. 1. sudo apt-get update 2.sudo apt-get install nodejs You also need to install npm (Node package&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/how-to-install-nodejs-on-ubuntu">How to install nodejs on Ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Nodejs is a javascript framework which run on server side and help to develop web application quickly. Follow below command one by one for installation. 1. sudo apt-get update 2.sudo apt-get install nodejs You also need to install npm (Node package&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/how-to-install-nodejs-on-ubuntu">How to install nodejs on Ubuntu</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Nodejs is a javascript framework which run on server side and help to develop web application quickly. Follow below command one by one for installation.</p>
+								<content:encoded><![CDATA[<p>Nodejs is a javascript framework which run on server side and help to develop web application quickly. Follow below command one by one for installation.</p>
 <p>1. sudo apt-get update</p>
 <p>2.sudo apt-get install nodejs</p>
 <p>You also need to install npm (Node package Manager) which allows to install modules and work them with nodejs.</p>
 <p>3. sudo apt-get install npm</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/how-to-install-nodejs-on-ubuntu">How to install nodejs on Ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/how-to-install-nodejs-on-ubuntu">How to install nodejs on Ubuntu</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>The requested URL /phpmyadmin/index.php was not found on this server.</title>
-		<link>http://www.internetkatta.com/operating-system/the-requested-url-phpmyadminindex-php-was-not-found-on-this-server</link>
-		<pubDate>Wed, 16 Jul 2014 09:52:01 +0000</pubDate>
+		<link>https://www.internetkatta.com/operating-system/the-requested-url-phpmyadminindex-php-was-not-found-on-this-server?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-requested-url-phpmyadminindex-php-was-not-found-on-this-server</link>
+				<pubDate>Wed, 16 Jul 2014 09:52:01 +0000</pubDate>
 		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
 				<category><![CDATA[Operating System]]></category>
 		<category><![CDATA[php]]></category>
@@ -397,16 +399,16 @@ the “Yes” button.</li>
 		<category><![CDATA[upgrade]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=580</guid>
-		<description><![CDATA[<p>Error: The requested URL /phpmyadmin/index.php was not found on this server. after upgrading php. Just run the below command on your terminal, which create symbolic link to your phpmyadmin directory. sudo ln -s /usr/share/phpmyadmin /var/www done..</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/the-requested-url-phpmyadminindex-php-was-not-found-on-this-server">The requested URL /phpmyadmin/index.php was not found on this server.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Error: The requested URL /phpmyadmin/index.php was not found on this server. after upgrading php. Just run the below command on your terminal, which create symbolic link to your phpmyadmin directory. sudo ln -s /usr/share/phpmyadmin /var/www done..</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/the-requested-url-phpmyadminindex-php-was-not-found-on-this-server">The requested URL /phpmyadmin/index.php was not found on this server.</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Error:</p>
+								<content:encoded><![CDATA[<p>Error:</p>
 <p><span style="color: #000000;">The requested URL /phpmyadmin/index.php was not found on this server. after upgrading php.</span></p>
 <p>Just run the below command on your terminal, which create symbolic link to your phpmyadmin directory.</p>
 <p>sudo ln -s /usr/share/phpmyadmin /var/www</p>
 <p>done..</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/the-requested-url-phpmyadminindex-php-was-not-found-on-this-server">The requested URL /phpmyadmin/index.php was not found on this server.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/the-requested-url-phpmyadminindex-php-was-not-found-on-this-server">The requested URL /phpmyadmin/index.php was not found on this server.</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

@@ -9,18 +9,20 @@
 
 <channel>
 	<title>ping</title>
-	<atom:link href="http://www.internetkatta.com/tag/ping/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/tag/ping/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 25 Oct 2017 12:49:37 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Monitor your website down time for free&#8230;</title>
-		<link>http://www.internetkatta.com/programming/monitor-your-website-down-time-for-free</link>
-		<pubDate>Wed, 07 Jan 2015 09:13:11 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/monitor-your-website-down-time-for-free?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=monitor-your-website-down-time-for-free</link>
+				<pubDate>Wed, 07 Jan 2015 09:13:11 +0000</pubDate>
 		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
 				<category><![CDATA[Hosting]]></category>
 		<category><![CDATA[Programming]]></category>
@@ -32,10 +34,10 @@
 		<category><![CDATA[website]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=638</guid>
-		<description><![CDATA[<p>Monitor your website every 5 minutes and get alert if your site goes down. With simple easy steps with Uptime Robot: it asks for your websites headers and gets status codes like “200-ok”, “404-not found”, etc. every 5 minutes (or&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/monitor-your-website-down-time-for-free">Monitor your website down time for free&#8230;</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Monitor your website every 5 minutes and get alert if your site goes down. With simple easy steps with Uptime Robot: it asks for your websites headers and gets status codes like “200-ok”, “404-not found”, etc. every 5 minutes (or&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/monitor-your-website-down-time-for-free">Monitor your website down time for free&#8230;</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Monitor your website every 5 minutes and get alert if your site goes down.</p>
+								<content:encoded><![CDATA[<p>Monitor your website every 5 minutes and get alert if your site goes down.</p>
 <p>With simple easy steps with <a title="Source" href="https://uptimerobot.com/" target="_blank" rel="nofollow"><strong>Uptime Robot</strong></a>:</p>
 <p>it asks for your websites headers and gets status codes like “200-ok”, “404-not found”, etc. every 5 minutes (or more depending on the monitor’s settings),</p>
 <p>if the status code doesn’t indicate a problem, we are good</p>
@@ -43,8 +45,8 @@
 <p>in order to make sure the site is down, Uptime Robot makes several more checks in the next 30 seconds,</p>
 <p>if the site is still down, it sends an alert.</p>
 <p>Thats it.</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/monitor-your-website-down-time-for-free">Monitor your website down time for free&#8230;</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/monitor-your-website-down-time-for-free">Monitor your website down time for free&#8230;</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

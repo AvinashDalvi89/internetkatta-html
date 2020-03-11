@@ -9,26 +9,28 @@
 
 <channel>
 	<title>SEO</title>
-	<atom:link href="http://www.internetkatta.com/category/programming/seo/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/category/programming/seo/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 12 Nov 2017 04:46:13 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Google Adwords impression and clicks not reflecting google analytics result</title>
-		<link>http://www.internetkatta.com/programming/seo/google-adwords-impression-and-clicks-not-reflecting-google-analytics-result</link>
-		<pubDate>Sun, 12 Nov 2017 04:46:13 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/seo/google-adwords-impression-and-clicks-not-reflecting-google-analytics-result?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=google-adwords-impression-and-clicks-not-reflecting-google-analytics-result</link>
+				<pubDate>Sun, 12 Nov 2017 04:46:13 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[SEO]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=976</guid>
-		<description><![CDATA[<p>Search Console data Search Console data is joined with Analytics data via the Landing Page dimension. This integration lets you see how pre-click data like queries and impressions correlate with post-click data like bounce rate and transactions. The Search Console&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/seo/google-adwords-impression-and-clicks-not-reflecting-google-analytics-result">Google Adwords impression and clicks not reflecting google analytics result</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Search Console data Search Console data is joined with Analytics data via the Landing Page dimension. This integration lets you see how pre-click data like queries and impressions correlate with post-click data like bounce rate and transactions. The Search Console&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/seo/google-adwords-impression-and-clicks-not-reflecting-google-analytics-result">Google Adwords impression and clicks not reflecting google analytics result</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Search Console data<br />
+								<content:encoded><![CDATA[<p>Search Console data<br />
 Search Console data is joined with Analytics data via the Landing Page dimension. This integration lets you see how pre-click data like queries and impressions correlate with post-click data like bounce rate and transactions.</p>
 <p>The Search Console reports include one dimension that is specific to Google Web Search data:</p>
 <ul>
@@ -40,21 +42,21 @@ The Search Console reports in Analytics use four metrics specific to Google Web 
 <li>CTR: Click-through rate, calculated as Clicks / Impressions * 100.</li>
 </ul>
 <p>Reference Source : <a href="https://support.google.com/analytics/answer/1308626?hl=en" target="_blank" rel="noopener">Google analytics Docs</a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/seo/google-adwords-impression-and-clicks-not-reflecting-google-analytics-result">Google Adwords impression and clicks not reflecting google analytics result</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/seo/google-adwords-impression-and-clicks-not-reflecting-google-analytics-result">Google Adwords impression and clicks not reflecting google analytics result</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Understanding of SEO</title>
-		<link>http://www.internetkatta.com/programming/seo/understanding-of-seo</link>
-		<pubDate>Fri, 27 Jan 2017 04:28:15 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/seo/understanding-of-seo?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=understanding-of-seo</link>
+				<pubDate>Fri, 27 Jan 2017 04:28:15 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[SEO]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=922</guid>
-		<description><![CDATA[<p>You’ll know that the basis for going into battle is to know your competition first Keep your friends close but your enemies closer, the saying goes. In our SEO battlefield, we’ll look at competitive analysis and keyword research to start&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/seo/understanding-of-seo">Understanding of SEO</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>You’ll know that the basis for going into battle is to know your competition first Keep your friends close but your enemies closer, the saying goes. In our SEO battlefield, we’ll look at competitive analysis and keyword research to start&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/seo/understanding-of-seo">Understanding of SEO</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p><span style="font-weight: 400;">You’ll know that the basis for going into battle is to know your competition first </span></p>
+								<content:encoded><![CDATA[<p><span style="font-weight: 400;">You’ll know that the basis for going into battle is to know your competition first </span></p>
 <p><span style="font-weight: 400;">Keep your friends close but your enemies closer, the saying goes. In our SEO battlefield, we’ll look at competitive analysis and keyword research to start </span></p>
 <p><span style="font-weight: 400;">Three base of On Page SEO success(These elements are in the direct control of the publisher) :</span></p>
 <ul>
@@ -88,8 +90,8 @@ The Search Console reports in Analytics use four metrics specific to Google Web 
 </ul>
 <p><span style="font-weight: 400;"><a href="https://www.redevolution.com/seo-explained">https://www.redevolution.com/seo-explained</a>  </span></p>
 <p><span style="font-weight: 400;">Tool for keyword – https://adwords.google.com/KeywordPlanner</span></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/seo/understanding-of-seo">Understanding of SEO</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/seo/understanding-of-seo">Understanding of SEO</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

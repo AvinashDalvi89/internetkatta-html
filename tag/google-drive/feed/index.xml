@@ -9,27 +9,29 @@
 
 <channel>
 	<title>google drive</title>
-	<atom:link href="http://www.internetkatta.com/tag/google-drive/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/tag/google-drive/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 25 Dec 2017 04:34:40 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Google Drive file replacement API using python</title>
-		<link>http://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python</link>
-		<pubDate>Fri, 08 Dec 2017 16:04:42 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=google-drive-file-replacement-api-using-python</link>
+				<pubDate>Fri, 08 Dec 2017 16:04:42 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Python]]></category>
 		<category><![CDATA[google drive]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=999</guid>
-		<description><![CDATA[<p>Reference Source : Google Drive API</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python">Google Drive file replacement API using python</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Reference Source : Google Drive API</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python">Google Drive file replacement API using python</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<pre class="brush: python; title: ; notranslate">def get_file_id(self, file_name, folder_id):
+								<content:encoded><![CDATA[<pre class="brush: python; title: ; notranslate">def get_file_id(self, file_name, folder_id):
 
         page_token = None
         while True:
@@ -80,8 +82,8 @@
             print 'An error occurred: %s' % error
 </pre>
 <p>Reference Source : <a href="https://developers.google.com/drive/v2/reference/files" target="_blank" rel="noopener">Google Drive API</a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python">Google Drive file replacement API using python</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python">Google Drive file replacement API using python</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

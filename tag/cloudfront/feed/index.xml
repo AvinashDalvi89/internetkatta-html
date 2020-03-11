@@ -9,18 +9,20 @@
 
 <channel>
 	<title>cloudfront</title>
-	<atom:link href="http://www.internetkatta.com/tag/cloudfront/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/tag/cloudfront/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 13 Sep 2018 08:12:36 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</title>
-		<link>http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront</link>
-		<pubDate>Thu, 13 Sep 2018 08:12:36 +0000</pubDate>
+		<link>https://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront</link>
+				<pubDate>Thu, 13 Sep 2018 08:12:36 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[AngularJs]]></category>
 		<category><![CDATA[aws]]></category>
@@ -31,10 +33,10 @@
 		<category><![CDATA[s3 bucket]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1107</guid>
-		<description><![CDATA[<p>Why this is required to do ? Because S3 website doesn’t know URL rewriting concept which other server knows. Whenever type any route path its should land first on index.html then further. Need to give command to S3 setting and&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront">Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Why this is required to do ? Because S3 website doesn’t know URL rewriting concept which other server knows. Whenever type any route path its should land first on index.html then further. Need to give command to S3 setting and&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront">Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Why this is required to do ?</p>
+								<content:encoded><![CDATA[<p>Why this is required to do ?</p>
 <p>Because S3 website doesn’t know URL rewriting concept which other server knows. Whenever type any route path its should land first on index.html then further. Need to give command to S3 setting and AWS Cloudfront error response code.</p>
 <ol>
 <li style="list-style-type: none">
@@ -49,13 +51,13 @@
 </ol>
 <p><a href="http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront/attachment/screenshot-2018-5-12-aws-cloudfront-management-console1-2" rel="attachment wp-att-1120"><img class="alignnone size-full wp-image-1120" src="http://www.internetkatta.com/wp-content/uploads/2018/07/Screenshot-2018-5-12-AWS-CloudFront-Management-Console1-1.png" alt="" width="913" height="341" /></a><br />
 <a href="http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront/attachment/screenshot-2018-5-12-aws-cloudfront-management-console" rel="attachment wp-att-1121"><img class="alignnone size-medium wp-image-1121" src="http://www.internetkatta.com/wp-content/uploads/2018/07/Screenshot-2018-5-12-AWS-CloudFront-Management-Console.png" alt="" width="300" height="64" /></a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront">Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront">Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Host wordpress site on aws s3 bucket</title>
-		<link>http://www.internetkatta.com/programming/host-wordpress-site-on-aws-s3-bucket</link>
-		<pubDate>Fri, 17 Jun 2016 10:36:19 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/host-wordpress-site-on-aws-s3-bucket?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=host-wordpress-site-on-aws-s3-bucket</link>
+				<pubDate>Fri, 17 Jun 2016 10:36:19 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[aws]]></category>
 		<category><![CDATA[Hosting]]></category>
@@ -67,10 +69,10 @@
 		<category><![CDATA[wordpress]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=858</guid>
-		<description><![CDATA[<p>Follow these step to host wordpress site on aws S3 : create one subdomain or test domain for only publishing or creating post/pages from wp-admin host all wordpress setup on that domain create s3 bucket where we are going put&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/host-wordpress-site-on-aws-s3-bucket">Host wordpress site on aws s3 bucket</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Follow these step to host wordpress site on aws S3 : create one subdomain or test domain for only publishing or creating post/pages from wp-admin host all wordpress setup on that domain create s3 bucket where we are going put&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/host-wordpress-site-on-aws-s3-bucket">Host wordpress site on aws s3 bucket</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div>Follow these step to host wordpress site on aws S3 :</div>
+								<content:encoded><![CDATA[<div>Follow these step to host wordpress site on aws S3 :</div>
 <ol>
 <li>create one subdomain or test domain for only publishing or creating post/pages from wp-admin</li>
 <li>host all wordpress setup on that domain</li>
@@ -82,13 +84,13 @@
 </ol>
 <div></div>
 <div>Any query feel free to comment</div>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/host-wordpress-site-on-aws-s3-bucket">Host wordpress site on aws s3 bucket</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/host-wordpress-site-on-aws-s3-bucket">Host wordpress site on aws s3 bucket</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Rewrite non www to www in aws s3 bucket and cloudfront</title>
-		<link>http://www.internetkatta.com/hosting/rewrite-non-www-to-www-in-aws-s3-bucket-and-cloudfront</link>
-		<pubDate>Thu, 05 May 2016 05:34:26 +0000</pubDate>
+		<link>https://www.internetkatta.com/hosting/rewrite-non-www-to-www-in-aws-s3-bucket-and-cloudfront?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=rewrite-non-www-to-www-in-aws-s3-bucket-and-cloudfront</link>
+				<pubDate>Thu, 05 May 2016 05:34:26 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[aws]]></category>
 		<category><![CDATA[Hosting]]></category>
@@ -96,10 +98,10 @@
 		<category><![CDATA[s3 bucket]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=821</guid>
-		<description><![CDATA[<p>create www.example.com s3 bucket and set all code in this bucket create example.com s3 bucket and set redirect to www.example.com said by https://aws.amazon.com/blogs/aws/root-domain-website-hosting-for-amazon-s3/ create cloudfront and configure with s3 bucket link of www.example.com and add cname entry only for www.example.com.&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/rewrite-non-www-to-www-in-aws-s3-bucket-and-cloudfront">Rewrite non www to www in aws s3 bucket and cloudfront</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>create www.example.com s3 bucket and set all code in this bucket create example.com s3 bucket and set redirect to www.example.com said by https://aws.amazon.com/blogs/aws/root-domain-website-hosting-for-amazon-s3/ create cloudfront and configure with s3 bucket link of www.example.com and add cname entry only for www.example.com.&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/rewrite-non-www-to-www-in-aws-s3-bucket-and-cloudfront">Rewrite non www to www in aws s3 bucket and cloudfront</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<ol>
+								<content:encoded><![CDATA[<ol>
 <li>create www.example.com s3 bucket and set all code in this bucket</li>
 <li>create example.com s3 bucket and set redirect to www.example.com said by https://aws.amazon.com/blogs/aws/root-domain-website-hosting-for-amazon-s3/</li>
 <li>create cloudfront and configure with s3 bucket link of www.example.com and add cname entry only for www.example.com.</li>
@@ -107,8 +109,8 @@
 <li>for example.com point alias s3 bucket of example.com</li>
 </ol>
 <p><a href="http://stackoverflow.com/questions/37000416/need-to-rewrite-non-www-to-www-in-aws-s3-bucket-and-cloudfront/37026855#37026855" target="_blank">http://stackoverflow.com/questions/37000416/need-to-rewrite-non-www-to-www-in-aws-s3-bucket-and-cloudfront/37026855#37026855</a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/rewrite-non-www-to-www-in-aws-s3-bucket-and-cloudfront">Rewrite non www to www in aws s3 bucket and cloudfront</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/rewrite-non-www-to-www-in-aws-s3-bucket-and-cloudfront">Rewrite non www to www in aws s3 bucket and cloudfront</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

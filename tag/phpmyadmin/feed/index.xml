@@ -9,18 +9,20 @@
 
 <channel>
 	<title>phpmyadmin</title>
-	<atom:link href="http://www.internetkatta.com/tag/phpmyadmin/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/tag/phpmyadmin/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 16 Jul 2014 09:58:07 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>The requested URL /phpmyadmin/index.php was not found on this server.</title>
-		<link>http://www.internetkatta.com/operating-system/the-requested-url-phpmyadminindex-php-was-not-found-on-this-server</link>
-		<pubDate>Wed, 16 Jul 2014 09:52:01 +0000</pubDate>
+		<link>https://www.internetkatta.com/operating-system/the-requested-url-phpmyadminindex-php-was-not-found-on-this-server?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-requested-url-phpmyadminindex-php-was-not-found-on-this-server</link>
+				<pubDate>Wed, 16 Jul 2014 09:52:01 +0000</pubDate>
 		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
 				<category><![CDATA[Operating System]]></category>
 		<category><![CDATA[php]]></category>
@@ -28,21 +30,21 @@
 		<category><![CDATA[upgrade]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=580</guid>
-		<description><![CDATA[<p>Error: The requested URL /phpmyadmin/index.php was not found on this server. after upgrading php. Just run the below command on your terminal, which create symbolic link to your phpmyadmin directory. sudo ln -s /usr/share/phpmyadmin /var/www done..</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/the-requested-url-phpmyadminindex-php-was-not-found-on-this-server">The requested URL /phpmyadmin/index.php was not found on this server.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Error: The requested URL /phpmyadmin/index.php was not found on this server. after upgrading php. Just run the below command on your terminal, which create symbolic link to your phpmyadmin directory. sudo ln -s /usr/share/phpmyadmin /var/www done..</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/the-requested-url-phpmyadminindex-php-was-not-found-on-this-server">The requested URL /phpmyadmin/index.php was not found on this server.</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Error:</p>
+								<content:encoded><![CDATA[<p>Error:</p>
 <p><span style="color: #000000;">The requested URL /phpmyadmin/index.php was not found on this server. after upgrading php.</span></p>
 <p>Just run the below command on your terminal, which create symbolic link to your phpmyadmin directory.</p>
 <p>sudo ln -s /usr/share/phpmyadmin /var/www</p>
 <p>done..</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/the-requested-url-phpmyadminindex-php-was-not-found-on-this-server">The requested URL /phpmyadmin/index.php was not found on this server.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/the-requested-url-phpmyadminindex-php-was-not-found-on-this-server">The requested URL /phpmyadmin/index.php was not found on this server.</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Allow local network user to access phpmyadmin(WAMP)</title>
-		<link>http://www.internetkatta.com/hosting/allow-local-user-to-access-phpmyadminwamp</link>
-		<pubDate>Tue, 29 Apr 2014 08:50:52 +0000</pubDate>
+		<link>https://www.internetkatta.com/hosting/allow-local-user-to-access-phpmyadminwamp?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=allow-local-user-to-access-phpmyadminwamp</link>
+				<pubDate>Tue, 29 Apr 2014 08:50:52 +0000</pubDate>
 		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
 				<category><![CDATA[Hosting]]></category>
 		<category><![CDATA[access]]></category>
@@ -53,10 +55,10 @@
 		<category><![CDATA[wamp]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=470</guid>
-		<description><![CDATA[<p>Steps : 1) Left click system tray icon and navigate Apache 2) go to Alias Directories 3) then http://localhost/phpmyadmin — edit alias 4 a) To allow from select IP or Domain Options Indexes FollowSymLinks ExecCGI AllowOverride all Order Deny, Allow&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/allow-local-user-to-access-phpmyadminwamp">Allow local network user to access phpmyadmin(WAMP)</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Steps : 1) Left click system tray icon and navigate Apache 2) go to Alias Directories 3) then http://localhost/phpmyadmin — edit alias 4 a) To allow from select IP or Domain Options Indexes FollowSymLinks ExecCGI AllowOverride all Order Deny, Allow&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/allow-local-user-to-access-phpmyadminwamp">Allow local network user to access phpmyadmin(WAMP)</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Steps :</p>
+								<content:encoded><![CDATA[<p>Steps :</p>
 <p>1) Left click system tray icon and navigate Apache</p>
 <p>2) go to Alias Directories</p>
 <p>3) then http://localhost/phpmyadmin — edit alias</p>
@@ -71,8 +73,8 @@ Allow from localhost</p>
 AllowOverride all<br />
 Order Deny, Allow<br />
 Allow from all</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/allow-local-user-to-access-phpmyadminwamp">Allow local network user to access phpmyadmin(WAMP)</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/allow-local-user-to-access-phpmyadminwamp">Allow local network user to access phpmyadmin(WAMP)</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

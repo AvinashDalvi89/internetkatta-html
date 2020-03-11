@@ -57,3 +57,10 @@
 .ssbp-each-share, #ssba-bar-2 li .ssbp-each-share {
     display: block;
 }
+
+.right li .ssbp-each-share {
+    left: unset;
+    right: 100%;
+    margin-right: -12px;
+    margin-left: 0;
+}

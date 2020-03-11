@@ -9,18 +9,20 @@
 
 <channel>
 	<title>post</title>
-	<atom:link href="http://www.internetkatta.com/tag/post/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/tag/post/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 26 Mar 2015 10:23:24 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Get Facebook status or post url</title>
-		<link>http://www.internetkatta.com/social-networking/get-facebook-status-or-post-url</link>
-		<pubDate>Mon, 23 Jun 2014 09:00:34 +0000</pubDate>
+		<link>https://www.internetkatta.com/social-networking/get-facebook-status-or-post-url?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=get-facebook-status-or-post-url</link>
+				<pubDate>Mon, 23 Jun 2014 09:00:34 +0000</pubDate>
 		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
 				<category><![CDATA[Social Networking]]></category>
 		<category><![CDATA[Facebook]]></category>
@@ -31,14 +33,14 @@
 		<category><![CDATA[URL]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=562</guid>
-		<description><![CDATA[<p>Click on post time hyper link(Just now &#124; 36 mins &#124; 19 hrs &#124;Yesterday at 1:30pm) next to publisher profile pic. done..  </p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/social-networking/get-facebook-status-or-post-url">Get Facebook status or post url</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Click on post time hyper link(Just now &#124; 36 mins &#124; 19 hrs &#124;Yesterday at 1:30pm) next to publisher profile pic. done..  </p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/social-networking/get-facebook-status-or-post-url">Get Facebook status or post url</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Click on post time hyper link(Just now | 36 mins | 19 hrs |Yesterday at 1:30pm) next to publisher profile pic.</p>
+								<content:encoded><![CDATA[<p>Click on post time hyper link(Just now | 36 mins | 19 hrs |Yesterday at 1:30pm) next to publisher profile pic.</p>
 <p>done..</p>
 <p> </p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/social-networking/get-facebook-status-or-post-url">Get Facebook status or post url</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/social-networking/get-facebook-status-or-post-url">Get Facebook status or post url</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

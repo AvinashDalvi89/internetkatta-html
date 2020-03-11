@@ -9,27 +9,29 @@
 
 <channel>
 	<title>Python</title>
-	<atom:link href="http://www.internetkatta.com/category/programming/python/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/category/programming/python/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 25 Dec 2017 04:34:40 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Google Drive file replacement API using python</title>
-		<link>http://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python</link>
-		<pubDate>Fri, 08 Dec 2017 16:04:42 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=google-drive-file-replacement-api-using-python</link>
+				<pubDate>Fri, 08 Dec 2017 16:04:42 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Python]]></category>
 		<category><![CDATA[google drive]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=999</guid>
-		<description><![CDATA[<p>Reference Source : Google Drive API</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python">Google Drive file replacement API using python</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Reference Source : Google Drive API</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python">Google Drive file replacement API using python</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<pre class="brush: python; title: ; notranslate">def get_file_id(self, file_name, folder_id):
+								<content:encoded><![CDATA[<pre class="brush: python; title: ; notranslate">def get_file_id(self, file_name, folder_id):
 
         page_token = None
         while True:
@@ -80,22 +82,22 @@
             print 'An error occurred: %s' % error
 </pre>
 <p>Reference Source : <a href="https://developers.google.com/drive/v2/reference/files" target="_blank" rel="noopener">Google Drive API</a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python">Google Drive file replacement API using python</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/python/google-drive-file-replacement-api-using-python">Google Drive file replacement API using python</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>How to convert doc to pdf in python</title>
-		<link>http://www.internetkatta.com/programming/how-to-convert-doc-to-pdf-in-python</link>
-		<pubDate>Sat, 26 Nov 2016 07:22:56 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/how-to-convert-doc-to-pdf-in-python?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-convert-doc-to-pdf-in-python</link>
+				<pubDate>Sat, 26 Nov 2016 07:22:56 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Programming]]></category>
 		<category><![CDATA[Python]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=906</guid>
-		<description><![CDATA[<p>try: subprocess.check_call( [‘/usr/bin/python3’, ‘/usr/bin/unoconv’, ‘-f’, ‘pdf’, ‘-o’, pdffilename, ‘-d’, ‘document’, newfilename]) except subprocess.CalledProcessError as e: print(‘CalledProcessError’, e) require module “subprocess” import subprocess</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/how-to-convert-doc-to-pdf-in-python">How to convert doc to pdf in python</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>try: subprocess.check_call( [‘/usr/bin/python3’, ‘/usr/bin/unoconv’, ‘-f’, ‘pdf’, ‘-o’, pdffilename, ‘-d’, ‘document’, newfilename]) except subprocess.CalledProcessError as e: print(‘CalledProcessError’, e) require module “subprocess” import subprocess</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/how-to-convert-doc-to-pdf-in-python">How to convert doc to pdf in python</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>try:<br />
+								<content:encoded><![CDATA[<p>try:<br />
 subprocess.check_call(<br />
 [‘/usr/bin/python3’, ‘/usr/bin/unoconv’, ‘-f’, ‘pdf’, ‘-o’, pdffilename, ‘-d’, ‘document’,<br />
 newfilename])<br />
@@ -103,39 +105,39 @@ except subprocess.CalledProcessError as e:<br />
 print(‘CalledProcessError’, e)</p>
 <p>require module “subprocess”</p>
 <p>import subprocess</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/how-to-convert-doc-to-pdf-in-python">How to convert doc to pdf in python</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/how-to-convert-doc-to-pdf-in-python">How to convert doc to pdf in python</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>500 server error while running python script</title>
-		<link>http://www.internetkatta.com/programming/500-server-error-while-running-python-script</link>
-		<pubDate>Fri, 29 Apr 2016 05:52:38 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/500-server-error-while-running-python-script?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=500-server-error-while-running-python-script</link>
+				<pubDate>Fri, 29 Apr 2016 05:52:38 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Programming]]></category>
 		<category><![CDATA[Python]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=804</guid>
-		<description><![CDATA[<p>Try: chmod a+x foo.py</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/500-server-error-while-running-python-script">500 server error while running python script</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Try: chmod a+x foo.py</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/500-server-error-while-running-python-script">500 server error while running python script</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p><code>Try:</code></p>
+								<content:encoded><![CDATA[<p><code>Try:</code></p>
 <p>chmod a+x foo.py</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/500-server-error-while-running-python-script">500 server error while running python script</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/500-server-error-while-running-python-script">500 server error while running python script</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Scrape website data using python</title>
-		<link>http://www.internetkatta.com/programming/scrape-website-data-using-python</link>
-		<pubDate>Sat, 05 Mar 2016 06:35:35 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/scrape-website-data-using-python?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=scrape-website-data-using-python</link>
+				<pubDate>Sat, 05 Mar 2016 06:35:35 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Programming]]></category>
 		<category><![CDATA[Python]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=771</guid>
-		<description><![CDATA[<p>#import the library used to query a website import urllib2 #specify the url wiki = “https://en.wikipedia.org/wiki/List_of_state_and_union_territory_capitals_in_India” #Query the website and return the html to the variable ‘page’ page = urllib2.urlopen(wiki) #import the Beautiful soup functions to parse the data returned&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/scrape-website-data-using-python">Scrape website data using python</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>#import the library used to query a website import urllib2 #specify the url wiki = “https://en.wikipedia.org/wiki/List_of_state_and_union_territory_capitals_in_India” #Query the website and return the html to the variable ‘page’ page = urllib2.urlopen(wiki) #import the Beautiful soup functions to parse the data returned&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/scrape-website-data-using-python">Scrape website data using python</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<blockquote><p>#import the library used to query a website<br />
+								<content:encoded><![CDATA[<blockquote><p>#import the library used to query a website<br />
 import urllib2</p>
 <p>#specify the url<br />
 wiki = “https://en.wikipedia.org/wiki/List_of_state_and_union_territory_capitals_in_India”</p>
@@ -156,8 +158,8 @@ soup = BeautifulSoup(page)</p>
 – In a Terminal window, cd to the resulting directory<br />
 – Type python setup.py install</p>
 <p>To install it, I used sudo pip install bs4. You may need to run sudo easy_install pip first to getpip. Also note the use of sudo, as this may make a difference.</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/scrape-website-data-using-python">Scrape website data using python</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/scrape-website-data-using-python">Scrape website data using python</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

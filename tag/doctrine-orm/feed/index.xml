@@ -9,28 +9,30 @@
 
 <channel>
 	<title>doctrine-orm</title>
-	<atom:link href="http://www.internetkatta.com/tag/doctrine-orm/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/tag/doctrine-orm/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 24 Sep 2014 03:07:38 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>ZfcUser, BjyAuthorize and Doctrine working together in ZF2</title>
-		<link>http://www.internetkatta.com/programming/zf/zfcuser-bjyauthorize-and-doctrine-working-together-in-zf2</link>
-		<pubDate>Thu, 11 Sep 2014 03:11:30 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/zf/zfcuser-bjyauthorize-and-doctrine-working-together-in-zf2?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=zfcuser-bjyauthorize-and-doctrine-working-together-in-zf2</link>
+				<pubDate>Thu, 11 Sep 2014 03:11:30 +0000</pubDate>
 		<dc:creator><![CDATA[Arvind Kumar]]></dc:creator>
 				<category><![CDATA[Zend Framework]]></category>
 		<category><![CDATA[doctrine-orm]]></category>
 		<category><![CDATA[zf2]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=592</guid>
-		<description><![CDATA[<p>1.  Download the latest ZIP-File of ZendSkeletonApplication. 2. Unzip and put ZendSkeletonApplication in var/www . 3. Install ZfcUser, BjyAuthorize and Doctrine by editing your var/www/ZendSkeletonApplication/composer.json file. Your composer.json file would be like this { “name”: “zendframework/skeleton-application”, “description”: “Skeleton Application for ZF2”, “license”: “BSD-3-Clause”, “keywords”: [&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/zf/zfcuser-bjyauthorize-and-doctrine-working-together-in-zf2">ZfcUser, BjyAuthorize and Doctrine working together in ZF2</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>1.  Download the latest ZIP-File of ZendSkeletonApplication. 2. Unzip and put ZendSkeletonApplication in var/www . 3. Install ZfcUser, BjyAuthorize and Doctrine by editing your var/www/ZendSkeletonApplication/composer.json file. Your composer.json file would be like this { “name”: “zendframework/skeleton-application”, “description”: “Skeleton Application for ZF2”, “license”: “BSD-3-Clause”, “keywords”: [&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/zf/zfcuser-bjyauthorize-and-doctrine-working-together-in-zf2">ZfcUser, BjyAuthorize and Doctrine working together in ZF2</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>1. <span style="color: #555555"> Download the latest ZIP-File of </span><a style="color: #e86a4d" title="github: zendframework/ZendSkeletonApplication" href="https://github.com/zendframework/ZendSkeletonApplication" target="_blank">ZendSkeletonApplication</a>.</p>
+								<content:encoded><![CDATA[<p>1. <span style="color: #555555"> Download the latest ZIP-File of </span><a style="color: #e86a4d" title="github: zendframework/ZendSkeletonApplication" href="https://github.com/zendframework/ZendSkeletonApplication" target="_blank">ZendSkeletonApplication</a>.</p>
 <p>2. Unzip and put ZendSkeletonApplication in var/www .</p>
 <p>3. Install ZfcUser, BjyAuthorize and Doctrine by editing your var/www/ZendSkeletonApplication/composer.json file. Your composer.json file would be like this<br />
 <ins datetime="2014-09-24T02:37:53+00:00"></ins></p>
@@ -202,8 +204,8 @@ to<br />
 <div class="crayon-line"></div>
 </div>
 <p> </p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/zf/zfcuser-bjyauthorize-and-doctrine-working-together-in-zf2">ZfcUser, BjyAuthorize and Doctrine working together in ZF2</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/zf/zfcuser-bjyauthorize-and-doctrine-working-together-in-zf2">ZfcUser, BjyAuthorize and Doctrine working together in ZF2</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

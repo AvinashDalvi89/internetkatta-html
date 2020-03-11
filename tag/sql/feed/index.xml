@@ -9,18 +9,20 @@
 
 <channel>
 	<title>sql</title>
-	<atom:link href="http://www.internetkatta.com/tag/sql/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/tag/sql/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 14 Oct 2015 11:31:12 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Quick sql command and queries</title>
-		<link>http://www.internetkatta.com/programming/quick-sql-command-and-queries</link>
-		<pubDate>Fri, 10 Jul 2015 09:14:42 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/quick-sql-command-and-queries?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=quick-sql-command-and-queries</link>
+				<pubDate>Fri, 10 Jul 2015 09:14:42 +0000</pubDate>
 		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
 				<category><![CDATA[Programming]]></category>
 		<category><![CDATA[command]]></category>
@@ -30,11 +32,11 @@
 		<category><![CDATA[sql]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=519</guid>
-		<description><![CDATA[<p>1) Create Database create database myworld; 2) Backup and Restore Database Backup: mysql -u myworld -p -h localhost myworld < myworld.sql Restore: mysql -u myworld -p -h localhost use database; source ./restorefile.sql 3) Drop Database DROP DATABASE myworld; 4) Create&#8230;
+				<description><![CDATA[<p>1) Create Database create database myworld; 2) Backup and Restore Database Backup: mysql -u myworld -p -h localhost myworld < myworld.sql Restore: mysql -u myworld -p -h localhost use database; source ./restorefile.sql 3) Drop Database DROP DATABASE myworld; 4) Create&#8230;
 </p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/quick-sql-command-and-queries">Quick sql command and queries</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/quick-sql-command-and-queries">Quick sql command and queries</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p><strong>1) Create Database</strong></p>
+								<content:encoded><![CDATA[<p><strong>1) Create Database</strong></p>
 <p>create database myworld;</p>
 <p><strong>2) Backup and Restore Database</strong></p>
 <p>Backup:<br />
@@ -70,8 +72,8 @@ SELECT id,DATE_ADD(NOW(), INTERVAL ‘5:30’ HOUR_MINUTE) AS intervalbyhourandm
 <p><strong>10) Get current timestamp and date</strong></p>
 <p>SELECT NOW();<br />
 SELECT CURDATE();</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/quick-sql-command-and-queries">Quick sql command and queries</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/quick-sql-command-and-queries">Quick sql command and queries</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

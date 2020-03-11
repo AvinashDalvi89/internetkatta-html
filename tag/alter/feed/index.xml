@@ -9,18 +9,20 @@
 
 <channel>
 	<title>ALTER</title>
-	<atom:link href="http://www.internetkatta.com/tag/alter/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/tag/alter/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 08 May 2014 10:34:53 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Mysql : How to change column position in existing Table.</title>
-		<link>http://www.internetkatta.com/programming/mysql-how-to-change-column-position-in-existing-table</link>
-		<pubDate>Thu, 08 May 2014 10:34:53 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/mysql-how-to-change-column-position-in-existing-table?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=mysql-how-to-change-column-position-in-existing-table</link>
+				<pubDate>Thu, 08 May 2014 10:34:53 +0000</pubDate>
 		<dc:creator><![CDATA[Arvind Kumar]]></dc:creator>
 				<category><![CDATA[Programming]]></category>
 		<category><![CDATA[ALTER]]></category>
@@ -30,10 +32,10 @@
 		<category><![CDATA[POSITION]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=510</guid>
-		<description><![CDATA[<p>ALTER TABLE TABLENAME MODIFY COLUMN3 VARCHAR(50) AFTER COLUMN1; TABLENAME : Name of table COLUMN3 : Column that You want to reposition. COLUMN1 : Column after that you want to place COLUMN3</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/mysql-how-to-change-column-position-in-existing-table">Mysql : How to change column position in existing Table.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>ALTER TABLE TABLENAME MODIFY COLUMN3 VARCHAR(50) AFTER COLUMN1; TABLENAME : Name of table COLUMN3 : Column that You want to reposition. COLUMN1 : Column after that you want to place COLUMN3</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/mysql-how-to-change-column-position-in-existing-table">Mysql : How to change column position in existing Table.</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<pre class="lang-sql prettyprint prettyprinted"><code><span class="kwd">ALTER </span><span class="kwd">TABLE</span><span class="pln"> TABLENAME MODIFY COLUMN3 VARCHAR(</span><span class="lit">50</span><span class="pun">)</span><span class="pln"> AFTER COLUMN1</span><span class="pun">;
+								<content:encoded><![CDATA[<pre class="lang-sql prettyprint prettyprinted"><code><span class="kwd">ALTER </span><span class="kwd">TABLE</span><span class="pln"> TABLENAME MODIFY COLUMN3 VARCHAR(</span><span class="lit">50</span><span class="pun">)</span><span class="pln"> AFTER COLUMN1</span><span class="pun">;
 
 
 TABLENAME : Name of table
@@ -41,8 +43,8 @@ COLUMN3 : Column that You want to reposition.
 COLUMN1 : Column after that you want to place COLUMN3
 
 </span></code></pre>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/mysql-how-to-change-column-position-in-existing-table">Mysql : How to change column position in existing Table.</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/mysql-how-to-change-column-position-in-existing-table">Mysql : How to change column position in existing Table.</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

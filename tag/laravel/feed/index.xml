@@ -9,34 +9,36 @@
 
 <channel>
 	<title>laravel</title>
-	<atom:link href="http://www.internetkatta.com/tag/laravel/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/tag/laravel/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 14 Oct 2015 11:34:17 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Remove public from url in laravel framework</title>
-		<link>http://www.internetkatta.com/programming/remove-public-from-url-in-laravel-framework</link>
-		<pubDate>Tue, 21 Apr 2015 09:31:20 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/remove-public-from-url-in-laravel-framework?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=remove-public-from-url-in-laravel-framework</link>
+				<pubDate>Tue, 21 Apr 2015 09:31:20 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Programming]]></category>
 		<category><![CDATA[htaccess]]></category>
 		<category><![CDATA[laravel]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=701</guid>
-		<description><![CDATA[<p>Follow below step to remove public from url :- copied the .htaccess file from /public directory to my Laravel(project) root folder. Renamed the server.php in the my Laravel root folder to index.php and its worked for me.</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/remove-public-from-url-in-laravel-framework">Remove public from url in laravel framework</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Follow below step to remove public from url :- copied the .htaccess file from /public directory to my Laravel(project) root folder. Renamed the server.php in the my Laravel root folder to index.php and its worked for me.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/remove-public-from-url-in-laravel-framework">Remove public from url in laravel framework</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Follow below step to remove public from url :-</p>
+								<content:encoded><![CDATA[<p>Follow below step to remove public from url :-</p>
 <ol>
 <li>copied the .htaccess file from /public directory to my <strong>Laravel</strong>(project) root folder.</li>
 <li>Renamed the server.php in the my <strong>Laravel</strong> root folder to index.php and its worked for me.</li>
 </ol>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/remove-public-from-url-in-laravel-framework">Remove public from url in laravel framework</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/remove-public-from-url-in-laravel-framework">Remove public from url in laravel framework</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

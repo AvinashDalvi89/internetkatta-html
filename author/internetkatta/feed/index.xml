@@ -9,42 +9,44 @@
 
 <channel>
 	<title>Avinash Dalvi</title>
-	<atom:link href="http://www.internetkatta.com/author/internetkatta/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/author/internetkatta/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
 	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Announcing unlimited free private repos and unified Enterprise offering</title>
-		<link>https://blog.github.com/2019-01-07-new-year-new-github/#new_tab</link>
-		<pubDate>Tue, 08 Jan 2019 11:23:14 +0000</pubDate>
+		<link>https://blog.github.com/2019-01-07-new-year-new-github/#new_tab?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=announcing-unlimited-free-private-repos-and-unified-enterprise-offering</link>
+				<pubDate>Tue, 08 Jan 2019 11:23:14 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[git]]></category>
 		<category><![CDATA[Home Feature]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1149</guid>
-		<description><![CDATA[<p>The post <a rel="nofollow" href="https://blog.github.com/2019-01-07-new-year-new-github/#new_tab">Announcing unlimited free private repos and unified Enterprise offering</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>The post <a rel="nofollow" href="https://blog.github.com/2019-01-07-new-year-new-github/#new_tab">Announcing unlimited free private repos and unified Enterprise offering</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="https://blog.github.com/2019-01-07-new-year-new-github/#new_tab">Announcing unlimited free private repos and unified Enterprise offering</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+								<content:encoded><![CDATA[<p>The post <a rel="nofollow" href="https://blog.github.com/2019-01-07-new-year-new-github/#new_tab">Announcing unlimited free private repos and unified Enterprise offering</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Firebase integration with PHP</title>
-		<link>http://www.internetkatta.com/programming/firebase-integration-with-php</link>
-		<pubDate>Sun, 25 Nov 2018 16:03:18 +0000</pubDate>
+		<link>https://www.internetkatta.com/programming/firebase-integration-with-php?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=firebase-integration-with-php</link>
+				<pubDate>Sun, 25 Nov 2018 16:03:18 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Programming]]></category>
 		<category><![CDATA[firebase]]></category>
 		<category><![CDATA[php]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1140</guid>
-		<description><![CDATA[<p>Step to start : Create firebase account for web app    https://firebase.google.com/products/  as per this guideline create cloud storage and create your      Firebase account Then create service account for configuration json parameters     follow this installation guide  &#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/firebase-integration-with-php">Firebase integration with PHP</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Step to start : Create firebase account for web app    https://firebase.google.com/products/  as per this guideline create cloud storage and create your      Firebase account Then create service account for configuration json parameters     follow this installation guide  &#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/firebase-integration-with-php">Firebase integration with PHP</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div>
+								<content:encoded><![CDATA[<div>
 <div>Step to start :</div>
 <ol>
 <li>
@@ -81,13 +83,13 @@
 <div></div>
 <div></div>
 </div>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/programming/firebase-integration-with-php">Firebase integration with PHP</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/programming/firebase-integration-with-php">Firebase integration with PHP</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Introducing Bitbucket Cloud branching model support</title>
-		<link>https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab</link>
-		<pubDate>Wed, 17 Oct 2018 09:30:34 +0000</pubDate>
+		<link>https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=introducing-bitbucket-cloud-branching-model-support</link>
+				<pubDate>Wed, 17 Oct 2018 09:30:34 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[git]]></category>
 		<category><![CDATA[Home Feature]]></category>
@@ -95,18 +97,18 @@
 		<category><![CDATA[branching]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1136</guid>
-		<description><![CDATA[<p>We want to make your Git or Mercurial development process easier in Bitbucket Cloud and so we’re excited to announce new support for your team’s branching workflow. We heard that branches being named inconsistently was a common problem which resulted&#8230;</p>
-<p>The post <a rel="nofollow" href="https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab">Introducing Bitbucket Cloud branching model support</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>We want to make your Git or Mercurial development process easier in Bitbucket Cloud and so we’re excited to announce new support for your team’s branching workflow. We heard that branches being named inconsistently was a common problem which resulted&#8230;</p>
+<p>The post <a rel="nofollow" href="https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab">Introducing Bitbucket Cloud branching model support</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>We want to make your Git or Mercurial development process easier in Bitbucket Cloud and so we’re excited to announce new support for your team’s branching workflow.</p>
+								<content:encoded><![CDATA[<p>We want to make your Git or Mercurial development process easier in Bitbucket Cloud and so we’re excited to announce new support for your team’s branching workflow.</p>
 <p>We heard that branches being named inconsistently was a common problem which resulted in a slower workflow and general confusion. Even when you’ve decided on a naming scheme, there is repeated effort naming branches, and errors can easily slip in.</p>
-<p>The post <a rel="nofollow" href="https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab">Introducing Bitbucket Cloud branching model support</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab">Introducing Bitbucket Cloud branching model support</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Bitbucket’s new code review offers reviewers a fast track to approving changes</title>
-		<link>https://bitbucket.org/blog/bitbuckets-new-code-review-offers-reviewers-a-fast-track-to-approving-changes?utm_source=twitter&#038;utm_medium=social&#038;utm_campaign=new_code_review#new_tab</link>
-		<pubDate>Thu, 27 Sep 2018 04:30:52 +0000</pubDate>
+		<link>https://bitbucket.org/blog/bitbuckets-new-code-review-offers-reviewers-a-fast-track-to-approving-changes?utm_source=twitter&#038;utm_medium=social&#038;utm_campaign=new_code_review#new_tab&#038;utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=bitbuckets-new-code-review-offers-reviewers-a-fast-track-to-approving-changes</link>
+				<pubDate>Thu, 27 Sep 2018 04:30:52 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Home Feature]]></category>
 		<category><![CDATA[Productivity]]></category>
@@ -115,17 +117,17 @@
 		<category><![CDATA[pull request]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1129</guid>
-		<description><![CDATA[<p>Code review is at the heart of building quality software. It’s a critical step to ensure your code won’t cause issues down the line. But in the new world of automation, code review can feel like the slowest part of&#8230;</p>
-<p>The post <a rel="nofollow" href="https://bitbucket.org/blog/bitbuckets-new-code-review-offers-reviewers-a-fast-track-to-approving-changes?utm_source=twitter&#038;utm_medium=social&#038;utm_campaign=new_code_review#new_tab">Bitbucket’s new code review offers reviewers a fast track to approving changes</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Code review is at the heart of building quality software. It’s a critical step to ensure your code won’t cause issues down the line. But in the new world of automation, code review can feel like the slowest part of&#8230;</p>
+<p>The post <a rel="nofollow" href="https://bitbucket.org/blog/bitbuckets-new-code-review-offers-reviewers-a-fast-track-to-approving-changes?utm_source=twitter&#038;utm_medium=social&#038;utm_campaign=new_code_review#new_tab">Bitbucket’s new code review offers reviewers a fast track to approving changes</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Code review is at the heart of building quality software. It’s a critical step to ensure your code won’t cause issues down the line. But in the new world of automation, code review can feel like the slowest part of the software delivery process. It depends on another person taking time out of their day to give you feedback and check your work. Additionally, working within a pull request can be cumbersome and hard to navigate, slowing this process even further.</p>
-<p>The post <a rel="nofollow" href="https://bitbucket.org/blog/bitbuckets-new-code-review-offers-reviewers-a-fast-track-to-approving-changes?utm_source=twitter&#038;utm_medium=social&#038;utm_campaign=new_code_review#new_tab">Bitbucket’s new code review offers reviewers a fast track to approving changes</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+								<content:encoded><![CDATA[<p>Code review is at the heart of building quality software. It’s a critical step to ensure your code won’t cause issues down the line. But in the new world of automation, code review can feel like the slowest part of the software delivery process. It depends on another person taking time out of their day to give you feedback and check your work. Additionally, working within a pull request can be cumbersome and hard to navigate, slowing this process even further.</p>
+<p>The post <a rel="nofollow" href="https://bitbucket.org/blog/bitbuckets-new-code-review-offers-reviewers-a-fast-track-to-approving-changes?utm_source=twitter&#038;utm_medium=social&#038;utm_campaign=new_code_review#new_tab">Bitbucket’s new code review offers reviewers a fast track to approving changes</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</title>
-		<link>http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront</link>
-		<pubDate>Thu, 13 Sep 2018 08:12:36 +0000</pubDate>
+		<link>https://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront</link>
+				<pubDate>Thu, 13 Sep 2018 08:12:36 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[AngularJs]]></category>
 		<category><![CDATA[aws]]></category>
@@ -136,10 +138,10 @@
 		<category><![CDATA[s3 bucket]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1107</guid>
-		<description><![CDATA[<p>Why this is required to do ? Because S3 website doesn’t know URL rewriting concept which other server knows. Whenever type any route path its should land first on index.html then further. Need to give command to S3 setting and&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront">Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Why this is required to do ? Because S3 website doesn’t know URL rewriting concept which other server knows. Whenever type any route path its should land first on index.html then further. Need to give command to S3 setting and&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront">Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Why this is required to do ?</p>
+								<content:encoded><![CDATA[<p>Why this is required to do ?</p>
 <p>Because S3 website doesn’t know URL rewriting concept which other server knows. Whenever type any route path its should land first on index.html then further. Need to give command to S3 setting and AWS Cloudfront error response code.</p>
 <ol>
 <li style="list-style-type: none">
@@ -154,21 +156,21 @@
 </ol>
 <p><a href="http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront/attachment/screenshot-2018-5-12-aws-cloudfront-management-console1-2" rel="attachment wp-att-1120"><img class="alignnone size-full wp-image-1120" src="http://www.internetkatta.com/wp-content/uploads/2018/07/Screenshot-2018-5-12-AWS-CloudFront-Management-Console1-1.png" alt="" width="913" height="341" /></a><br />
 <a href="http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront/attachment/screenshot-2018-5-12-aws-cloudfront-management-console" rel="attachment wp-att-1121"><img class="alignnone size-medium wp-image-1121" src="http://www.internetkatta.com/wp-content/uploads/2018/07/Screenshot-2018-5-12-AWS-CloudFront-Management-Console.png" alt="" width="300" height="64" /></a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront">Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/angular-js/host-angular-2-or-4-or-5-version-in-aws-s3-using-cloudfront">Host Angular 2 or 4 or 5 version in AWS S3 using cloudfront</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>How to renew Godaddy SSL certificate on Tomcat server</title>
-		<link>http://www.internetkatta.com/hosting/how-to-renew-godaddy-ssl-certificate-on-tomcat-server</link>
-		<pubDate>Thu, 13 Sep 2018 05:47:47 +0000</pubDate>
+		<link>https://www.internetkatta.com/hosting/how-to-renew-godaddy-ssl-certificate-on-tomcat-server?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-renew-godaddy-ssl-certificate-on-tomcat-server</link>
+				<pubDate>Thu, 13 Sep 2018 05:47:47 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Hosting]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1117</guid>
-		<description><![CDATA[<p>The 59a41eaec32d2046.crt file contains only the SSL certificate issued by Go Daddy, presumably for an internet facing web server. The “gd_bundle-g2-g1.crt” file is a concatenation of the Go Daddy intermediate and root certificates. The “gdig2.crt.pem” file contains a redundant copy&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/how-to-renew-godaddy-ssl-certificate-on-tomcat-server">How to renew Godaddy SSL certificate on Tomcat server</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>The 59a41eaec32d2046.crt file contains only the SSL certificate issued by Go Daddy, presumably for an internet facing web server. The “gd_bundle-g2-g1.crt” file is a concatenation of the Go Daddy intermediate and root certificates. The “gdig2.crt.pem” file contains a redundant copy&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/how-to-renew-godaddy-ssl-certificate-on-tomcat-server">How to renew Godaddy SSL certificate on Tomcat server</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<ul>
+								<content:encoded><![CDATA[<ul>
 <li>The 59a41eaec32d2046.crt file contains only the SSL certificate issued by Go Daddy, presumably for an internet facing web server.</li>
 <li>The “gd_bundle-g2-g1.crt” file is a concatenation of the Go Daddy intermediate and root certificates.</li>
 <li>The “gdig2.crt.pem” file contains a redundant copy of the Go Daddy root certificate.</li>
@@ -178,22 +180,22 @@
 </ul>
 <p>You just need to replace tomcat certificate if your renew from existing vendor. certificate name hexcode.crt Other no need to change. Its works for me.</p>
 <p>keytool -import -alias tomcat -keystore tomcat.keystore -trustcacerts -file filepath</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/how-to-renew-godaddy-ssl-certificate-on-tomcat-server">How to renew Godaddy SSL certificate on Tomcat server</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/how-to-renew-godaddy-ssl-certificate-on-tomcat-server">How to renew Godaddy SSL certificate on Tomcat server</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Analysis of AWS mumbai region from different sources</title>
-		<link>http://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources</link>
-		<pubDate>Thu, 19 Apr 2018 04:07:36 +0000</pubDate>
+		<link>https://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=analysis-of-aws-mumbai-region-from-different-sources</link>
+				<pubDate>Thu, 19 Apr 2018 04:07:36 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[aws]]></category>
 		<category><![CDATA[awsmumbai]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1098</guid>
-		<description><![CDATA[<p>This blog will explain benefit of Mumbai region : https://blog.cloudthat.com/why-do-we-opt-for-aws-mumbai-region-as-an-indian-cloud-customer/ Here is list of service which AWS provide in Mumbai region https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-mumbai-region/ Migration help from one region to another region : https://d0.awsstatic.com/whitepapers/aws-migrate-resources-to-new-region.pdf Costing analysis by region : https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources">Analysis of AWS mumbai region from different sources</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>This blog will explain benefit of Mumbai region : https://blog.cloudthat.com/why-do-we-opt-for-aws-mumbai-region-as-an-indian-cloud-customer/ Here is list of service which AWS provide in Mumbai region https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-mumbai-region/ Migration help from one region to another region : https://d0.awsstatic.com/whitepapers/aws-migrate-resources-to-new-region.pdf Costing analysis by region : https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources">Analysis of AWS mumbai region from different sources</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<div><b>This blog will explain benefit of Mumbai region</b> :</div>
+								<content:encoded><![CDATA[<div><b>This blog will explain benefit of Mumbai region</b> :</div>
 <div></div>
 <p><a href="https://blog.cloudthat.com/why-do-we-opt-for-aws-mumbai-region-as-an-indian-cloud-customer/" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?hl=en&q=https://blog.cloudthat.com/why-do-we-opt-for-aws-mumbai-region-as-an-indian-cloud-customer/&source=gmail&ust=1524196940551000&usg=AFQjCNFPqwoVNlOlSb6cO3e6iAE0Ho9jog">https://blog.cloudthat.com/<wbr />why-do-we-opt-for-aws-mumbai-<wbr />region-as-an-indian-cloud-<wbr />customer/</a></p>
 <div></div>
@@ -209,13 +211,13 @@
 <div></div>
 <div><a href="https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?hl=en&q=https://www.concurrencylabs.com/blog/choose-your-aws-region-wisely/&source=gmail&ust=1524196940552000&usg=AFQjCNEUlyRa_OuYSVd35iNztCCLocG3Gw">https://www.concurrencylabs./<wbr />com/blog/choose-your-aws-<wbr />region-wisely/</a></div>
 <div></div>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources">Analysis of AWS mumbai region from different sources</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/aws/analysis-of-aws-mumbai-region-from-different-sources">Analysis of AWS mumbai region from different sources</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Amazon Lex Bot with messaging services</title>
-		<link>http://www.internetkatta.com/hosting/aws/amazon-lex-bot-messaging-services</link>
-		<pubDate>Wed, 04 Apr 2018 04:25:44 +0000</pubDate>
+		<link>https://www.internetkatta.com/hosting/aws/amazon-lex-bot-messaging-services?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=amazon-lex-bot-messaging-services</link>
+				<pubDate>Wed, 04 Apr 2018 04:25:44 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[aws]]></category>
 		<category><![CDATA[Home Feature]]></category>
@@ -223,10 +225,10 @@
 		<category><![CDATA[chatbot]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1094</guid>
-		<description><![CDATA[<p>Is your Amazon Lex chatbot ready to talk to the world? When it is, chances are that you’ll want it to be able to interact with as many users as possible. Amazon Lex offers built-in integration with Facebook, Slack and&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/amazon-lex-bot-messaging-services">Amazon Lex Bot with messaging services</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Is your Amazon Lex chatbot ready to talk to the world? When it is, chances are that you’ll want it to be able to interact with as many users as possible. Amazon Lex offers built-in integration with Facebook, Slack and&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/aws/amazon-lex-bot-messaging-services">Amazon Lex Bot with messaging services</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Is your Amazon Lex chatbot ready to talk to the world? When it is, chances are that you’ll want it to be able to interact with as many users as possible. Amazon Lex offers built-in integration with Facebook, Slack and Twilio. But what if you want to connect to a messaging service that isn’t supported? Well, there’s an API for that–the Amazon Lex API. In this post, I show how to integrate an Amazon Lex bot with an external messaging service by using Twilio Programmable SMS as the example service.</p>
+								<content:encoded><![CDATA[<p>Is your Amazon Lex chatbot ready to talk to the world? When it is, chances are that you’ll want it to be able to interact with as many users as possible. Amazon Lex offers built-in integration with Facebook, Slack and Twilio. But what if you want to connect to a messaging service that isn’t supported? Well, there’s an API for that–the Amazon Lex API. In this post, I show how to integrate an Amazon Lex bot with an external messaging service by using Twilio Programmable SMS as the example service.</p>
 <p>You can integrate any messaging service that provides the right APIs with Amazon Lex using the design pattern described in this post. The solution includes a serverless middle tier or a preprocessing layer “in front of” Amazon Lex. This is useful if you want to incorporate Amazon Lex as another building block into your systems. For example, if you’re in an enterprise, you could use this solution to implement custom message routing to specialized bots developed by different business units.</p>
 <p>For simpler uses cases, the <a href="http://docs.aws.amazon.com/lex/latest/dg/twilio-bot-association.html">built-in integration for Twilio</a> in the Amazon Lex console might be a better option.</p>
 <h2>Architecture and message flow</h2>
@@ -374,13 +376,13 @@ This shows the response from the chatbot both before and after it has been trans
 <li>If you are going to use this solution in production, we highly recommend that you uncomment the block of code in js that checks for the Twilio signature and validates that the request is, in fact, coming in from Twilio (index.js: line 30 thru 45).<strong> </strong></li>
 </ol>
 <p>Reference source : <a href="https://aws.amazon.com/blogs/machine-learning/integrate-your-amazon-lex-bot-with-any-messaging-service/" target="_blank" rel="noopener">https://aws.amazon.com/blogs/machine-learning/integrate-your-amazon-lex-bot-with-any-messaging-service/</a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/amazon-lex-bot-messaging-services">Amazon Lex Bot with messaging services</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/aws/amazon-lex-bot-messaging-services">Amazon Lex Bot with messaging services</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>How to create AWS S3 file explorer in angularjs</title>
-		<link>http://www.internetkatta.com/angular-js/create-aws-s3-file-explorer-angularjs</link>
-		<pubDate>Mon, 19 Mar 2018 12:22:04 +0000</pubDate>
+		<link>https://www.internetkatta.com/angular-js/create-aws-s3-file-explorer-angularjs?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=create-aws-s3-file-explorer-angularjs</link>
+				<pubDate>Mon, 19 Mar 2018 12:22:04 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[AngularJs]]></category>
 		<category><![CDATA[Home Feature]]></category>
@@ -389,10 +391,10 @@ This shows the response from the chatbot both before and after it has been trans
 		<category><![CDATA[s3 bucket]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1086</guid>
-		<description><![CDATA[<p>AWS AngularJs S3 Explorer : Set up presigned URL for S3 file path – CORS configuration – Bucket Policy – [Code language=”json”] { “Version”: “2012-10-17”, “Statement”: [ { “Sid”: “PublicListGet”, “Effect”: “Allow”, “Principal”: “*”, “Action”: [ “s3:List*”, “s3:Get*” ], “Resource”:&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/create-aws-s3-file-explorer-angularjs">How to create AWS S3 file explorer in angularjs</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>AWS AngularJs S3 Explorer : Set up presigned URL for S3 file path – CORS configuration – Bucket Policy – [Code language=”json”] { “Version”: “2012-10-17”, “Statement”: [ { “Sid”: “PublicListGet”, “Effect”: “Allow”, “Principal”: “*”, “Action”: [ “s3:List*”, “s3:Get*” ], “Resource”:&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/angular-js/create-aws-s3-file-explorer-angularjs">How to create AWS S3 file explorer in angularjs</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>AWS AngularJs S3 Explorer :</p>
+								<content:encoded><![CDATA[<p>AWS AngularJs S3 Explorer :</p>
 <p>Set up presigned URL for S3 file path –</p>
 <pre class="brush: jscript; title: ; notranslate">s3.getSignedUrl('getObject'{
       Bucket: 'your bucket name',
@@ -447,23 +449,23 @@ This shows the response from the chatbot both before and after it has been trans
 }<br />
 [/code]</p>
 <p>Reference source :  <a href="https://github.com/awslabs/aws-js-s3-explorer" target="_blank" rel="noopener">https://github.com/awslabs/aws-js-s3-explorer</a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/angular-js/create-aws-s3-file-explorer-angularjs">How to create AWS S3 file explorer in angularjs</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/angular-js/create-aws-s3-file-explorer-angularjs">How to create AWS S3 file explorer in angularjs</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>WhatsApp business launch for India</title>
-		<link>http://www.internetkatta.com/social-networking/whatsapp-business-launch-india</link>
-		<pubDate>Sat, 27 Jan 2018 08:35:40 +0000</pubDate>
+		<link>https://www.internetkatta.com/social-networking/whatsapp-business-launch-india?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=whatsapp-business-launch-india</link>
+				<pubDate>Sat, 27 Jan 2018 08:35:40 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Social Networking]]></category>
 		<category><![CDATA[whatsapp]]></category>
 		<category><![CDATA[whatsapp business]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1080</guid>
-		<description><![CDATA[<p>People all around the world use WhatsApp to connect with small businesses they care about — from online clothing companies in India to auto parts stores in Brazil. But WhatsApp was built for people and we want to improve the&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/social-networking/whatsapp-business-launch-india">WhatsApp business launch for India</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>People all around the world use WhatsApp to connect with small businesses they care about — from online clothing companies in India to auto parts stores in Brazil. But WhatsApp was built for people and we want to improve the&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/social-networking/whatsapp-business-launch-india">WhatsApp business launch for India</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>People all around the world use WhatsApp to connect with small businesses they care about — from online clothing companies in India to auto parts stores in Brazil. But WhatsApp was built for people and we want to improve the business experience. For example, by making it easier for businesses to respond to customers, separating customer and personal messages, and creating an official presence.</p>
+								<content:encoded><![CDATA[<p>People all around the world use WhatsApp to connect with small businesses they care about — from online clothing companies in India to auto parts stores in Brazil. But WhatsApp was built for people and we want to improve the business experience. For example, by making it easier for businesses to respond to customers, separating customer and personal messages, and creating an official presence.</p>
 <p>Here’s how:</p>
 <ul>
 <li><strong>Business Profiles:</strong> Help customers with useful information such as a business description, email or store addresses, and website.</li>
@@ -483,8 +485,8 @@ This shows the response from the chatbot both before and after it has been trans
 <p>Reference source for this details :</p>
 <p><a href="https://blog.whatsapp.com/10000637/Introducing-the-WhatsApp-Business-App" target="_blank" rel="noopener">https://blog.whatsapp.com/10000637/Introducing-the-WhatsApp-Business-App</a></p>
 <p><a href="https://www.whatsapp.com/business/" target="_blank" rel="noopener">https://www.whatsapp.com/business/</a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/social-networking/whatsapp-business-launch-india">WhatsApp business launch for India</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/social-networking/whatsapp-business-launch-india">WhatsApp business launch for India</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

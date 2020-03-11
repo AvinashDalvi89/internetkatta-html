@@ -9,18 +9,20 @@
 
 <channel>
 	<title>server</title>
-	<atom:link href="http://www.internetkatta.com/tag/server/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/tag/server/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 09 May 2016 11:04:05 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>How to add virtual host in ubuntu</title>
-		<link>http://www.internetkatta.com/operating-system/how-to-add-virtual-host-in-ubuntu</link>
-		<pubDate>Tue, 30 Dec 2014 16:32:40 +0000</pubDate>
+		<link>https://www.internetkatta.com/operating-system/how-to-add-virtual-host-in-ubuntu?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-add-virtual-host-in-ubuntu</link>
+				<pubDate>Tue, 30 Dec 2014 16:32:40 +0000</pubDate>
 		<dc:creator><![CDATA[Arvind Kumar]]></dc:creator>
 				<category><![CDATA[Operating System]]></category>
 		<category><![CDATA[host]]></category>
@@ -28,10 +30,10 @@
 		<category><![CDATA[ubuntu]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=631</guid>
-		<description><![CDATA[<p>1) Edit the file /etc/hosts and add host in file 127.0.0.1 foo 2) Go to /etc/apache2/sites-available/ and create a file with name foo (file name should be hostname ) and content of file will be like ServerName foo DocumentRoot /var/www/foo/foo&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/how-to-add-virtual-host-in-ubuntu">How to add virtual host in ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>1) Edit the file /etc/hosts and add host in file 127.0.0.1 foo 2) Go to /etc/apache2/sites-available/ and create a file with name foo (file name should be hostname ) and content of file will be like ServerName foo DocumentRoot /var/www/foo/foo&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/how-to-add-virtual-host-in-ubuntu">How to add virtual host in ubuntu</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>1) Edit the file /etc/hosts and add host in file<br />
+								<content:encoded><![CDATA[<p>1) Edit the file /etc/hosts and add host in file<br />
 127.0.0.1 foo</p>
 <p>2) Go to /etc/apache2/sites-available/ and create a file with name foo (file name should be hostname ) and content of file will be like</p>
 <p style="text-align: justify;"><VirtualHost *:80><br />
@@ -52,8 +54,8 @@ allow from all<br />
 <p>3) Run below commands to activate host</p>
 <p><code> sudo a2ensite foo </code><br />
 <code> sudo /etc/init.d/apache2 reload </code></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/operating-system/how-to-add-virtual-host-in-ubuntu">How to add virtual host in ubuntu</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/operating-system/how-to-add-virtual-host-in-ubuntu">How to add virtual host in ubuntu</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

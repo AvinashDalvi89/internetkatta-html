@@ -9,18 +9,20 @@
 
 <channel>
 	<title>bitbucket</title>
-	<atom:link href="http://www.internetkatta.com/tag/bitbucket/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/tag/bitbucket/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 17 Oct 2018 09:30:50 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>Introducing Bitbucket Cloud branching model support</title>
-		<link>https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab</link>
-		<pubDate>Wed, 17 Oct 2018 09:30:34 +0000</pubDate>
+		<link>https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=introducing-bitbucket-cloud-branching-model-support</link>
+				<pubDate>Wed, 17 Oct 2018 09:30:34 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[git]]></category>
 		<category><![CDATA[Home Feature]]></category>
@@ -28,18 +30,18 @@
 		<category><![CDATA[branching]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1136</guid>
-		<description><![CDATA[<p>We want to make your Git or Mercurial development process easier in Bitbucket Cloud and so we’re excited to announce new support for your team’s branching workflow. We heard that branches being named inconsistently was a common problem which resulted&#8230;</p>
-<p>The post <a rel="nofollow" href="https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab">Introducing Bitbucket Cloud branching model support</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>We want to make your Git or Mercurial development process easier in Bitbucket Cloud and so we’re excited to announce new support for your team’s branching workflow. We heard that branches being named inconsistently was a common problem which resulted&#8230;</p>
+<p>The post <a rel="nofollow" href="https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab">Introducing Bitbucket Cloud branching model support</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>We want to make your Git or Mercurial development process easier in Bitbucket Cloud and so we’re excited to announce new support for your team’s branching workflow.</p>
+								<content:encoded><![CDATA[<p>We want to make your Git or Mercurial development process easier in Bitbucket Cloud and so we’re excited to announce new support for your team’s branching workflow.</p>
 <p>We heard that branches being named inconsistently was a common problem which resulted in a slower workflow and general confusion. Even when you’ve decided on a naming scheme, there is repeated effort naming branches, and errors can easily slip in.</p>
-<p>The post <a rel="nofollow" href="https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab">Introducing Bitbucket Cloud branching model support</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://confluence.atlassian.com/bitbucket/bitbucket-cloud-premium-plan-856833380.html#new_tab">Introducing Bitbucket Cloud branching model support</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 		<item>
 		<title>Bitbucket’s new code review offers reviewers a fast track to approving changes</title>
-		<link>https://bitbucket.org/blog/bitbuckets-new-code-review-offers-reviewers-a-fast-track-to-approving-changes?utm_source=twitter&#038;utm_medium=social&#038;utm_campaign=new_code_review#new_tab</link>
-		<pubDate>Thu, 27 Sep 2018 04:30:52 +0000</pubDate>
+		<link>https://bitbucket.org/blog/bitbuckets-new-code-review-offers-reviewers-a-fast-track-to-approving-changes?utm_source=twitter&#038;utm_medium=social&#038;utm_campaign=new_code_review#new_tab&#038;utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=bitbuckets-new-code-review-offers-reviewers-a-fast-track-to-approving-changes</link>
+				<pubDate>Thu, 27 Sep 2018 04:30:52 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Home Feature]]></category>
 		<category><![CDATA[Productivity]]></category>
@@ -48,12 +50,12 @@
 		<category><![CDATA[pull request]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1129</guid>
-		<description><![CDATA[<p>Code review is at the heart of building quality software. It’s a critical step to ensure your code won’t cause issues down the line. But in the new world of automation, code review can feel like the slowest part of&#8230;</p>
-<p>The post <a rel="nofollow" href="https://bitbucket.org/blog/bitbuckets-new-code-review-offers-reviewers-a-fast-track-to-approving-changes?utm_source=twitter&#038;utm_medium=social&#038;utm_campaign=new_code_review#new_tab">Bitbucket’s new code review offers reviewers a fast track to approving changes</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>Code review is at the heart of building quality software. It’s a critical step to ensure your code won’t cause issues down the line. But in the new world of automation, code review can feel like the slowest part of&#8230;</p>
+<p>The post <a rel="nofollow" href="https://bitbucket.org/blog/bitbuckets-new-code-review-offers-reviewers-a-fast-track-to-approving-changes?utm_source=twitter&#038;utm_medium=social&#038;utm_campaign=new_code_review#new_tab">Bitbucket’s new code review offers reviewers a fast track to approving changes</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>Code review is at the heart of building quality software. It’s a critical step to ensure your code won’t cause issues down the line. But in the new world of automation, code review can feel like the slowest part of the software delivery process. It depends on another person taking time out of their day to give you feedback and check your work. Additionally, working within a pull request can be cumbersome and hard to navigate, slowing this process even further.</p>
-<p>The post <a rel="nofollow" href="https://bitbucket.org/blog/bitbuckets-new-code-review-offers-reviewers-a-fast-track-to-approving-changes?utm_source=twitter&#038;utm_medium=social&#038;utm_campaign=new_code_review#new_tab">Bitbucket’s new code review offers reviewers a fast track to approving changes</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+								<content:encoded><![CDATA[<p>Code review is at the heart of building quality software. It’s a critical step to ensure your code won’t cause issues down the line. But in the new world of automation, code review can feel like the slowest part of the software delivery process. It depends on another person taking time out of their day to give you feedback and check your work. Additionally, working within a pull request can be cumbersome and hard to navigate, slowing this process even further.</p>
+<p>The post <a rel="nofollow" href="https://bitbucket.org/blog/bitbuckets-new-code-review-offers-reviewers-a-fast-track-to-approving-changes?utm_source=twitter&#038;utm_medium=social&#038;utm_campaign=new_code_review#new_tab">Bitbucket’s new code review offers reviewers a fast track to approving changes</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

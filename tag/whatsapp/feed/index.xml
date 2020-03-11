@@ -9,28 +9,30 @@
 
 <channel>
 	<title>whatsapp</title>
-	<atom:link href="http://www.internetkatta.com/tag/whatsapp/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/tag/whatsapp/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 17 Oct 2018 09:31:11 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>WhatsApp business launch for India</title>
-		<link>http://www.internetkatta.com/social-networking/whatsapp-business-launch-india</link>
-		<pubDate>Sat, 27 Jan 2018 08:35:40 +0000</pubDate>
+		<link>https://www.internetkatta.com/social-networking/whatsapp-business-launch-india?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=whatsapp-business-launch-india</link>
+				<pubDate>Sat, 27 Jan 2018 08:35:40 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[Social Networking]]></category>
 		<category><![CDATA[whatsapp]]></category>
 		<category><![CDATA[whatsapp business]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=1080</guid>
-		<description><![CDATA[<p>People all around the world use WhatsApp to connect with small businesses they care about — from online clothing companies in India to auto parts stores in Brazil. But WhatsApp was built for people and we want to improve the&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/social-networking/whatsapp-business-launch-india">WhatsApp business launch for India</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>People all around the world use WhatsApp to connect with small businesses they care about — from online clothing companies in India to auto parts stores in Brazil. But WhatsApp was built for people and we want to improve the&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/social-networking/whatsapp-business-launch-india">WhatsApp business launch for India</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>People all around the world use WhatsApp to connect with small businesses they care about — from online clothing companies in India to auto parts stores in Brazil. But WhatsApp was built for people and we want to improve the business experience. For example, by making it easier for businesses to respond to customers, separating customer and personal messages, and creating an official presence.</p>
+								<content:encoded><![CDATA[<p>People all around the world use WhatsApp to connect with small businesses they care about — from online clothing companies in India to auto parts stores in Brazil. But WhatsApp was built for people and we want to improve the business experience. For example, by making it easier for businesses to respond to customers, separating customer and personal messages, and creating an official presence.</p>
 <p>Here’s how:</p>
 <ul>
 <li><strong>Business Profiles:</strong> Help customers with useful information such as a business description, email or store addresses, and website.</li>
@@ -50,8 +52,8 @@
 <p>Reference source for this details :</p>
 <p><a href="https://blog.whatsapp.com/10000637/Introducing-the-WhatsApp-Business-App" target="_blank" rel="noopener">https://blog.whatsapp.com/10000637/Introducing-the-WhatsApp-Business-App</a></p>
 <p><a href="https://www.whatsapp.com/business/" target="_blank" rel="noopener">https://www.whatsapp.com/business/</a></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/social-networking/whatsapp-business-launch-india">WhatsApp business launch for India</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/social-networking/whatsapp-business-launch-india">WhatsApp business launch for India</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

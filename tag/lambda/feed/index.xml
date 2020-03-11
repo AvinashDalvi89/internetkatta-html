@@ -9,35 +9,37 @@
 
 <channel>
 	<title>lambda</title>
-	<atom:link href="http://www.internetkatta.com/tag/lambda/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/tag/lambda/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 25 Dec 2017 04:35:51 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>AWS lambda release new UI feature with run time editor</title>
-		<link>http://www.internetkatta.com/hosting/aws/aws-lambda-release-new-ui-feature-with-run-time-editor</link>
-		<pubDate>Sun, 03 Dec 2017 05:18:50 +0000</pubDate>
+		<link>https://www.internetkatta.com/hosting/aws/aws-lambda-release-new-ui-feature-with-run-time-editor?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=aws-lambda-release-new-ui-feature-with-run-time-editor</link>
+				<pubDate>Sun, 03 Dec 2017 05:18:50 +0000</pubDate>
 		<dc:creator><![CDATA[Avinash Dalvi]]></dc:creator>
 				<category><![CDATA[aws]]></category>
 		<category><![CDATA[lambda]]></category>
 
 		<guid isPermaLink="false">http://www.internetkatta.com/?p=994</guid>
-		<description><![CDATA[<p>AWS lambda release new feature : Online file editor UI changes to add trigger like SNS, APIgateway Added Configuration parameters like database environment variable.</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/aws-lambda-release-new-ui-feature-with-run-time-editor">AWS lambda release new UI feature with run time editor</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>AWS lambda release new feature : Online file editor UI changes to add trigger like SNS, APIgateway Added Configuration parameters like database environment variable.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/aws/aws-lambda-release-new-ui-feature-with-run-time-editor">AWS lambda release new UI feature with run time editor</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>AWS lambda release new feature :</p>
+								<content:encoded><![CDATA[<p>AWS lambda release new feature :</p>
 <ul>
 <li>Online file editor</li>
 <li>UI changes to add trigger like SNS, APIgateway</li>
 <li>Added Configuration parameters like database environment variable.</li>
 </ul>
 <p><iframe src="https://www.youtube.com/embed/x9fdbEFQpnk" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/aws/aws-lambda-release-new-ui-feature-with-run-time-editor">AWS lambda release new UI feature with run time editor</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/aws/aws-lambda-release-new-ui-feature-with-run-time-editor">AWS lambda release new UI feature with run time editor</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>

@@ -9,18 +9,20 @@
 
 <channel>
 	<title>mysqld.sock</title>
-	<atom:link href="http://www.internetkatta.com/tag/mysqld-sock/feed" rel="self" type="application/rss+xml" />
-	<link>http://www.internetkatta.com</link>
+	<atom:link href="https://www.internetkatta.com/tag/mysqld-sock/feed" rel="self" type="application/rss+xml" />
+	<link>https://www.internetkatta.com</link>
 	<description>Platform for Technology news, Knowledge, Information sharing</description>
-	<lastBuildDate>Tue, 08 Jan 2019 12:21:22 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 03 Jan 2017 07:12:42 +0000</lastBuildDate>
 	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
 		<title>start: Job failed to start</title>
-		<link>http://www.internetkatta.com/hosting/start-job-failed-to-start</link>
-		<pubDate>Fri, 04 Jul 2014 06:42:04 +0000</pubDate>
+		<link>https://www.internetkatta.com/hosting/start-job-failed-to-start?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=start-job-failed-to-start</link>
+				<pubDate>Fri, 04 Jul 2014 06:42:04 +0000</pubDate>
 		<dc:creator><![CDATA[Suraj Koli]]></dc:creator>
 				<category><![CDATA[Hosting]]></category>
 		<category><![CDATA[2002]]></category>
@@ -31,10 +33,10 @@
 		<category><![CDATA[mysqld.sock]]></category>
 
 		<guid isPermaLink="false">http://internetkatta.com/?p=574</guid>
-		<description><![CDATA[<p>start: Job failed to start OR ERROR 2002 (HY000): Can’t connect to local MySQL server through socket ‘/var/run/mysqld/mysqld.sock’ (2) Solution : copy cmd to your terminal sudo nano /etc/mysql/my.cnf # # Instead of skip-networking the default is now to listen only&#8230;</p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/start-job-failed-to-start">start: Job failed to start</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+				<description><![CDATA[<p>start: Job failed to start OR ERROR 2002 (HY000): Can’t connect to local MySQL server through socket ‘/var/run/mysqld/mysqld.sock’ (2) Solution : copy cmd to your terminal sudo nano /etc/mysql/my.cnf # # Instead of skip-networking the default is now to listen only&#8230;</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/start-job-failed-to-start">start: Job failed to start</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></description>
-				<content:encoded><![CDATA[<p>start: Job failed to start</p>
+								<content:encoded><![CDATA[<p>start: Job failed to start</p>
 <p>OR</p>
 <p>ERROR 2002 (HY000): Can’t connect to local MySQL server through socket ‘/var/run/mysqld/mysqld.sock’ (2)</p>
 <p>Solution :</p>
@@ -50,8 +52,8 @@ bind-address = <strong>172.168.1.99</strong><br />
 <p> </p>
 <p> </p>
 <p> </p>
-<p>The post <a rel="nofollow" href="http://www.internetkatta.com/hosting/start-job-failed-to-start">start: Job failed to start</a> appeared first on <a rel="nofollow" href="http://www.internetkatta.com"></a>.</p>
+<p>The post <a rel="nofollow" href="https://www.internetkatta.com/hosting/start-job-failed-to-start">start: Job failed to start</a> appeared first on <a rel="nofollow" href="https://www.internetkatta.com"></a>.</p>
 ]]></content:encoded>
-			</item>
+										</item>
 	</channel>
 </rss>
